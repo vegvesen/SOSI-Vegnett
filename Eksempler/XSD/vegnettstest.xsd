@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:vegnett="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/Vegnett/" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/Vegnett/" version="5.0">
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:vegnett="https://raw.githubusercontent.com/jetgeo/SOSI-Vegnett/master/XSD/" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/SOSI-Vegnett/master/XSD/" version="5.0">
   <include schemaLocation="nettverk.xsd"/>
   <include schemaLocation="vegnett.xsd"/>
   <import namespace="http://www.interactive-instruments.de/ShapeChange/AppInfo" schemaLocation="http://shapechange.net/resources/schema/ShapeChangeAppinfo.xsd"/>
@@ -2675,6 +2675,11 @@ method on which registration of position is based</documentation>
           <documentation>Stereo instrument: Målt i stereoinstrument, uspesifisert instrument</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="22">
+        <annotation>
+          <documentation>Analytical plotter: Målt i stereoinstrument, analytisk plotter</documentation>
+        </annotation>
+      </enumeration>
       <enumeration value="24">
         <annotation>
           <documentation>Digital stereo instrument: Målt i stereoinstrument, digitalt instrument</documentation>
@@ -2690,9 +2695,19 @@ method on which registration of position is based</documentation>
           <documentation>Digitised from orthophoto: Geometri overført fra ortofoto ved hjelp av manuell registrering på skjerm</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="50">
+        <annotation>
+          <documentation>Digitised on dig.table from line-map: Geometri overført fra kart ved hjelp av manuell registrering på et digitaliseringsbord, medium uspesifisert</documentation>
+        </annotation>
+      </enumeration>
       <enumeration value="53">
         <annotation>
           <documentation>Digitised on dig.table from transparency film - good quality: Geometri overført fra kart ved hjelp av manuell registrering på et digitaliseringsbord. Kartmedium er transparent folie av god kvalitet, samkopi</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="55">
+        <annotation>
+          <documentation>Digitised on dig.table from paper copy: Geometri overført fra kart ved hjelp av manuell registrering på et digitaliseringsbord. Kartmedium er papirkopi</documentation>
         </annotation>
       </enumeration>
       <enumeration value="56">
@@ -2715,9 +2730,19 @@ method on which registration of position is based</documentation>
           <documentation>Weighted mean: Genererte data, interpolasjonsmetode, vektet middel</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="69">
+        <annotation>
+          <documentation>Calculated: Beregnet, uspesifisert hvordan</documentation>
+        </annotation>
+      </enumeration>
       <enumeration value="82">
         <annotation>
           <documentation>Directly input on screen: Digitalisert ut fra frihåndstegning (direkte på skjerm). Frihåndstegning er basert på svært grovt grunnlag eller ikke noe grunnlag</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="90">
+        <annotation>
+          <documentation>Inertial ??positioning/localization: Treghetsstedfesting</documentation>
         </annotation>
       </enumeration>
       <enumeration value="95">

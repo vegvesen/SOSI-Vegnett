@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:vegnett="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/Vegnett/" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/Vegnett/" version="5.0">
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:vegnett="https://raw.githubusercontent.com/jetgeo/SOSI-Vegnett/master/XSD/" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/SOSI-Vegnett/master/XSD/" version="5.0">
   <annotation>
     <documentation>Forandringer til versjon 4.5:
 - Hovedforandringen er at alle lineære objekttyper er samlet i en objekttype (Veglenke).
