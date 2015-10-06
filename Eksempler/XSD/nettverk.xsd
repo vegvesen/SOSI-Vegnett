@@ -163,6 +163,11 @@ Realisering av INSPIRE Network:LinkSet</documentation>
     <complexContent>
       <extension base="vegnett:NettverkselementType">
         <sequence>
+          <element minOccurs="0" name="navn" type="string">
+            <annotation>
+              <documentation>Navn på lenkesettet, for eksempel "Europaveg 6"</documentation>
+            </annotation>
+          </element>
           <element maxOccurs="unbounded" name="lenke">
             <complexType>
               <complexContent>
@@ -444,6 +449,11 @@ Merknad: Kan ta utgangspunkt i en angitt startverdi for nettverkselementet.
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
+          <element minOccurs="0" name="nettverksnavn" type="string">
+            <annotation>
+              <documentation>Navn på nettverket.</documentation>
+            </annotation>
+          </element>
           <element maxOccurs="unbounded" minOccurs="0" name="nettverkselement" type="vegnett:NettverkselementPropertyType">
             <annotation>
               <appinfo>
