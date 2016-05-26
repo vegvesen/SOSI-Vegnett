@@ -6,10 +6,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="noder20140404142754821" name="noder">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="lenker20150204091011365" name="lenker">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Veglenkesekvens20160210133224744" name="Veglenkesekvens">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lenker20150204091011365" name="lenker">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Oslo">
@@ -18,15 +15,21 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Hamar">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Hamar">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="noder20150916144021709" name="noder">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="noder20150916144021709" name="noder">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lenker20150916144021702" name="lenker">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="lenker20150916144021702" name="lenker">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="frinavigeringssoner20150916144021693" name="frinavigeringssoner">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="veglenkesekvens20160525130833043" name="veglenkesekvens">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="veglenkesett20160525131328295" name="veglenkesett">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -80,10 +83,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>289059.75436966581037268</xmin>
-      <ymin>6746341.54665881954133511</ymin>
-      <xmax>289967.2850490803248249</xmax>
-      <ymax>6746826.50468725524842739</ymax>
+      <xmin>288777.43053318490274251</xmin>
+      <ymin>6747054.89659776072949171</ymin>
+      <xmax>289114.22802727634552866</xmax>
+      <ymax>6747234.87139356788247824</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -115,11 +118,13 @@
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="lenker20150204091011365"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_snap20150916133507084"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="noder20150916100009696"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="veglenkesett20160525131328295"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="noder20141106130132315"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="bicycle_routes_lin_gen20141031155210677"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="lenker_enkel_kopier20140910120015613"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="frinavigeringssoner20150915142017363"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="lenker20150417101758157"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="veglenkesekvens20160525122106447"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="topobuilder20150916141356274"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="nvdb20150916132006983"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="Veglenkesekvens20160210133224744"/>
@@ -139,6 +144,8 @@
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="bicycle_routes_lin20141031151504912"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="frinavigeringssoner20140404142754753"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="topobuilder20150916133507098"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="veglenkesekvens20160525130833043"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="veglenkesett20160525131231818"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="lenker20141105152951801"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="GeocacheTrafikk20140910144721862"/>
       <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="lenker20140918151710970"/>
@@ -167,7 +174,8 @@
       <item>noder20150916144021709</item>
       <item>lenker20150930080111416</item>
       <item>Kart20151104134152304</item>
-      <item>Veglenkesekvens20160210133224744</item>
+      <item>veglenkesekvens20160525130833043</item>
+      <item>veglenkesett20160525131328295</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -176,14 +184,9 @@
         <legendlayerfile isInOverview="0" layerid="noder20140404142754821" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lenker" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lenker" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="lenker20150204091011365" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Veglenkesekvens" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Veglenkesekvens20160210133224744" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="lenker20150204091011365" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendgroup open="false" checked="Qt::Unchecked" name="Oslo">
@@ -193,20 +196,30 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Hamar">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="noder" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Hamar">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="noder" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="noder20150916144021709" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="noder20150916144021709" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lenker" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lenker" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="lenker20150916144021702" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="lenker20150916144021702" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="frinavigeringssoner" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="frinavigeringssoner20150916144021693" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="veglenkesekvens" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="veglenkesekvens20160525130833043" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="veglenkesett" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="veglenkesett20160525131328295" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -286,8 +299,43 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 721661&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="32" canvasPosX="772.30468213412677869" mapPosX="289514.28756868804339319" canvasPosY="587.84131177142262459" mapPositionFixed="1" mapPosY="6746480.53579940367490053" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="45" offsetY="-21" frameWidth="122" frameBackgroundColor="#ffffff" frameColor="#000000">
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 006&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="33" canvasPosX="1420" mapPosX="289096.69117511407239363" canvasPosY="632.9999999962747097" mapPositionFixed="1" mapPosY="6747108.68613415025174618" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-83" offsetY="-81" frameWidth="87" frameBackgroundColor="#fb9a99" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="251,154,153,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="3"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 104&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="32" canvasPosX="1269.00000000023283064" mapPosX="289062.74162797938333824" canvasPosY="606" mapPositionFixed="1" mapPosY="6747114.75658297538757324" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-46" offsetY="44" frameWidth="95" frameBackgroundColor="#fdbf6f" frameColor="#000000">
       <spatialrefsys>
         <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>2106</srsid>
@@ -313,7 +361,7 @@
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="3"/>
+          <prop k="size" v="0"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -321,8 +369,8 @@
       </symbol>
     </AnnotationItem>
   </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 721582&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="30" canvasPosX="648.04590920457849279" mapPosX="289441.15614934853510931" canvasPosY="136.7649442870169878" mapPositionFixed="1" mapPosY="6746746.01286960858851671" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="59" offsetY="-11" frameWidth="152" frameBackgroundColor="#ffffff" frameColor="#000000">
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 001&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="29" canvasPosX="134.00000000023283064" mapPosX="288807.55794587405398488" canvasPosY="680" mapPositionFixed="1" mapPosY="6747098.11905656475573778" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-105" offsetY="-38" frameWidth="91" frameBackgroundColor="#fb9a99" frameColor="#000000">
       <spatialrefsys>
         <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>2106</srsid>
@@ -337,111 +385,6 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="255,0,0,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="3"/>
-          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-    </AnnotationItem>
-  </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 721707&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="33" canvasPosX="920.39390466659097001" mapPosX="289601.44419173646019772" canvasPosY="413.65207300707697868" mapPositionFixed="1" mapPosY="6746583.05335984751582146" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="11" offsetY="17" frameWidth="122" frameBackgroundColor="#ffffff" frameColor="#000000">
-      <spatialrefsys>
-        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>2106</srsid>
-        <srid>25833</srid>
-        <authid>EPSG:25833</authid>
-        <description>ETRS89 / UTM zone 33N</description>
-        <projectionacronym>utm</projectionacronym>
-        <ellipsoidacronym>GRS80</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="255,0,0,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="3"/>
-          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-    </AnnotationItem>
-  </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 721663&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="30" canvasPosX="780.24816533509874716" mapPosX="289518.96263659099349752" canvasPosY="428.97164775244891644" mapPositionFixed="1" mapPosY="6746574.0371574629098177" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-159" offsetY="-13" frameWidth="126" frameBackgroundColor="#ffffff" frameColor="#000000">
-      <spatialrefsys>
-        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>2106</srsid>
-        <srid>25833</srid>
-        <authid>EPSG:25833</authid>
-        <description>ETRS89 / UTM zone 33N</description>
-        <projectionacronym>utm</projectionacronym>
-        <ellipsoidacronym>GRS80</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="255,0,0,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="3"/>
-          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-    </AnnotationItem>
-  </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 2839229&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="34" canvasPosX="711.25223808671580628" mapPosX="289478.35568410501582548" canvasPosY="297.40839581750333309" mapPositionFixed="1" mapPosY="6746651.46756434720009565" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="47" offsetY="-24" frameWidth="160" frameBackgroundColor="#fdbf6f" frameColor="#000000">
-      <spatialrefsys>
-        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>2106</srsid>
-        <srid>25833</srid>
-        <authid>EPSG:25833</authid>
-        <description>ETRS89 / UTM zone 33N</description>
-        <projectionacronym>utm</projectionacronym>
-        <ellipsoidacronym>GRS80</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="255,127,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
@@ -461,8 +404,8 @@
       </symbol>
     </AnnotationItem>
   </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 2839231&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="31" canvasPosX="851.00686278071952984" mapPosX="289560.60705213458277285" canvasPosY="424.16259030811488628" mapPositionFixed="1" mapPosY="6746576.86748636700212955" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-64" offsetY="29" frameWidth="149" frameBackgroundColor="#fdbf6f" frameColor="#000000">
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 103&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="31" canvasPosX="939.00000000023283064" mapPosX="288988.54725344653706998" canvasPosY="525" mapPositionFixed="1" mapPosY="6747132.96792945172637701" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-127" offsetY="29" frameWidth="92" frameBackgroundColor="#fdbf6f" frameColor="#000000">
       <spatialrefsys>
         <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>2106</srsid>
@@ -476,7 +419,7 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="255,127,0,255"/>
+          <prop k="color" v="255,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
@@ -488,7 +431,7 @@
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -496,8 +439,8 @@
       </symbol>
     </AnnotationItem>
   </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 2839230&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="31" canvasPosX="789.25481931125978008" mapPosX="289524.26342440058942884" canvasPosY="502.81519304402172565" mapPositionFixed="1" mapPosY="6746530.57718156836926937" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-175" offsetY="-11" frameWidth="138" frameBackgroundColor="#fdbf6f" frameColor="#000000">
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenkesett 8&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="31" canvasPosX="847.00000000023283064" mapPosX="288967.86276115255896002" canvasPosY="359" mapPositionFixed="1" mapPosY="6747170.28994815610349178" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-157" offsetY="-10" frameWidth="113" frameBackgroundColor="#b2df8a" frameColor="#000000">
       <spatialrefsys>
         <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>2106</srsid>
@@ -511,7 +454,7 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="255,127,0,255"/>
+          <prop k="color" v="255,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
@@ -523,7 +466,7 @@
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -531,8 +474,8 @@
       </symbol>
     </AnnotationItem>
   </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Veglenkesekvens 650116&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="32" canvasPosX="685.25137767847627401" mapPosX="289463.05310400645248592" canvasPosY="219.40581459365785122" mapPositionFixed="1" mapPosY="6746697.37530464306473732" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="54" offsetY="-23" frameWidth="212" frameBackgroundColor="#a6cee3" frameColor="#000000">
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenkesekvens 501&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="32" canvasPosX="532.00000000023283064" mapPosX="288897.04085818940075114" canvasPosY="46.9999999962747097" mapPositionFixed="1" mapPosY="6747240.43735680542886257" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-74" offsetY="69" frameWidth="153" frameBackgroundColor="#a6cee3" frameColor="#000000">
       <spatialrefsys>
         <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>2106</srsid>
@@ -558,7 +501,7 @@
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -566,8 +509,8 @@
       </symbol>
     </AnnotationItem>
   </TextAnnotationItem>
-  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Veglenkesekvens 650117&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
-    <AnnotationItem frameHeight="32" canvasPosX="1023.91258449503220618" mapPosX="289662.36920978972921148" canvasPosY="394.91162234917283058" mapPositionFixed="1" mapPosY="6746594.08288897760212421" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-203" offsetY="-61" frameWidth="221" frameBackgroundColor="#a6cee3" frameColor="#000000">
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenkesekvens 502&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="33" canvasPosX="1208.00000000023283064" mapPosX="289049.02691026270622388" canvasPosY="590" mapPositionFixed="1" mapPosY="6747118.35388598311692476" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-84" offsetY="-82" frameWidth="148" frameBackgroundColor="#a6cee3" frameColor="#000000">
       <spatialrefsys>
         <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>2106</srsid>
@@ -593,7 +536,252 @@
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 101&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="33" canvasPosX="248.38250790280289948" mapPosX="288833.27472960535669699" canvasPosY="377.76080083847045898" mapPositionFixed="1" mapPosY="6747166.07193032559007406" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-115" offsetY="-42" frameWidth="100" frameBackgroundColor="#fdbf6f" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,127,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="0"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 105&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="31" canvasPosX="1031.3203371970448643" mapPosX="289009.30376761313527822" canvasPosY="650.84193887934088707" mapPositionFixed="1" mapPosY="6747104.6747053749859333" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-128" offsetY="-15" frameWidth="98" frameBackgroundColor="#fdbf6f" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,127,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="0"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Lenke 102&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="34" canvasPosX="840.32139093778096139" mapPosX="288966.36119987332494929" canvasPosY="240.43097997829318047" mapPositionFixed="1" mapPosY="6747196.94799142703413963" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="57" offsetY="-23" frameWidth="90" frameBackgroundColor="#fdbf6f" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,127,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="0"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 004&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="32" canvasPosX="1032.89884088491089642" mapPosX="289009.65866486716549844" canvasPosY="570.3382507860660553" mapPositionFixed="1" mapPosY="6747122.77446533180773258" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="38" offsetY="41" frameWidth="91" frameBackgroundColor="#fb9a99" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="251,154,153,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="3"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 005&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="31" canvasPosX="1023.42781875655055046" mapPosX="289007.52928134292596951" canvasPosY="728.18861959874629974" mapPositionFixed="1" mapPosY="6747087.28473992645740509" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="11" offsetY="19" frameWidth="86" frameBackgroundColor="#fb9a99" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="251,154,153,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="3"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 003&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="32" canvasPosX="897.14752370910719037" mapPosX="288979.13750101905316114" canvasPosY="474.04952581226825714" mapPositionFixed="1" mapPosY="6747144.42319782823324203" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="63" offsetY="-27" frameWidth="85" frameBackgroundColor="#fb9a99" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="251,154,153,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="3"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:10pt; color:#000000;&quot;>Node 002&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="32" canvasPosX="748.76817702851258218" mapPosX="288945.77715913858264685" canvasPosY="73.10958904027938843" mapPositionFixed="1" mapPosY="6747234.56710035633295774" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="45" offsetY="-19" frameWidth="91" frameBackgroundColor="#fb9a99" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="251,154,153,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="3"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -727,14 +915,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -786,7 +974,7 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Kart20151104134152304</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:25833&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Kart&amp;styles=&amp;url=http://www.webatlas.no/wms-std-vegvesen-n1</datasource>
       <shortname></shortname>
@@ -819,7 +1007,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+        <rasterrenderer opacity="0.529412" alphaBand="0" band="1" type="singlebandcolordata">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
@@ -870,282 +1058,9 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Veglenkesekvens20160210133224744</id>
-      <datasource>C:/DATA/Sykkelreiseplanlegger/Data/Annet/Veglenkesekvens.shp</datasource>
-      <shortname></shortname>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Veglenkesekvens</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>2106</srsid>
-          <srid>25833</srid>
-          <authid>EPSG:25833</authid>
-          <description>ETRS89 / UTM zone 33N</description>
-          <projectionacronym>utm</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="System">ogr</provider>
-      <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Sekvens">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="flat"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="0,0,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="3.6"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="166,206,227,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="3.06"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="64"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitMaxScale" value="0"/>
-        <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
-        <property key="labeling/fontBold" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="7.8"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="0"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Normal"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="2"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>id</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Påskrift"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
-        </DiagramCategory>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>bicycle_routes_lin20141031151837638</id>
-      <datasource>C:/DATA/Sykkelreiseplanlegger/Data/Nasjonale ruter/bicycle_routes_lin.shp</datasource>
+      <datasource>../../../../Sykkelreiseplanlegger/Data/Nasjonale ruter/bicycle_routes_lin.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1245,14 +1160,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1264,7 +1179,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>bicycle_routes_lin_gen20141031155210677</id>
-      <datasource>C:/DATA/Sykkelreiseplanlegger/Data/Nasjonale ruter/bicycle_routes_lin_gen.shp</datasource>
+      <datasource>../../../../Sykkelreiseplanlegger/Data/Nasjonale ruter/bicycle_routes_lin_gen.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1364,14 +1279,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1383,7 +1298,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>fjern20140910104028055</id>
-      <datasource>C:/DATA/Sykkelreiseplanlegger/Data/Triona/fjern.shp</datasource>
+      <datasource>../../../../Sykkelreiseplanlegger/Data/Triona/fjern.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1747,14 +1662,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1766,7 +1681,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>frinavigeringssoner20140404142754753</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="frinavigeringssoner" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="frinavigeringssoner" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2011,14 +1926,14 @@
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2046,7 +1961,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>frinavigeringssoner20150916144021693</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_403.db' table="frinavigeringssoner" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_403.db' table="frinavigeringssoner" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2133,14 +2048,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2152,7 +2067,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>leggTil20140910104028082</id>
-      <datasource>C:/DATA/Sykkelreiseplanlegger/Data/Triona/leggTil.shp</datasource>
+      <datasource>../../../../Sykkelreiseplanlegger/Data/Triona/leggTil.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2435,14 +2350,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2454,7 +2369,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker20140404142754807</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3105,14 +3020,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3124,7 +3039,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker20140918151710970</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/OSM/Norge_UTM33.db' table="lenker" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/OSM/Norge_UTM33.db' table="lenker" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3608,14 +3523,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3627,7 +3542,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker20150204091011365</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3699,7 +3614,7 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 attr="kilde" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
           <category render="true" symbol="0" value="NVDB" label="NVDB"/>
-          <category render="true" symbol="1" value="OSM" label="OSM"/>
+          <category render="false" symbol="1" value="OSM" label="OSM"/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -3941,14 +3856,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3960,7 +3875,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker20150916144021702</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_403.db' table="lenker" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_403.db' table="lenker" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4032,7 +3947,7 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 attr="kilde" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
           <category render="true" symbol="0" value="NVDB" label="NVDB"/>
-          <category render="true" symbol="1" value="OSM" label="OSM"/>
+          <category render="false" symbol="1" value="OSM" label="OSM"/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -4045,7 +3960,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="233,120,27,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.86"/>
+              <prop k="line_width" v="1.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4274,14 +4189,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4293,7 +4208,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker20150930080111416</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_301.db' table="lenker" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_301.db' table="lenker" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4607,14 +4522,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4626,7 +4541,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker_enkel_NVDB_kopier20140918151343057</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql="kilde" = 'OSM'</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql="kilde" = 'OSM'</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4889,14 +4804,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4908,7 +4823,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker_enkel_kopier20140910120015613</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql="kilde" = 'NVDB'</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql="kilde" = 'NVDB'</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5235,14 +5150,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5254,7 +5169,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lenker_kopier20140910110649744</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql="kilde" = 'NVDB'</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="lenker" (GEOMETRY) sql="kilde" = 'NVDB'</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5517,14 +5432,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5536,7 +5451,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>noder20140404142754821</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="noder" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="noder" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5768,14 +5683,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5785,9 +5700,9 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>noder20150916144021709</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_403.db' table="noder" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Kommunevise/Sykkeldata_403.db' table="noder" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5828,7 +5743,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="3,122,143,255"/>
+              <prop k="color" v="179,111,112,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -5851,7 +5766,157 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="7.8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -5877,15 +5942,37 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -5896,7 +5983,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>sykkelruter20141031160227392</id>
-      <datasource>dbname='C:/DATA/Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="sykkelruter" (GEOMETRY) sql=</datasource>
+      <datasource>dbname='../../../../Sykkelreiseplanlegger/Data/Sykkeldata_20160402.db' table="sykkelruter" (GEOMETRY) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5987,15 +6074,567 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>C:/DATA/Sykkelreiseplanlegger/Data</annotationform>
+      <annotationform>../../../../Sykkelreiseplanlegger/Data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>C:/DATA/Sykkelreiseplanlegger/Data</editform>
+      <editform>../../../../Sykkelreiseplanlegger/Data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>C:/DATA/Sykkelreiseplanlegger/Data</editforminitfilepath>
+      <editforminitfilepath>../../../../Sykkelreiseplanlegger/Data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>veglenkesekvens20160525130833043</id>
+      <datasource>./veglenkesekvens.shp</datasource>
+      <shortname>veglenkesekvens</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>veglenkesekvens</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2106</srsid>
+          <srid>25833</srid>
+          <authid>EPSG:25833</authid>
+          <description>ETRS89 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="31,120,180,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="4.68301"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value="id"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="7.8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="2"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>14</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Påskrift"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>veglenkesett20160525131328295</id>
+      <datasource>./veglenkesett.shp</datasource>
+      <shortname>veglenkesett</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>veglenkesett</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2106</srsid>
+          <srid>25833</srid>
+          <authid>EPSG:25833</authid>
+          <description>ETRS89 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="51,160,44,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="8.66"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value="id"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="7.8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="2"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>17</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Påskrift"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -6050,21 +6689,116 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
         <value>Gangfelt_HAMAR__ERF_20141204141706572</value>
+        <value>bicycle_routes_lin20141031151837638</value>
+        <value>bicycle_routes_lin_gen20141031155210677</value>
+        <value>fjern20140910104028055</value>
+        <value>frinavigeringssoner20140404142754753</value>
+        <value>frinavigeringssoner20150916144021693</value>
+        <value>leggTil20140910104028082</value>
+        <value>lenker20140404142754807</value>
+        <value>lenker20140918151710970</value>
+        <value>lenker20150204091011365</value>
+        <value>lenker20150916144021702</value>
+        <value>lenker20150930080111416</value>
+        <value>lenker_enkel_NVDB_kopier20140918151343057</value>
+        <value>lenker_enkel_kopier20140910120015613</value>
+        <value>lenker_kopier20140910110649744</value>
+        <value>noder20140404142754821</value>
+        <value>noder20150916144021709</value>
+        <value>sykkelruter20141031160227392</value>
+        <value>veglenkesekvens20160525130833043</value>
+        <value>veglenkesett20160525131328295</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">advanced</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
       <LayerSnappingToleranceUnitList type="QStringList">
         <value>0</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>
     </Digitizing>
