@@ -1,0 +1,2835 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME2016\64\fme.exe" C:\DATA\GitHub\SOSI-Vegnett\trunk\Eksempler\FME\Vegnett_gml2spatialite.fmw
+#          --SourceDataset_GML_3 "C:\DATA\GitHub\SOSI-Vegnett\trunk\Eksempler\GML\Vegnettstest.gml"
+#          --DestDataset_SPATIALITE_2 "C:\DATA\GitHub\SOSI-Vegnett\trunk\Eksempler\GML\Vegnettstest.db"
+#    
+#    
+#!   REDIRECT_TERMINATORS="NONE"
+#!   USAGE=""
+#!   REQUIREMENTS_KEYWORD=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   LEGAL_TERMS_CONDITIONS=""
+#!   FME_DOCUMENT_PRIORGUID="9d15184e-cb11-4244-b0cc-f3b985823b65"
+#!   SOURCE_ROUTING_FILE=""
+#!   SHOW_ANNOTATIONS="true"
+#!   SOURCE="NONE"
+#!   IGNORE_READER_FAILURE="No"
+#!   ZOOM_SCALE="100"
+#!   DOC_EXTENTS="4192.53 1233.51"
+#!   PYTHON_COMPATIBILITY="27"
+#!   END_TCL=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   DOC_TOP_LEFT="-224.003 -1243.51"
+#!   CATEGORY=""
+#!   FME_DOCUMENT_GUID="8e3a2fb6-210d-47f0-b08d-f78b8549419b"
+#!   END_PYTHON=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   DESCRIPTION=""
+#!   PASSWORD=""
+#!   HISTORY=""
+#!   REQUIREMENTS=""
+#!   DESTINATION="NONE"
+#!   LAST_SAVE_BUILD="FME(R) 2016.0.0.0 (20150909 - Build 16085 - WIN64)"
+#!   LOG_FILE=""
+#!   FME_BUILD_NUM="16085"
+#!   LAST_SAVE_DATE="2015-10-07T10:18:14"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   WORKSPACE_VERSION="1"
+#!   VIEW_POSITION="753.008 99.001"
+#!   FME_SERVER_SERVICES=""
+#!   SHOW_INFO_NODES="true"
+#!   BEGIN_TCL=""
+#!   TITLE=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   MAX_LOG_FEATURES="200"
+#!   DESTINATION_ROUTING_FILE=""
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="GML"
+#!   DATASET="$(SourceDataset_GML_3)"
+#!   KEYWORD="GML_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="gml_original_coordinate_system xml_char(64) gml_id xml_char(254) gml_parent_property xml_char(254) gml_parent_id xml_char(254) fme_feature_type xml_char(50) fme_color xml_char(50) fme_text_string xml_char(50) fme_sweep_angle xml_real64 multi_reader_type xml_char(50) xml_ns_uri xml_char(254) fme_start_angle xml_real64 fme_dataset xml_char(50) fme_secondary_axis xml_real64 fme_text_size xml_real64 fme_primary_axis xml_real64 fme_rotation xml_real64 fme_type xml_char(50) fme_basename xml_char(50) multi_reader_id xml_int32 multi_reader_full_id xml_int32 fme_geometry fme_char(50) xml_type xml_char(50) fme_fill_color xml_char(50) multi_reader_keyword xml_char(50)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE_OR_URL"
+#!   GENERATE_FME_BUILD_NUM="16085"
+#!   MAX_FEATURES=""
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   START_FEATURE=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/xml"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GML file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="gml file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="SPATIALITE"
+#!   DATASET="$(DestDataset_SPATIALITE_2)"
+#!   KEYWORD="SPATIALITE_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="256"
+#!   ATTR_CASE="LOWER"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="spatialite_type {FME_GEN_GEOMETRY} spatialite_overwrite_tables No spatialite_create_spatial_index Yes spatialite_compress_geometry Yes"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_type string(50) fme_basename string(50) fme_primary_axis real(31,15) fme_text_string string(50) fme_feature_type string(50) fme_color string(50) fme_dataset string(50) fme_start_angle real(31,15) fme_rotation real(31,15) fme_text_size real(31,15) fme_sweep_angle real(31,15) fme_fill_color string(50) fme_secondary_axis real(31,15) spatialite_type string(255)"
+#!   DEFLINE_PARMS="&quot;GUI CHOICE spatialite_overwrite_tables Yes%No Drop Existing Table&quot; No &quot;GUI CHOICE spatialite_compress_geometry Yes%No Compress Geometry&quot; Yes &quot;GUI CHOICE spatialite_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS="\\/&quot;:?*&lt;&gt;|[# &apos;&amp;+-{}]."
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="16085"
+#!   FANOUT_GROUP=""
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the SpatiaLite file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the SpatiaLite file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="sl3 file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="SPATIALITE_OUT_ENCODING TRANSACTION_SIZE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_buffer"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_buffer"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_xml"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_datetime"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_date"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_time"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_int64"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_uint64"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_int32"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_uint32"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_int16"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_uint16"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_byte"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_ubyte"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_real32"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_decimal(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(8)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_geometry"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(255)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(255)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(255)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="binary"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="binary"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="binary"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real(10,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="SPATIALITE"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_aggregate"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_arc"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_mesh"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyz"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xyz"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="SPATIALITE"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Vegnode"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="1"
+#!   FEAT_GEOMTYPE="xml_point"
+#!   POSITION="-224.003 -360.998"
+#!   BOUNDING_RECT="-224.003 -360.998 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="prosesshistorie" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="høydereferanse" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kommunenummer" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sideposisjon" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.lokalId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.navnerom" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.versjonId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnodeFor{}.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnodeFor{}.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnodeFor{}.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnodeFor{}.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnodeFor{}.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnodeFor{}.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnodeFor{}.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnodeFor{}.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="posisjon" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="vegnode"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="2"
+#!   FEAT_GEOMTYPE="wkb_point"
+#!   POSITION="449.978 -360.998"
+#!   BOUNDING_RECT="449.978 -360.998 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="SPATIALITE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kommunenummer" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sideposisjon" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_lokalid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_navnerom" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_versjonid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk_xlink_href" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="posisjon" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_overwrite_tables" PARM_VALUE="No"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Veglenkesett"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="3"
+#!   FEAT_GEOMTYPE="xml_no_geom"
+#!   POSITION="1414.01 -108.995"
+#!   BOUNDING_RECT="1414.01 -108.995 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="prosesshistorie" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="høydereferanse" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kommunenummer" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sideposisjon" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.lokalId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.navnerom" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.versjonId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke{}.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke{}.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke{}.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke{}.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="veglenkesett"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="4"
+#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   POSITION="2253 -108.995"
+#!   BOUNDING_RECT="2253 -108.995 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="SPATIALITE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="false"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg_endringsflagg_typeendring" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg_endringsflagg_tidspunktendring" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_målemetode" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_nøyaktighet" ATTR_TYPE="real(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_synbarhet" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_målemetodehøyde" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_nøyaktighethøyde" ATTR_TYPE="real(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_maksimaltavvik" ATTR_TYPE="real(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="prosesshistorie" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="høydereferanse" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kommunenummer" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sideposisjon" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_lokalid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_navnerom" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_versjonid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk_nilreason" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk_gml_remoteschema" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk_xlink_href" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk_owns" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke___nilreason" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke___gml_remoteschema" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke___xlink_href" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lenke___owns" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_overwrite_tables" PARM_VALUE="No"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Veglenkesekvens"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="5"
+#!   FEAT_GEOMTYPE="xml_no_geom"
+#!   POSITION="1414.01 -281"
+#!   BOUNDING_RECT="1414.01 -281 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER="*"
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="prosesshistorie" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="høydereferanse" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kommunenummer" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sideposisjon" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.lokalId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.navnerom" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.versjonId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="standardLRM" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="måltLengde" ATTR_TYPE="xml_real64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvensdel{}.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvensdel{}.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvensdel{}.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvensdel{}.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="xml_char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="veglenkesekvens"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="6"
+#!   FEAT_GEOMTYPE="wkb_multi_line_xyz"
+#!   POSITION="3968.53 -373"
+#!   BOUNDING_RECT="3968.53 -373 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="SPATIALITE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_lokalid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_navnerom" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_versjonid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_overwrite_tables" PARM_VALUE="No"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Veglenke"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="7"
+#!   FEAT_GEOMTYPE="xml_line"
+#!   POSITION="1414.01 -991.505"
+#!   BOUNDING_RECT="1414.01 -991.505 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER="*"
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="prosesshistorie" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="høydereferanse" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kommunenummer" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sideposisjon" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.lokalId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.navnerom" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon.Identifikasjon.versjonId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="standardLRM" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="måltLengde" ATTR_TYPE="xml_real64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startposisjon" ATTR_TYPE="xml_real64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttposisjon" ATTR_TYPE="xml_real64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvens.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvens.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvens.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvens.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnode.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnode.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnode.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnode.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnode.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnode.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnode.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnode.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="typeVeg" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="detaljnivå" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="konnekteringslenke" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="feltoversikt" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeFraDato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeTilDato" ATTR_TYPE="xml_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="senterlinje" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse.Veglenkeadresse.kommunenummer" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressekode" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressenavn" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse.Veglenkeadresse.sideveg" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="brøytes" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="trafikkreguleringer" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="xml_char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="veglenke"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="8"
+#!   FEAT_GEOMTYPE="wkb_line_xyz"
+#!   POSITION="3390.01 -1243.51"
+#!   BOUNDING_RECT="3390.01 -1243.51 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="SPATIALITE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_målemetode" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_nøyaktighet" ATTR_TYPE="real(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_synbarhet" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_målemetodehøyde" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_nøyaktighethøyde" ATTR_TYPE="real(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kvalitet_posisjonskvalitet_maksimaltavvik" ATTR_TYPE="real(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="prosesshistorie" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="høydereferanse" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kommunenummer" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_lokalid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_navnerom" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifikasjon_identifikasjon_versjonid" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverk" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="standardlrm" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="måltlengde" ATTR_TYPE="real(31,15)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startposisjon" ATTR_TYPE="real(31,15)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttposisjon" ATTR_TYPE="real(31,15)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sekvens" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sluttnode" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="startnode" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="typeveg" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="detaljnivå" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="konnekteringslenke" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="feltoversikt" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkefradato" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenketildato" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="senterlinje" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse_veglenkeadresse_kommunenummer" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse_veglenkeadresse_adressekode" ATTR_TYPE="real(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse_veglenkeadresse_adressenavn" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="veglenkeadresse_veglenkeadresse_sideveg" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="brøytes" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="trafikkreguleringer" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_overwrite_tables" PARM_VALUE="No"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Nettverk"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="9"
+#!   FEAT_GEOMTYPE="xml_no_geom"
+#!   POSITION="-224.003 -9.99442"
+#!   BOUNDING_RECT="-224.003 -9.99442 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER="*"
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverksnavn" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverkselement{}.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverkselement{}.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverkselement{}.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverkselement{}.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="xml_char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_dataset" ATTR_TYPE="xml_char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="nettverk"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="10"
+#!   FEAT_GEOMTYPE="wkb_none"
+#!   POSITION="449.978 -9.99442"
+#!   BOUNDING_RECT="449.978 -9.99442 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="SPATIALITE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nettverksnavn" ATTR_TYPE="string(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="spatialite_overwrite_tables" PARM_VALUE="No"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_GML_3 GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):"
+#!   DEFAULT_VALUE="C:\DATA\GitHub\SOSI-Vegnett\trunk\Eksempler\GML\Vegnettstest.gml"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_SPATIALITE_2 SpatiaLite_Database_Files(*.sl3;*.db;*.sqlite)|*.sl3;*.db;*.sqlite|SpatiaLite_Database_Files(*.sl3)|*.sl3|SpatiaLite_Database_Files(*.db)|*.db|SpatiaLite_Database_Files(*.sqlite)|*.sqlite|All_files(*)|* Destination SpatiaLite Database File:"
+#!   DEFAULT_VALUE="C:\DATA\GitHub\SOSI-Vegnett\trunk\Eksempler\GML\Vegnettstest.db"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="31"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Todo: Koble Veglenke til sekvens, bygge agregert geometri&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3204.53 -108.995"
+#!   TOP_LEFT="3204.53 -108.995"
+#!   BOTTOM_RIGHT="3954.53 -158.995"
+#!   BOUNDING_RECT="3204.53 -108.995 750 50"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="16"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="2025.51 -991.505"
+#!   BOUNDING_RECT="2025.51 -991.505 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="typeVeg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="detaljnivå" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="konnekteringslenke" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="feltoversikt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeFraDato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeTilDato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="senterlinje" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressekode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.sideveg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brøytes" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="trafikkreguleringer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="nettverk.xlink_href nettverk RENAME_SET_DEFAULT  sekvens.xlink_href sekvens RENAME_SET_DEFAULT  startnode.xlink_href startnode RENAME_SET_DEFAULT  sluttnode.xlink_href sluttnode RENAME_SET_DEFAULT "/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="19"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="2025.51 -1183.51"
+#!   BOUNDING_RECT="2025.51 -1183.51 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="typeVeg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="detaljnivå" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="konnekteringslenke" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="feltoversikt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeFraDato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeTilDato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="senterlinje" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressekode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.sideveg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brøytes" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="trafikkreguleringer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="sekvens,startnode,nettverk,sluttnode"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;fme_basename&lt;closeparen&gt;.gml#"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="22"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="2025.51 -411.998"
+#!   BOUNDING_RECT="2025.51 -411.998 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvensdel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_2"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="nettverk.xlink_href nettverk RENAME_SET_DEFAULT  xlink_href sekvensdel RENAME_SET_DEFAULT "/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="2025.51 -598"
+#!   BOUNDING_RECT="2025.51 -598 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvensdel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_2"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="nettverk,sekvensdel"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;fme_basename&lt;closeparen&gt;.gml#"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="ListExploder"
+#!   VERSION="5"
+#!   POSITION="1414.01 -411.998"
+#!   BOUNDING_RECT="1414.01 -411.998 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="ELEMENTS"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="sekvensdel{}"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="30"
+#!   TYPE="FeatureMerger"
+#!   VERSION="14"
+#!   POSITION="2649.03 -411.998"
+#!   BOUNDING_RECT="2649.03 -411.998 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvensdel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="NOT_MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="sekvensdel" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="REFERENCED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="startnode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="startposisjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sluttposisjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="typeVeg" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="detaljnivå" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="konnekteringslenke" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="feltoversikt" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeFraDato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeTilDato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="senterlinje" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressekode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressenavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.sideveg" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="brøytes" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="trafikkreguleringer" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNREFERENCED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="startnode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="startposisjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sluttposisjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="typeVeg" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="detaljnivå" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="konnekteringslenke" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="feltoversikt" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeFraDato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeTilDato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="senterlinje" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressekode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressenavn" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.sideveg" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="brøytes" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="trafikkreguleringer" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="DUPLICATE_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="startnode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="startposisjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sluttposisjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.nilReason" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sekvens.owns" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="sluttnode.owns" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.nilReason" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="startnode.owns" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="typeVeg" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="detaljnivå" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="konnekteringslenke" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="feltoversikt" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeFraDato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeTilDato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="senterlinje" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressekode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.adressenavn" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="veglenkeadresse.Veglenkeadresse.sideveg" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="brøytes" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="trafikkreguleringer" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Geometry"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;sekvensdel&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;gml_id&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="37"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="3390.01 -991.505"
+#!   BOUNDING_RECT="3390.01 -991.505 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sekvensdel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.typeEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endringsflagg.Endringsflagg.tidspunktEndring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.målemetodeHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.nøyaktighetHøyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kvalitet.Posisjonskvalitet.maksimaltAvvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosesshistorie" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="høydereferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kommunenummer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="sideposisjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nettverk.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="standardLRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="måltLengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sekvensdeler_utenfor_aktuell_kommune"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="41"
+#!   TYPE="Aggregator"
+#!   VERSION="12"
+#!   POSITION="3390.01 -373"
+#!   BOUNDING_RECT="3390.01 -373 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16085"
+#! >
+#!     <OUTPUT_FEAT NAME="AGGREGATE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="nettverk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.lokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifikasjon.Identifikasjon.versjonId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="Homogeneous Collection (If Possible)"/>
+#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Geometry - Assemble One Level"/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="gml_id nettverk identifikasjon.Identifikasjon.navnerom identifikasjon.Identifikasjon.versjonId identifikasjon.Identifikasjon.lokalId"/>
+#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="11"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="12"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="10"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="17"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="22"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="28"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="27"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="22"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="16"
+#!   TARGET_NODE="19"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="32"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="30"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="33"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="30"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="fi 1"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="30"
+#!   TARGET_NODE="37"
+#!   SOURCE_PORT_DESC="fo 1"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="40"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="42"
+#!   SOURCE_NODE="30"
+#!   TARGET_NODE="41"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="fi 0"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="43"
+#!   SOURCE_NODE="41"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 0"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! <ATTR_LINK
+#!   IDENTIFIER="327691"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="18"
+#!   TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="65547"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="2"
+#!   TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="131083"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="32"
+#!   TARGET_PORT_DESC="7"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="262155"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="22"
+#!   TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="458763"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="17"
+#!   TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="196619"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="15"
+#!   TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="524299"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="19"
+#!   TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="393227"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="16"
+#!   TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="131084"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="4"
+#!   TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1310732"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="14"
+#!   TARGET_PORT_DESC="14"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="851980"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="22"
+#!   TARGET_PORT_DESC="22"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1507340"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="10"
+#!   TARGET_PORT_DESC="10"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="720908"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="8"
+#!   TARGET_PORT_DESC="8"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1376268"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="19"
+#!   TARGET_PORT_DESC="19"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1572876"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="24"
+#!   TARGET_PORT_DESC="24"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="393228"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="7"
+#!   TARGET_PORT_DESC="7"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="917516"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="18"
+#!   TARGET_PORT_DESC="18"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1638412"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="23"
+#!   TARGET_PORT_DESC="23"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="65548"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="21"
+#!   TARGET_PORT_DESC="21"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="524300"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="3"
+#!   TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="458764"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="13"
+#!   TARGET_PORT_DESC="13"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="983052"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="5"
+#!   TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="327692"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="589836"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="12"
+#!   TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1048588"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="9"
+#!   TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1245196"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="11"
+#!   TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="655372"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="20"
+#!   TARGET_PORT_DESC="20"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1179660"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="2"
+#!   TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1441804"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="17"
+#!   TARGET_PORT_DESC="17"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="196620"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="1"
+#!   TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1114124"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="15"
+#!   TARGET_PORT_DESC="15"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="262156"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="6"
+#!   TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="786444"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="16"
+#!   TARGET_PORT_DESC="16"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="131087"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="10"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="65551"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="10"
+#!   SOURCE_PORT_DESC="9"
+#!   TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="131112"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 6"
+#!   TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="655400"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 52"
+#!   TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="196648"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 11"
+#!   TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="262184"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 25"
+#!   TARGET_PORT_DESC="17"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="393256"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 15"
+#!   TARGET_PORT_DESC="10"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="983080"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 9"
+#!   TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1114152"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 20"
+#!   TARGET_PORT_DESC="14"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="65576"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 8"
+#!   TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="720936"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 18"
+#!   TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="917544"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 16"
+#!   TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="589864"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 7"
+#!   TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="852008"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 19"
+#!   TARGET_PORT_DESC="13"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="327720"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 24"
+#!   TARGET_PORT_DESC="16"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="458792"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 10"
+#!   TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="524328"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 14"
+#!   TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="786472"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 13"
+#!   TARGET_PORT_DESC="8"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1048616"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="ao 0 12"
+#!   TARGET_PORT_DESC="7"
+#! />
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_GML_1,GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1,GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1,GML_IN_MAP_GEOMETRY_COLUMNS_GML_1,GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1,GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1,GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1,GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1,GML_IN_MAX_MULTI_LIST_LEVEL_GML_1,GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1,GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1,GML_IN_XSD_DOC_GML_1,GML_IN_VALIDATE_DATASET_GML_1,GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1,GML_IN_SRS_AXIS_ORDER_GML_1,GML_IN_SRS_ANGLE_DIRECTION_GML_1,GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1,GML_IN_GML_READER_GROUP_GML_1,GML_IN_USE_OLD_READER_GML_1,GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1,GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1,GML_IN_EXPOSE_ATTRS_GROUP_GML_1,GML_IN_SEARCH_ENVELOPE_MINX_GML_1,GML_IN_SEARCH_ENVELOPE_MINY_GML_1,GML_IN_SEARCH_ENVELOPE_MAXX_GML_1,GML_IN_SEARCH_ENVELOPE_MAXY_GML_1,GML_IN_CLIP_TO_ENVELOPE_GML_1,GML_IN_GML_RDR_ADV_GML_1,GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1,GML_IN_SYSTEM_ENCODING_GML_1,GML_IN_CACHE_XSD_GML_1,GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1,GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1,GML_IN_NETWORK_AUTHENTICATION_GML_1,SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1,DestDataset_SPATIALITE_1,SPATIALITE_OUT_OVERWRITE_DATASET_SPATIALITE_1,SPATIALITE_OUT_ENCODING_SPATIALITE_1,SPATIALITE_OUT_SPATIALITE_WRT_ADV_PARM_SPATIALITE_1,SPATIALITE_OUT_TRANSACTION_SIZE_SPATIALITE_1
+DEFAULT_MACRO SourceDataset_GML_3 C:\DATA\GitHub\SOSI-Vegnett\trunk\Eksempler\GML\Vegnettstest.gml
+GUI MULTIFILE SourceDataset_GML_3 GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):
+DEFAULT_MACRO DestDataset_SPATIALITE_2 C:\DATA\GitHub\SOSI-Vegnett\trunk\Eksempler\GML\Vegnettstest.db
+GUI FILENAME DestDataset_SPATIALITE_2 SpatiaLite_Database_Files(*.sl3;*.db;*.sqlite)|*.sl3;*.db;*.sqlite|SpatiaLite_Database_Files(*.sl3)|*.sl3|SpatiaLite_Database_Files(*.db)|*.db|SpatiaLite_Database_Files(*.sqlite)|*.sqlite|All_files(*)|* Destination SpatiaLite Database File:
+INCLUDE [ if {{$(SourceDataset_GML_3)} == {}} { puts_real {Parameter 'SourceDataset_GML_3' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_SPATIALITE_2)} == {}} { puts_real {Parameter 'DestDataset_SPATIALITE_2' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! encoding="utf-8"
+#! WORKSPACE_VERSION 1
+# ============================================================================ 
+# 
+# This mapping file was generated by FME Workbench
+# on 10/06/15 13:58:07 for translation between GML and SPATIALITE
+# 
+# This workspace was generated with FME build 16085
+#
+# You may edit this mapping file to customize its operation.  Comments are 
+# placed throughout to assist you. 
+# 
+# Modification History:
+# 
+#     Name              Date     Description
+#     ================= ======== =============================================
+# 
+# 
+# ============================================================================ 
+# ============================================================================ 
+# The following line defines the title presented to the user when this
+# mapping file is run through the FME GUI.  You may modify this
+# if a more meaningful title would be appropriate.
+GUI TITLE GML to SPATIALITE Translation 
+# ============================================================================ 
+# The following line names the log file to which useful statistics about
+# the translation will be written.  This line can be uncommented and
+# updated if you do wish to keep these statistics.
+# LOG_FILENAME translation.log
+# LOG_APPEND NO
+# ============================================================================ 
+# The following line instructs the FME to log any features that do not
+# match any of the source feature patterns listed further down in
+# this file.  If you are modifying this mapping file, this will be
+# useful to describe to you exactly which features you are losing
+# during translation, if the statistics indicate that features are
+# not being correlated or grouped.  Uncorrelated features do not
+# match any source specification, ungrouped features do not have
+# any corresponding _DEF line. 
+# FME_DEBUG UNGROUPED UNCORRELATED
+# ============================================================================ 
+# The following two lines define the type of reader and writer to be
+# used for this translation.  If you want to translate your data
+# back into its original format, you may make a copy of this file
+# and switch the reader and writer types.  If you rerun the FME, you
+# will get your original data back again (together with any modifications
+# you made in the meantime).  Note that several formats are NOT
+# bi-directional (for example, GIF can only be used as a WRITER)
+# so a reverse translation may not always be possible.
+#! START_WB_HEADER
+READER_TYPE GML
+READER_KEYWORD GML_1
+READER_GEN_DIRECTIVES MAP_EMBEDDED_OBJECTS_AS,ATTRIBUTES,MAP_PREDEFINED_GML_PROPERTIES,NO,MAP_GEOMETRY_COLUMNS,YES,MAP_ALL_SUBSTITUTABLE_PROPERTIES,YES,MAP_COMPLEX_PROPERTIES_AS,Nested<space>Attributes,ADD_GEOMETRIES_AS_XML_FRAGMENTS,NO,XML_FRAGMENTS_AS_DOCUMENTS,YES,FLATTEN_XML_FRAGMENTS,NO,VALIDATE_DATASET,no,FEATURE_TYPES_SCHEMA_MODE,XML_SCHEMA,SKIP_SCHEMA_LOCATION_IN_DATASET,No,ENFORCE_PATH_CONTINUITY_BY,SNAPPING_END_POINTS,USE_OLD_READER,NO,DISABLE_AUTOMATIC_READER_TYPE_SELECTION,NO,DISABLE_XML_NAMESPACE_PROCESSING,NO,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,CONTINUE_ON_GEOM_ERROR,yes,CACHE_XSD,yes,MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV,no,SourceDataset,C:<backslash>DATA<backslash>GitHub<backslash>SOSI-Vegnett<backslash>trunk<backslash>Eksempler<backslash>GML<backslash>Vegnettstest.gml,FME_GEOMETRY_HANDLING,Enhanced
+
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} SPATIALITE
+MULTI_WRITER_KEYWORD{0} SPATIALITE_1
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "GML_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER GML GML_1
+# ============================================================================
+# The following GUI lines prompt for a GML file to be used as the
+# the source of the data.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_GML_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER GML GML_1
+DEFAULT_MACRO SourceDataset_GML_1 $(SourceDataset_GML_3)
+GUI MULTIFILE SourceDataset_GML_1 GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):
+# ============================================================================
+DEFAULT_MACRO GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1 ATTRIBUTES
+GML_1_MAP_EMBEDDED_OBJECTS_AS "$(GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1)"
+GUI LOOKUP_CHOICE GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1 "Attributes",ATTRIBUTES%"Geometries",GEOMETRIES%"Feature Types",FEATURE_TYPES Map Embedded Objects as:
+DEFAULT_MACRO GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1 NO
+GML_1_MAP_PREDEFINED_GML_PROPERTIES "$(GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1)"
+GUI CHECKBOX GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1 YES%NO Map Predefined Properties
+DEFAULT_MACRO GML_IN_MAP_GEOMETRY_COLUMNS_GML_1 YES
+GML_1_MAP_GEOMETRY_COLUMNS "$(GML_IN_MAP_GEOMETRY_COLUMNS_GML_1)"
+GUI CHECKBOX GML_IN_MAP_GEOMETRY_COLUMNS_GML_1 YES%NO Map Geometry Columns
+DEFAULT_MACRO GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1 YES
+GML_1_MAP_ALL_SUBSTITUTABLE_PROPERTIES "$(GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1)"
+GUI CHECKBOX GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1 YES%NO Map All Substitutable Properties
+DEFAULT_MACRO GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1 
+GML_1_ADD_NAMESPACE_PREFIX_TO_NAMES "$(GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1)"
+GUI OPTIONAL LOOKUP_CHOICE GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1 "Feature Types",FEATURE_TYPES%"Feature Types and Attributes",FEATURE_TYPES_AND_ATTRIBUTES Add XML Namespace Prefix to:
+DEFAULT_MACRO GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1 
+GML_1_QNAMES_FOR_PROPERTIES_TO_IGNORE "$(GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1)"
+GUI OPTIONAL TEXT_EDIT_XML GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1 Properties to Ignore:
+# ============================================================================
+DEFAULT_MACRO GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1 Nested Attributes
+GML_1_MAP_COMPLEX_PROPERTIES_AS "$(GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1)"
+GUI ACTIVECHOICE GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1 "Nested Attributes"%"XML Fragments",GML_IN_MAX_MULTI_LIST_LEVEL Map Complex Properties as:
+DEFAULT_MACRO GML_IN_MAX_MULTI_LIST_LEVEL_GML_1 
+GML_1_MAX_MULTI_LIST_LEVEL "$(GML_IN_MAX_MULTI_LIST_LEVEL_GML_1)"
+GUI OPTIONAL CHOICE GML_IN_MAX_MULTI_LIST_LEVEL_GML_1 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20 Limit Number of Lists in Nested Attributes:
+DEFAULT_MACRO GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1 NO
+GML_1_ADD_GEOMETRIES_AS_XML_FRAGMENTS "$(GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1)"
+GUI CHECKBOX GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1 YES%NO Add Geometries as XML Fragments
+DEFAULT_MACRO GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1 YES
+GML_1_XML_FRAGMENTS_AS_DOCUMENTS "$(GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1)"
+GUI CHECKBOX GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1 YES%NO Include XML Declaration in XML Fragments
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_GML_1 NO
+GML_1_FLATTEN_XML_FRAGMENTS "$(GML_IN_FLATTEN_XML_FRAGMENTS_GML_1)"
+GUI ACTIVEDISCLOSUREGROUP GML_IN_FLATTEN_XML_FRAGMENTS_GML_1 FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE%FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE%FLATTEN_XML_FRAGMENTS_SEPARATOR Flatten XML Fragments
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1 
+GML_1_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE "$(GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1)"
+GUI OPTIONAL STRING_OR_CHOICE GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1 {%_%-%empty_string Substitute Open List Brace:
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1 
+GML_1_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE "$(GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1)"
+GUI OPTIONAL STRING_OR_CHOICE GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1 }%_%-%empty_string Substitute Close List Brace:
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1 
+GML_1_FLATTEN_XML_FRAGMENTS_SEPARATOR "$(GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1)"
+GUI OPTIONAL STRING_OR_CHOICE GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1 .%_%empty_string Substitute Element List Separator:
+# ============================================================================
+# ============================================================================
+# The XSD_DOC keyword overwrites the location of the XML Schema document that
+# is specified in the xsi:schemaLocation of the XML dataset.
+DEFAULT_MACRO GML_IN_XSD_DOC_GML_1 
+GML_1_XSD_DOC "$(GML_IN_XSD_DOC_GML_1)"
+GUI OPTIONAL FILE_OR_URL GML_IN_XSD_DOC_GML_1 GML_Schema_File(*.xsd)|*.xsd|All_Files(*)|* Application Schema:
+# ============================================================================
+# This specifies whether the XML dataset should be validated against its
+# DTD file. If set to 'auto', the XML document will only be validated if
+# its DTD file is available.
+DEFAULT_MACRO GML_IN_VALIDATE_DATASET_GML_1 no
+GML_1_VALIDATE_DATASET "$(GML_IN_VALIDATE_DATASET_GML_1)"
+GUI CHOICE GML_IN_VALIDATE_DATASET_GML_1 yes%no Validate GML Dataset File:
+# ============================================================================
+# Specifies whether we should only show feature types from XSD or dataset
+DEFAULT_MACRO GML_IN_FEATURE_TYPES_SCHEMA_MODE_GML_1 XML_SCHEMA
+GML_1_FEATURE_TYPES_SCHEMA_MODE "$(GML_IN_FEATURE_TYPES_SCHEMA_MODE_GML_1)"
+DEFAULT_MACRO GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1 No
+GML_1_SKIP_SCHEMA_LOCATION_IN_DATASET "$(GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1)"
+GUI CHOICE GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1 Yes%No Ignore xsi:schemaLocation in Dataset:
+# ============================================================================
+DEFAULT_MACRO GML_IN_SRS_AXIS_ORDER_GML_1 
+GML_1_SRS_AXIS_ORDER "$(GML_IN_SRS_AXIS_ORDER_GML_1)"
+GUI OPTIONAL CHOICE GML_IN_SRS_AXIS_ORDER_GML_1 1,2%2,1%1,2,3%2,1,3 GML SRS Axis Order:
+DEFAULT_MACRO GML_IN_SRS_ANGLE_DIRECTION_GML_1 
+GML_1_SRS_ANGLE_DIRECTION "$(GML_IN_SRS_ANGLE_DIRECTION_GML_1)"
+GUI OPTIONAL LOOKUP_CHOICE GML_IN_SRS_ANGLE_DIRECTION_GML_1 Counterclockwise,CCW%Clockwise,CW GML SRS Angle Direction:
+DEFAULT_MACRO GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1 SNAPPING_END_POINTS
+GML_1_ENFORCE_PATH_CONTINUITY_BY "$(GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1)"
+GUI OPTIONAL LOOKUP_CHOICE GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1 "Snapping End Points",SNAPPING_END_POINTS%"Inserting New Segment",INSERTING_NEW_SEGMENT Enforce Path Continuity By:
+# ============================================================================
+GUI DISCLOSUREGROUP GML_IN_GML_READER_GROUP_GML_1 USE_OLD_READER%DISABLE_AUTOMATIC_READER_TYPE_SELECTION%DISABLE_XML_NAMESPACE_PROCESSING Version and XML Namespace Processing
+DEFAULT_MACRO GML_IN_USE_OLD_READER_GML_1 NO
+GML_1_USE_OLD_READER "$(GML_IN_USE_OLD_READER_GML_1)"
+GUI ACTIVECHECK GML_IN_USE_OLD_READER_GML_1 YES,GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES%NO Use Old Reader for GML v3.1.1 and v2.1.2 Documents
+DEFAULT_MACRO GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1 NO
+GML_1_DISABLE_AUTOMATIC_READER_TYPE_SELECTION "$(GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1)"
+GUI CHECKBOX GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1 YES%NO Disable Automatic Reader Type Selection
+DEFAULT_MACRO GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1 NO
+GML_1_DISABLE_XML_NAMESPACE_PROCESSING "$(GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1)"
+GUI CHECKBOX GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1 YES%NO Disable XML Namespace Processing
+DEFAULT_MACRO GML_IN_EXPOSE_ATTRS_GROUP_GML_1 
+GML_1_EXPOSE_ATTRS_GROUP "$(GML_IN_EXPOSE_ATTRS_GROUP_GML_1)"
+GUI DISCLOSUREGROUP GML_IN_EXPOSE_ATTRS_GROUP_GML_1 GML_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MINX_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MINX_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MINX_GML_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MINY_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MINY_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MINY_GML_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MAXX_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MAXX_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MAXX_GML_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MAXY_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MAXY_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MAXY_GML_1 Maximum Y:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+DEFAULT_MACRO GML_IN_CLIP_TO_ENVELOPE_GML_1 NO
+GML_1_CLIP_TO_ENVELOPE "$(GML_IN_CLIP_TO_ENVELOPE_GML_1)"
+GUI OPTIONAL CHECKBOX GML_IN_CLIP_TO_ENVELOPE_GML_1 YES%NO Clip to Search Envelope
+GUI DISCLOSUREGROUP GML_IN_GML_RDR_ADV_GML_1 CONTINUE_ON_GEOM_ERROR%SYSTEM_ENCODING%CACHE_XSD%CACHE_XSD_EXPIRY_TIME%MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV Advanced
+# ============================================================================
+# This keyword allows the GML reader to continue reading the input dataset when
+# it encounters an error reading a feature's geometry.
+DEFAULT_MACRO GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1 yes
+GML_1_CONTINUE_ON_GEOM_ERROR "$(GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1)"
+GUI CHOICE GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1 yes%no Continue on Geometry Error:
+# ============================================================================
+# This keyword specifies what encoding the GML schema and data features should
+# be in when they are output to the FME. The default value for this keyword
+# is the system's encoding.
+DEFAULT_MACRO GML_IN_SYSTEM_ENCODING_GML_1 
+GML_1_SYSTEM_ENCODING "$(GML_IN_SYSTEM_ENCODING_GML_1)"
+GUI OPTIONAL TEXT GML_IN_SYSTEM_ENCODING_GML_1 System Encoding:
+# ============================================================================
+# This keyword allows XML Schemas to be temporarily cached thereby minimizing
+# the number of network fetches.
+DEFAULT_MACRO GML_IN_CACHE_XSD_GML_1 yes
+GML_1_CACHE_XSD "$(GML_IN_CACHE_XSD_GML_1)"
+GUI CHOICE GML_IN_CACHE_XSD_GML_1 yes%no Cache XSD Documents:
+# ============================================================================
+# Specifies the amount of time in seconds an XML Schema document is allowed
+# to be cached before it expires.
+DEFAULT_MACRO GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1 
+GML_1_CACHE_XSD_EXPIRY_TIME "$(GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1)"
+GUI OPTIONAL INTEGER GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1 Cache XSD Expiry Time:
+DEFAULT_MACRO GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1 no
+GML_1_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV "$(GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1)"
+GUI CHOICE GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1 no%yes Simple multi-valued properties as csv:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_NETWORK_AUTHENTICATION_GML_1 
+GML_1_NETWORK_AUTHENTICATION "$(GML_IN_NETWORK_AUTHENTICATION_GML_1)"
+GUI OPTIONAL AUTHENTICATOR GML_IN_NETWORK_AUTHENTICATION_GML_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO GML_IN_ATTRIBUTE_READING_GML_1 ALL
+GML_1_ATTRIBUTE_READING "$(GML_IN_ATTRIBUTE_READING_GML_1)"
+# PR:31021
+# Include this file in workbench source preamble section to enable the ability
+# to specify a coordinate system for search envelope processing
+# ===========================================================================
+DEFAULT_MACRO SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1 
+GUI OPTIONAL COORDSYS SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1 Search Envelope Coordinate System:
+GML_1_SEARCH_ENVELOPE_COORDINATE_SYSTEM "$(SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1)"
+# ===========================================================================
+GML_1_DATASET "$(SourceDataset_GML_1)"
+#! END_SOURCE_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "SPATIALITE_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER SPATIALITE SPATIALITE_1
+# ============================================================================
+# The following GUI line prompts for a file to be used as the
+# the destination for the SpatiaLite writer.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+# The dataset this mapping file was generated for was:
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_SPATIALITE_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER SPATIALITE SPATIALITE_1
+DEFAULT_MACRO DestDataset_SPATIALITE_1 $(DestDataset_SPATIALITE_2)
+GUI FILENAME DestDataset_SPATIALITE_1 SpatiaLite_Database_Files(*.sl3;*.db;*.sqlite)|*.sl3;*.db;*.sqlite|SpatiaLite_Database_Files(*.sl3)|*.sl3|SpatiaLite_Database_Files(*.db)|*.db|SpatiaLite_Database_Files(*.sqlite)|*.sqlite|All_files(*)|* Destination SpatiaLite Database File:
+DEFAULT_MACRO SPATIALITE_OUT_OVERWRITE_DATASET_SPATIALITE_1 Yes
+SPATIALITE_1_OVERWRITE_DATASET "$(SPATIALITE_OUT_OVERWRITE_DATASET_SPATIALITE_1)"
+GUI CHOICE SPATIALITE_OUT_OVERWRITE_DATASET_SPATIALITE_1 Yes%No Overwrite Existing Database:
+DEFAULT_MACRO SPATIALITE_OUT_OVERWRITE_TABLES_SPATIALITE_1 No
+SPATIALITE_1_OVERWRITE_TABLES "$(SPATIALITE_OUT_OVERWRITE_TABLES_SPATIALITE_1)"
+DEFAULT_MACRO SPATIALITE_OUT_GENERIC_GEOMETRY_SPATIALITE_1 No
+SPATIALITE_1_GENERIC_GEOMETRY "$(SPATIALITE_OUT_GENERIC_GEOMETRY_SPATIALITE_1)"
+DEFAULT_MACRO SPATIALITE_OUT_COMPRESS_GEOMETRY_SPATIALITE_1 Yes
+SPATIALITE_1_COMPRESS_GEOMETRY "$(SPATIALITE_OUT_COMPRESS_GEOMETRY_SPATIALITE_1)"
+DEFAULT_MACRO SPATIALITE_OUT_CREATE_SPATIAL_INDEX_SPATIALITE_1 Yes
+SPATIALITE_1_CREATE_SPATIAL_INDEX "$(SPATIALITE_OUT_CREATE_SPATIAL_INDEX_SPATIALITE_1)"
+DEFAULT_MACRO SPATIALITE_OUT_ENCODING_SPATIALITE_1 utf-8
+SPATIALITE_1_ENCODING "$(SPATIALITE_OUT_ENCODING_SPATIALITE_1)"
+GUI OPTIONAL ENCODING SPATIALITE_OUT_ENCODING_SPATIALITE_1 SYSTEM%* Character Encoding:
+GUI DISCLOSUREGROUP SPATIALITE_OUT_SPATIALITE_WRT_ADV_PARM_SPATIALITE_1 TRANSACTION_SIZE Advanced
+DEFAULT_MACRO SPATIALITE_OUT_TRANSACTION_SIZE_SPATIALITE_1 1000
+SPATIALITE_1_TRANSACTION_SIZE "$(SPATIALITE_OUT_TRANSACTION_SIZE_SPATIALITE_1)"
+GUI INTEGER SPATIALITE_OUT_TRANSACTION_SIZE_SPATIALITE_1 Transaction Interval:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO SPATIALITE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SPATIALITE_1 Yes
+SPATIALITE_1_DESTINATION_DATASETTYPE_VALIDATION "$(SPATIALITE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SPATIALITE_1)"
+DEFAULT_MACRO SPATIALITE_OUT_COORDINATE_SYSTEM_GRANULARITY_SPATIALITE_1 FEATURE_TYPE
+SPATIALITE_1_COORDINATE_SYSTEM_GRANULARITY "$(SPATIALITE_OUT_COORDINATE_SYSTEM_GRANULARITY_SPATIALITE_1)"
+SPATIALITE_1_DATASET "$(DestDataset_SPATIALITE_1)"
+#! END_DEST_HEADER
+
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Vegnett_gml2spatialite.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_TIMINGS YES
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_GML_1 GML_1
+DEFAULT_MACRO DATASET_KEYWORD_SPATIALITE_1 SPATIALITE_1
+# -------------------------------------------------------------------------
+
+GML_1_READER_META_ATTRIBUTES fme_basename fme_feature_type fme_dataset
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Vegnett_gml2spatialite
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+GML_1_DEF Nettverk   nettverksnavn                xml_buffer   nettverkselement{}.nilReason xml_buffer   nettverkselement{}.gml_remoteSchema xml_buffer   nettverkselement{}.xlink_href xml_buffer   nettverkselement{}.owns      xml_boolean
+# -------------------------------------------------------------------------
+GML_1_DEF Vegnode   endringsflagg.Endringsflagg.typeEndring xml_buffer   endringsflagg.Endringsflagg.tidspunktEndring xml_date   datafangstdato               xml_date   oppdateringsdato             xml_date   kvalitet.Posisjonskvalitet.målemetode xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighet xml_int64   kvalitet.Posisjonskvalitet.synbarhet xml_buffer   kvalitet.Posisjonskvalitet.målemetodeHøyde xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighetHøyde xml_int64   kvalitet.Posisjonskvalitet.maksimaltAvvik xml_int64   prosesshistorie              xml_buffer   høydereferanse               xml_buffer   kommunenummer                xml_buffer   sideposisjon                 xml_buffer   identifikasjon.Identifikasjon.lokalId xml_buffer   identifikasjon.Identifikasjon.navnerom xml_buffer   identifikasjon.Identifikasjon.versjonId xml_buffer   nettverk.nilReason           xml_buffer   nettverk.gml_remoteSchema    xml_buffer   nettverk.xlink_href          xml_buffer   nettverk.owns                xml_boolean   sluttnodeFor{}.nilReason     xml_buffer   sluttnodeFor{}.gml_remoteSchema xml_buffer   sluttnodeFor{}.xlink_href    xml_buffer   sluttnodeFor{}.owns          xml_boolean   startnodeFor{}.nilReason     xml_buffer   startnodeFor{}.gml_remoteSchema xml_buffer   startnodeFor{}.xlink_href    xml_buffer   startnodeFor{}.owns          xml_boolean   posisjon                     xml_geometry
+# -------------------------------------------------------------------------
+GML_1_DEF Veglenkesekvens   endringsflagg.Endringsflagg.typeEndring xml_buffer   endringsflagg.Endringsflagg.tidspunktEndring xml_date   datafangstdato               xml_date   oppdateringsdato             xml_date   kvalitet.Posisjonskvalitet.målemetode xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighet xml_int64   kvalitet.Posisjonskvalitet.synbarhet xml_buffer   kvalitet.Posisjonskvalitet.målemetodeHøyde xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighetHøyde xml_int64   kvalitet.Posisjonskvalitet.maksimaltAvvik xml_int64   prosesshistorie              xml_buffer   høydereferanse               xml_buffer   kommunenummer                xml_buffer   sideposisjon                 xml_buffer   identifikasjon.Identifikasjon.lokalId xml_buffer   identifikasjon.Identifikasjon.navnerom xml_buffer   identifikasjon.Identifikasjon.versjonId xml_buffer   nettverk.nilReason           xml_buffer   nettverk.gml_remoteSchema    xml_buffer   nettverk.xlink_href          xml_buffer   nettverk.owns                xml_boolean   standardLRM                  xml_buffer   måltLengde                   xml_real64   sekvensdel{}.nilReason       xml_buffer   sekvensdel{}.gml_remoteSchema xml_buffer   sekvensdel{}.xlink_href      xml_buffer   sekvensdel{}.owns            xml_boolean
+# -------------------------------------------------------------------------
+GML_1_DEF Veglenkesett   endringsflagg.Endringsflagg.typeEndring xml_buffer   endringsflagg.Endringsflagg.tidspunktEndring xml_date   datafangstdato               xml_date   oppdateringsdato             xml_date   kvalitet.Posisjonskvalitet.målemetode xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighet xml_int64   kvalitet.Posisjonskvalitet.synbarhet xml_buffer   kvalitet.Posisjonskvalitet.målemetodeHøyde xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighetHøyde xml_int64   kvalitet.Posisjonskvalitet.maksimaltAvvik xml_int64   prosesshistorie              xml_buffer   høydereferanse               xml_buffer   kommunenummer                xml_buffer   sideposisjon                 xml_buffer   identifikasjon.Identifikasjon.lokalId xml_buffer   identifikasjon.Identifikasjon.navnerom xml_buffer   identifikasjon.Identifikasjon.versjonId xml_buffer   nettverk.nilReason           xml_buffer   nettverk.gml_remoteSchema    xml_buffer   nettverk.xlink_href          xml_buffer   nettverk.owns                xml_boolean   navn                         xml_buffer   lenke{}.nilReason            xml_buffer   lenke{}.gml_remoteSchema     xml_buffer   lenke{}.xlink_href           xml_buffer   lenke{}.owns                 xml_boolean
+# -------------------------------------------------------------------------
+GML_1_DEF Veglenke   endringsflagg.Endringsflagg.typeEndring xml_buffer   endringsflagg.Endringsflagg.tidspunktEndring xml_date   datafangstdato               xml_date   oppdateringsdato             xml_date   kvalitet.Posisjonskvalitet.målemetode xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighet xml_int64   kvalitet.Posisjonskvalitet.synbarhet xml_buffer   kvalitet.Posisjonskvalitet.målemetodeHøyde xml_buffer   kvalitet.Posisjonskvalitet.nøyaktighetHøyde xml_int64   kvalitet.Posisjonskvalitet.maksimaltAvvik xml_int64   prosesshistorie              xml_buffer   høydereferanse               xml_buffer   kommunenummer                xml_buffer   sideposisjon                 xml_buffer   identifikasjon.Identifikasjon.lokalId xml_buffer   identifikasjon.Identifikasjon.navnerom xml_buffer   identifikasjon.Identifikasjon.versjonId xml_buffer   nettverk.nilReason           xml_buffer   nettverk.gml_remoteSchema    xml_buffer   nettverk.xlink_href          xml_buffer   nettverk.owns                xml_boolean   standardLRM                  xml_buffer   måltLengde                   xml_real64   startposisjon                xml_real64   sluttposisjon                xml_real64   sekvens.nilReason            xml_buffer   sekvens.gml_remoteSchema     xml_buffer   sekvens.xlink_href           xml_buffer   sekvens.owns                 xml_boolean   sluttnode.nilReason          xml_buffer   sluttnode.gml_remoteSchema   xml_buffer   sluttnode.xlink_href         xml_buffer   sluttnode.owns               xml_boolean   startnode.nilReason          xml_buffer   startnode.gml_remoteSchema   xml_buffer   startnode.xlink_href         xml_buffer   startnode.owns               xml_boolean   typeVeg                      xml_buffer   detaljnivå                   xml_buffer   konnekteringslenke           xml_boolean   feltoversikt                 xml_buffer   veglenkeFraDato              xml_date   veglenkeTilDato              xml_date   senterlinje                  xml_geometry   veglenkeadresse.Veglenkeadresse.kommunenummer xml_buffer   veglenkeadresse.Veglenkeadresse.adressekode xml_int64   veglenkeadresse.Veglenkeadresse.adressenavn xml_buffer   veglenkeadresse.Veglenkeadresse.sideveg xml_boolean   brøytes                      xml_boolean   trafikkreguleringer          xml_buffer
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,GML_1)    ROUTE GML GML_1::Nettverk TO FME_GENERIC ::Nettverk ALIAS_GEOMETRY    ROUTE GML GML_1::Vegnode TO FME_GENERIC ::Vegnode ALIAS_GEOMETRY    ROUTE GML GML_1::Veglenkesekvens TO FME_GENERIC ::Veglenkesekvens ALIAS_GEOMETRY    ROUTE GML GML_1::Veglenkesett TO FME_GENERIC ::Veglenkesett ALIAS_GEOMETRY    ROUTE GML GML_1::Veglenke TO FME_GENERIC ::Veglenke ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+GML_1_MERGE_DEF GML_1::Nettverk EXACT Nettverk
+GML_1_MERGE_DEF GML_1::Vegnode EXACT Vegnode
+GML_1_MERGE_DEF GML_1::Veglenkesekvens EXACT Veglenkesekvens
+GML_1_MERGE_DEF GML_1::Veglenkesett EXACT Veglenkesett
+GML_1_MERGE_DEF GML_1::Veglenke EXACT Veglenke
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE Veglenke 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION "nettverk.xlink_href" "nettverk" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "sekvens.xlink_href" "sekvens" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "startnode.xlink_href" "startnode" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "sluttnode.xlink_href" "sluttnode" "RENAME_SET_DEFAULT" ""    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_037a978a_bfbf_4cec_b3a6_031819278eb28_replacer { findText replaceText invalidValue} {     set attrs [split \"sekvens,startnode,nettverk,sluttnode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_037a978a_bfbf_4cec_b3a6_031819278eb28_replacer {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme_basename<closeparen>.gml#,StringReplacer)} {} {_FME_NO_OP_}")
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "StringReplacer OUTPUT Splitter"   INPUT FEATURE_TYPE StringReplacer_OUTPUT   OUTPUT FEATURE_TYPE StringReplacer_OUTPUT_0_jIW8zCOSlXI=   OUTPUT FEATURE_TYPE StringReplacer_OUTPUT_1_jIW8zCOSlXI=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE Veglenkesekvens    LIST_NAME "sekvensdel{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "ORIGINAL_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeRenamer_2    INPUT  FEATURE_TYPE ListExploder_ELEMENTS 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION "nettverk.xlink_href" "nettverk" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "xlink_href" "sekvensdel" "RENAME_SET_DEFAULT" ""    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_2_OUTPUT
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_2_0384ea99_a107_4bb7_8ec3_cb48ed7c43ae8_replacer { findText replaceText invalidValue} {     set attrs [split \"nettverk,sekvensdel\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE AttributeRenamer_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_0384ea99_a107_4bb7_8ec3_cb48ed7c43ae8_replacer {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme_basename<closeparen>.gml#,StringReplacer_2)} {} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+INCLUDE [if { {GEOM_BUILD} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {GEOM_BUILD} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {GEOM_BUILD} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_BUILD} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_BUILD} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {GEOM_BUILD} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {GEOM_BUILD} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_BUILD} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_BUILD} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger    INPUT REFERENCER FEATURE_TYPE StringReplacer_2_OUTPUT    INPUT REFERENCEE FEATURE_TYPE StringReplacer_OUTPUT_0_jIW8zCOSlXI=    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>sekvensdel<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>gml_id<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "<Unused>"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 Yes    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_NOT_MERGED
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Sekvensdeler_utenfor_aktuell_kommune_Logger    INPUT  FEATURE_TYPE FeatureMerger_NOT_MERGED    OUTPUT FEATURE_TYPE Sekvensdeler_utenfor_aktuell_kommune_LOGGED                  @Log("Sekvensdeler_utenfor_aktuell_kommune: Feature is:","20","20")                  @FeatureType(Sekvensdeler_utenfor_aktuell_kommune_LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Sekvensdeler_utenfor_aktuell_kommune LOGGED Output Nuker"   INPUT FEATURE_TYPE Sekvensdeler_utenfor_aktuell_kommune_LOGGED
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO Aggregator_BREAK_ATTR
+INCLUDE [if {"No" == "Yes"} {puts {MACRO Aggregator_BREAK_ATTR BREAK_BEFORE_FIELD_CHANGE gml_id nettverk identifikasjon.Identifikasjon.navnerom identifikasjon.Identifikasjon.versjonId identifikasjon.Identifikasjon.lokalId} }]
+FACTORY_DEF * AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE FeatureMerger_MERGED    MODE ONE_LEVEL    GROUP_BY gml_id nettverk identifikasjon.Identifikasjon.navnerom identifikasjon.Identifikasjon.versjonId identifikasjon.Identifikasjon.lokalId    $(Aggregator_BREAK_ATTR)    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES Never    SEPARATOR <comma>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Nettverk TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nettverk<closeparen> GEOMETRY    ROUTE FME_GENERIC Aggregator_AGGREGATE TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>veglenkesekvens<closeparen> GEOMETRY    ROUTE FME_GENERIC Vegnode TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>identifikasjon_identifikasjon_lokalid<comma>identifikasjon.Identifikasjon.lokalId<comma>identifikasjon_identifikasjon_navnerom<comma>identifikasjon.Identifikasjon.navnerom<comma>identifikasjon_identifikasjon_versjonid<comma>identifikasjon.Identifikasjon.versjonId<comma>nettverk_xlink_href<comma>nettverk.xlink_href<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>vegnode<closeparen> GEOMETRY    ROUTE FME_GENERIC Veglenkesett TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>endringsflagg_endringsflagg_typeendring<comma>endringsflagg.Endringsflagg.typeEndring<comma>endringsflagg_endringsflagg_tidspunktendring<comma>endringsflagg.Endringsflagg.tidspunktEndring<comma>kvalitet_posisjonskvalitet_m<lt>u00e5<gt>lemetode<comma>kvalitet.Posisjonskvalitet.m<lt>u00e5<gt>lemetode<comma>kvalitet_posisjonskvalitet_n<lt>u00f8<gt>yaktighet<comma>kvalitet.Posisjonskvalitet.n<lt>u00f8<gt>yaktighet<comma>kvalitet_posisjonskvalitet_synbarhet<comma>kvalitet.Posisjonskvalitet.synbarhet<comma>kvalitet_posisjonskvalitet_m<lt>u00e5<gt>lemetodeh<lt>u00f8<gt>yde<comma>kvalitet.Posisjonskvalitet.m<lt>u00e5<gt>lemetodeH<lt>u00f8<gt>yde<comma>kvalitet_posisjonskvalitet_n<lt>u00f8<gt>yaktigheth<lt>u00f8<gt>yde<comma>kvalitet.Posisjonskvalitet.n<lt>u00f8<gt>yaktighetH<lt>u00f8<gt>yde<comma>kvalitet_posisjonskvalitet_maksimaltavvik<comma>kvalitet.Posisjonskvalitet.maksimaltAvvik<comma>identifikasjon_identifikasjon_lokalid<comma>identifikasjon.Identifikasjon.lokalId<comma>identifikasjon_identifikasjon_navnerom<comma>identifikasjon.Identifikasjon.navnerom<comma>identifikasjon_identifikasjon_versjonid<comma>identifikasjon.Identifikasjon.versjonId<comma>nettverk_nilreason<comma>nettverk.nilReason<comma>nettverk_gml_remoteschema<comma>nettverk.gml_remoteSchema<comma>nettverk_xlink_href<comma>nettverk.xlink_href<comma>nettverk_owns<comma>nettverk.owns<closeparen>,multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ GEOMETRY    ROUTE FME_GENERIC StringReplacer_OUTPUT_1_jIW8zCOSlXI= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>kvalitet_posisjonskvalitet_m<lt>u00e5<gt>lemetode<comma>kvalitet.Posisjonskvalitet.m<lt>u00e5<gt>lemetode<comma>kvalitet_posisjonskvalitet_n<lt>u00f8<gt>yaktighet<comma>kvalitet.Posisjonskvalitet.n<lt>u00f8<gt>yaktighet<comma>kvalitet_posisjonskvalitet_synbarhet<comma>kvalitet.Posisjonskvalitet.synbarhet<comma>kvalitet_posisjonskvalitet_m<lt>u00e5<gt>lemetodeh<lt>u00f8<gt>yde<comma>kvalitet.Posisjonskvalitet.m<lt>u00e5<gt>lemetodeH<lt>u00f8<gt>yde<comma>kvalitet_posisjonskvalitet_n<lt>u00f8<gt>yaktigheth<lt>u00f8<gt>yde<comma>kvalitet.Posisjonskvalitet.n<lt>u00f8<gt>yaktighetH<lt>u00f8<gt>yde<comma>kvalitet_posisjonskvalitet_maksimaltavvik<comma>kvalitet.Posisjonskvalitet.maksimaltAvvik<comma>identifikasjon_identifikasjon_lokalid<comma>identifikasjon.Identifikasjon.lokalId<comma>identifikasjon_identifikasjon_navnerom<comma>identifikasjon.Identifikasjon.navnerom<comma>identifikasjon_identifikasjon_versjonid<comma>identifikasjon.Identifikasjon.versjonId<comma>standardlrm<comma>standardLRM<comma>m<lt>u00e5<gt>ltlengde<comma>m<lt>u00e5<gt>ltLengde<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>veglenke<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+SPATIALITE_1_DEF nettverk   spatialite_type              wkb_none   spatialite_overwrite_tables  No   spatialite_create_spatial_index Yes   spatialite_compress_geometry Yes   gml_id                       string(255)   nettverksnavn                string(255)
+# -------------------------------------------------------------------------
+SPATIALITE_1_DEF veglenkesekvens   spatialite_type              wkb_multi_line_xyz   spatialite_overwrite_tables  No   spatialite_create_spatial_index Yes   spatialite_compress_geometry Yes   gml_id                       string(255)   identifikasjon_identifikasjon_lokalid string(255)   identifikasjon_identifikasjon_navnerom string(255)   identifikasjon_identifikasjon_versjonid string(255)   nettverk                     string(255)
+# -------------------------------------------------------------------------
+SPATIALITE_1_DEF vegnode   spatialite_type              wkb_point   spatialite_overwrite_tables  No   spatialite_create_spatial_index Yes   spatialite_compress_geometry Yes   gml_id                       string(255)   kommunenummer                string(255)   sideposisjon                 string(255)   identifikasjon_identifikasjon_lokalid string(255)   identifikasjon_identifikasjon_navnerom string(255)   identifikasjon_identifikasjon_versjonid string(255)   nettverk_xlink_href          string(255)   posisjon                     string(255)
+# -------------------------------------------------------------------------
+SPATIALITE_1_DEF veglenke   spatialite_type              wkb_line_xyz   spatialite_overwrite_tables  No   spatialite_create_spatial_index Yes   spatialite_compress_geometry Yes   gml_id                       string(255)   datafangstdato               string(255)   oppdateringsdato             string(255)   kvalitet_posisjonskvalitet_målemetode string(255)   kvalitet_posisjonskvalitet_nøyaktighet real(20,0)   kvalitet_posisjonskvalitet_synbarhet string(255)   kvalitet_posisjonskvalitet_målemetodehøyde string(255)   kvalitet_posisjonskvalitet_nøyaktighethøyde real(20,0)   kvalitet_posisjonskvalitet_maksimaltavvik real(20,0)   prosesshistorie              string(255)   høydereferanse               string(255)   kommunenummer                string(255)   identifikasjon_identifikasjon_lokalid string(255)   identifikasjon_identifikasjon_navnerom string(255)   identifikasjon_identifikasjon_versjonid string(255)   nettverk                     string(255)   standardlrm                  string(255)   måltlengde                   real(31,15)   startposisjon                real(31,15)   sluttposisjon                real(31,15)   sekvens                      string(255)   sluttnode                    string(255)   startnode                    string(255)   typeveg                      string(255)   detaljnivå                   string(255)   konnekteringslenke           integer   feltoversikt                 string(255)   veglenkefradato              string(255)   veglenketildato              string(255)   senterlinje                  string(255)   veglenkeadresse_veglenkeadresse_kommunenummer string(255)   veglenkeadresse_veglenkeadresse_adressekode real(20,0)   veglenkeadresse_veglenkeadresse_adressenavn string(255)   veglenkeadresse_veglenkeadresse_sideveg integer   brøytes                      integer   trafikkreguleringer          string(255)
