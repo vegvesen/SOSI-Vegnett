@@ -1,0 +1,24 @@
+Forbudt for gående;Forbudt for gående
+Forbudt for syklende;Forbudt for syklende
+Forbudt for gående og syklende;Forbudt for gående og syklende
+Forbudt for alle kjøretøy;Forbudt for alle kjøretøy
+Forbudt for motortrafikk;Forbudt for motortrafikk
+Forbudt for traktor;Forbudt for traktor
+Forbudt for motorsykkel;Forbudt for motorsykkel
+Forbudt for motorsykkel og moped;Forbudt for motorsykkel og moped
+Forbudt for lastebil og trekkbil;Forbudt for lastebil og trekkbil
+Forbudt for motortrafikk unntatt buss;Forbudt for motortrafikk unntatt buss
+Forbudt for motortrafikk unntatt taxi;Forbudt for motortrafikk unntatt taxi
+Forbudt for motortrafikk unntatt buss og taxi;Forbudt for motortrafikk unntatt buss og taxi
+Forbudt for lastebil og trekkbil unntatt kjøring til virksomhet eller adresse;Forbudt for lastebil og trekkbil unntatt kjøring til virksomhet eller adresse Virksomhet eller adresse spesifiseres som Merknad.
+Forbudt for motortrafikk unntatt varetransport;Forbudt for motortrafikk unntatt varetransport
+Forbudt for motortrafikk unntatt moped;Forbudt for motortrafikk unntatt moped
+Forbudt for motortrafikk unntatt spesiell motorvogntype;Forbudt for motortrafikk unntatt spesiell motorvogntype. Motorvogntype spesifiseres som Merknad.
+Gjennomkjøring forbudt;Gjennomkjøring forbudt
+Gjennomkjøring forbudt for lastebil og trekkbil;Gjennomkjøring forbudt for lastebil og trekkbil
+Gjennomkjøring forbudt til veg eller gate;Gjennomkjøring forbudt til veg eller gate. Veg eller gate som Merknad.
+Motortrafikk kun tillatt for varetransport;Motortrafikk kun tillatt for varetransport
+Motortrafikk kun tillatt for kjøring til eiendommer;Motortrafikk kun tillatt for kjøring til eiendommer
+Motortrafikk kun tillatt for varetransport og kjøring til eiendommer;Motortrafikk kun tillatt for varetransport og kjøring til eiendommer
+Motortrafikk kun tillatt for kjøring til virksomhet eller adresse;Motortrafikk kun tillatt for kjøring til virksomhet eller adresse. Virksomhet eller adresse spesifiseres som Merknad.
+Sykling mot kjøreretningen tillatt;Sykling mot kjøreretningen tillatt

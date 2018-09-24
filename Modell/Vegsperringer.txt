@@ -1,0 +1,8 @@
+Låst sperring;Bom eller annen type vegsperring som kan åpnes med nøkkel eller kode
+Ulåst sperring;Bom eller annen type vegsperring som kan åpnes manuelt uten nøkkel eller kode
+Fjernstyrt sperring;Bom eller annen type vegsperring som kan åpnes vha SMS, bombrikke, oppringning, vaktsentral e.l.
+Trafikkavviser;Stein, blokk, pullert, rørgelender eller andre vegsperringer som ikke kan flyttes eller åpnes uten verktøy eller store kjøretøyer.
+Bussluse;Grop i vegen som hindrer biltrafikk. Tilgjengelig for buss (brede kjøretøy)
+Betalingssperring;Bom eller annen type vegsperring som kan åpnes ved betaling
+
+

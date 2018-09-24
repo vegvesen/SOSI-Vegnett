@@ -1,0 +1,9 @@
+Varetransport hverdag u lørdag periode 1 fra kl;Varetransport hverdag untatt lørdag periode 1, fra klokkeslett
+Varetransport hverdag u lørdag periode 1 til kl;Varetransport hverdag untatt lørdag periode 1, til klokkeslett
+Varetransport hverdag u lørdag periode 2 fra kl;Varetransport hverdag untatt lørdag periode 2, fra klokkeslett
+Varetransport hverdag u lørdag periode 2 til kl;Varetransport hverdag untatt lørdag periode 2, til klokkeslett
+Varetransport lørdag periode 1 fra kl;Varetransport lørdag periode 1, fra klokkeslett
+Varetransport lørdag periode 1 til kl;Varetransport lørdag periode 1, til klokkeslett
+Varetransport lørdag periode 2 fra kl;Varetransport lørdag periode 2, fra klokkeslett
+Varetransport lørdag periode 2 til kl;Varetransport lørdag periode 1, til klokkeslett
+Kjøring til eiendommene tillatt;Kjøring til eiendommene tillatt
