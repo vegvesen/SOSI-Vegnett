@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gml:FeatureCollection xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:fkbvn="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" gml:id="id536f0c8a-2313-40a3-bab4-c35e81880eb1" xsi:schemaLocation="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn/fkbvn.xsd">
+<gml:FeatureCollection xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:fkbvn="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" gml:id="idfaee3d1e-e7e2-468f-b8b3-564092a4847e" xsi:schemaLocation="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn/fkbvn.xsd">
 	<gml:boundedBy>
 		<gml:Envelope srsName="EPSG:6173" srsDimension="3">
-			<gml:lowerCorner>286040.0 6746027.19995 122.7</gml:lowerCorner>
+			<gml:lowerCorner>286014.7 6746027.19995 122.7</gml:lowerCorner>
 			<gml:upperCorner>288778.17009 6746793.53344 126.88779</gml:upperCorner>
 		</gml:Envelope>
 	</gml:boundedBy>
@@ -51,7 +51,7 @@
 			<fkbvn:typeHinderHøydebegrensning>undergangBru</fkbvn:typeHinderHøydebegrensning>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.88337341_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>286044.6 6746258.0 124.9 286040.0 6746252.67073171 124.563414634152</gml:posList>
+					<gml:posList>286044.6 6746258.0 124.9 286036.4 6746248.5 124.3 286024.9 6746235.41 123.7 286019.7 6746229.09 123.4 286016.0 6746224.7 123.3 286015.2 6746222.7 123.2 286014.7 6746220.0 123.1</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>

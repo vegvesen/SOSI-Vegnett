@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gml:FeatureCollection xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:fkbvn="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" gml:id="id48a7f6ca-f4e8-45f7-87c5-cbeeca71187d" xsi:schemaLocation="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn/fkbvn.xsd">
+<gml:FeatureCollection xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:fkbvn="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" gml:id="id23fee233-4092-4006-9052-457f6ba01558" xsi:schemaLocation="https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/NVDB/fkbvn/fkbvn.xsd">
 	<gml:boundedBy>
 		<gml:Envelope srsName="EPSG:6173" srsDimension="3">
-			<gml:lowerCorner>284900.0 6745600.0 124.5</gml:lowerCorner>
-			<gml:upperCorner>289000.0 6748700.0 220.95</gml:upperCorner>
+			<gml:lowerCorner>284893.8864 6745591.2 124.5</gml:lowerCorner>
+			<gml:upperCorner>289042.6 6748814.0 220.95</gml:upperCorner>
 		</gml:Envelope>
 	</gml:boundedBy>
 	<gml:featureMember>
@@ -1187,7 +1187,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.114168304_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>287750.507604601 6748700.0 128.7 287784.4 6748614.91 128.7 287792.3 6748599.7 128.7 287793.6 6748597.0 128.7 287798.7 6748587.5 128.6 287805.0 6748577.7 128.4 287809.6 6748571.5 128.4 287815.6 6748564.0 128.5 287821.3 6748558.5 128.6 287828.5 6748552.09 128.7 287836.1 6748546.5 128.9 287845.2 6748541.41 129.1 287854.6 6748536.91 129.5 287865.7 6748532.41 130.2 287878.3 6748527.91 130.7 287890.3 6748523.59 131.2 287899.6 6748519.0 131.7 287908.6 6748514.41 132.1 287917.8 6748507.5 132.5 287925.2 6748501.2 132.8 287934.4 6748493.2 132.9 287943.8 6748484.7 133.0 287953.5 6748474.5 133.1</gml:posList>
+					<gml:posList>287705.1 6748814.0 128.7 287784.4 6748614.91 128.7 287792.3 6748599.7 128.7 287793.6 6748597.0 128.7 287798.7 6748587.5 128.6 287805.0 6748577.7 128.4 287809.6 6748571.5 128.4 287815.6 6748564.0 128.5 287821.3 6748558.5 128.6 287828.5 6748552.09 128.7 287836.1 6748546.5 128.9 287845.2 6748541.41 129.1 287854.6 6748536.91 129.5 287865.7 6748532.41 130.2 287878.3 6748527.91 130.7 287890.3 6748523.59 131.2 287899.6 6748519.0 131.7 287908.6 6748514.41 132.1 287917.8 6748507.5 132.5 287925.2 6748501.2 132.8 287934.4 6748493.2 132.9 287943.8 6748484.7 133.0 287953.5 6748474.5 133.1</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -8295,7 +8295,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.114168772_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>288940.4 6746840.41 133.8 288949.8 6746841.3 133.9 288963.9 6746842.91 133.9 288975.5 6746843.8 133.9 288988.3 6746844.8 133.9 289000.0 6746845.42045455 133.9</gml:posList>
+					<gml:posList>288940.4 6746840.41 133.8 288949.8 6746841.3 133.9 288963.9 6746842.91 133.9 288975.5 6746843.8 133.9 288988.3 6746844.8 133.9 289001.5 6746845.5 133.9 289012.8 6746845.8 133.9 289030.3 6746846.7 134.0 289037.0 6746846.7 134.1</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -8355,7 +8355,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.114168775_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>289000.0 6746838.67729652 133.914424624315 288998.59998 6746838.58997 133.89999 288974.90002 6746837.58997 133.7 288966.56854 6746835.7738 133.7 288964.90002 6746835.41003 133.7 288953.3 6746832.8 133.7</gml:posList>
+					<gml:posList>289039.7 6746841.59 134.2 289033.80005 6746840.41003 134.2 289032.24072 6746840.34985 134.19012 289018.0 6746839.80005 134.10001 288998.59998 6746838.58997 133.89999 288974.90002 6746837.58997 133.7 288966.56854 6746835.7738 133.7 288964.90002 6746835.41003 133.7 288953.3 6746832.8 133.7</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -8385,7 +8385,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.114168776_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>289000.0 6746836.655 133.914285714286 288998.6 6746836.59 133.9 288974.9 6746835.2 133.7 288965.0 6746834.2 133.7 288953.3 6746832.8 133.7</gml:posList>
+					<gml:posList>289042.6 6746838.09 134.2 289018.2 6746837.5 134.1 288998.6 6746836.59 133.9 288974.9 6746835.2 133.7 288965.0 6746834.2 133.7 288953.3 6746832.8 133.7</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -8865,7 +8865,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.114168856_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>287442.123404255 6745600.0 126.5 287436.3 6745603.91 126.5 287429.1 6745609.0 126.6 287417.9 6745615.5 126.8</gml:posList>
+					<gml:posList>287455.2 6745591.2 126.5 287445.4 6745597.8 126.5 287436.3 6745603.91 126.5 287429.1 6745609.0 126.6 287417.9 6745615.5 126.8</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -8895,7 +8895,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.114168857_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>287430.2 6745626.59 126.6 287436.5 6745616.91 126.4 287441.1 6745610.2 126.4 287448.237026239 6745600.0 126.499125364433</gml:posList>
+					<gml:posList>287430.2 6745626.59 126.6 287436.5 6745616.91 126.4 287441.1 6745610.2 126.4 287448.3 6745599.91 126.5 287455.2 6745591.2 126.5</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -13753,7 +13753,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.712892985_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>284900.0 6747023.47892989 143.855350553522 284902.82 6747019.02 143.59</gml:posList>
+					<gml:posList>284897.4 6747027.59 144.1 284902.82 6747019.02 143.59</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -13783,7 +13783,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.712892986_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>284902.82 6747019.02 143.59 284900.0 6747020.40628745 143.750987731717</gml:posList>
+					<gml:posList>284902.82 6747019.02 143.59 284893.8864 6747023.41168 144.1</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
@@ -14231,7 +14231,7 @@
 			</fkbvn:identifikasjon>
 			<fkbvn:senterlinje>
 				<gml:LineString gml:id="vegvesen.no.nvdb.852649897_0-0" srsName="EPSG:6173" srsDimension="3">
-					<gml:posList>287761.470366812 6748700.0 128.934829694323 287788.31 6748632.26 128.57 287791.34 6748625.04 128.53 287794.65 6748617.94 128.49 287798.24 6748610.97 128.45 287802.09 6748604.15 128.41 287806.21 6748597.48 128.37 287810.59 6748590.99 128.35 287815.22 6748584.66 128.36 287820.09 6748578.53 128.41 287825.2 6748572.59 128.5 287830.53 6748566.85 128.62 287836.09 6748561.33 128.78 287841.86 6748556.03 128.98 287847.84 6748550.96 129.22 287854.0 6748546.13 129.49 287860.35 6748541.54 129.8 287866.88 6748537.2 130.12 287888.11 6748523.7 131.14 287898.72 6748516.94 131.65 287904.02 6748513.57 131.89 287911.99 6748508.46 132.12 287919.72 6748502.95 132.26 287927.08 6748496.96 132.41 287934.06 6748490.51 132.56 287950.2 6748474.62 132.91</gml:posList>
+					<gml:posList>287761.09 6748700.96 128.94 287788.31 6748632.26 128.57 287791.34 6748625.04 128.53 287794.65 6748617.94 128.49 287798.24 6748610.97 128.45 287802.09 6748604.15 128.41 287806.21 6748597.48 128.37 287810.59 6748590.99 128.35 287815.22 6748584.66 128.36 287820.09 6748578.53 128.41 287825.2 6748572.59 128.5 287830.53 6748566.85 128.62 287836.09 6748561.33 128.78 287841.86 6748556.03 128.98 287847.84 6748550.96 129.22 287854.0 6748546.13 129.49 287860.35 6748541.54 129.8 287866.88 6748537.2 130.12 287888.11 6748523.7 131.14 287898.72 6748516.94 131.65 287904.02 6748513.57 131.89 287911.99 6748508.46 132.12 287919.72 6748502.95 132.26 287927.08 6748496.96 132.41 287934.06 6748490.51 132.56 287950.2 6748474.62 132.91</gml:posList>
 				</gml:LineString>
 			</fkbvn:senterlinje>
 			<fkbvn:lineærPosisjon>
