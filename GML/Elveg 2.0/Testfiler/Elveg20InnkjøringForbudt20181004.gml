@@ -1,0 +1,8477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection
+    xmlns="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/Elveg/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:wfs="http://www.opengis.net/wfs/2.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xsi:schemaLocation="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/Elveg/2.0
+    http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/Elveg/2.0/Elveg.xsd
+    http://www.opengis.net/wfs/2.0
+    http://schemas.opengis.net/wfs/2.0/wfs.xsd"
+    timeStamp="2018-10-04T20:45:38Z"
+    numberMatched="unknown"
+    numberReturned="0">
+	<wfs:member>
+		<gml:Envelope srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+			<gml:lowerCorner>286129.83997 6745591.2 124.5</gml:lowerCorner>
+			<gml:upperCorner>289042.6 6747671.5 161.60001</gml:upperCorner>
+		</gml:Envelope>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168264_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168264</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168264_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288884.0 6746524.41 132.3 288884.3 6746519.8 132.5 288884.9 6746511.2 132.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704518</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0418090025538443</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168265_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168265</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168265_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288865.7 6746751.41 132.3 288868.3 6746738.5 131.5 288870.4 6746728.59 131.0 288872.4 6746716.0 130.8 288872.7 6746706.0 130.4 288871.9 6746698.91 130.2 288869.1 6746690.3 130.1 288865.7 6746684.59 129.8 288861.5 6746678.8 129.8 288858.9 6746674.8 129.8 288857.9 6746673.3 129.8 288850.5 6746664.5 129.7 288845.7 6746657.09 129.7 288844.3 6746650.91 129.8 288844.1 6746639.8 130.0 288844.4 6746636.7 130.0 288845.8 6746632.09 130.1 288849.8 6746619.59 130.6 288850.8 6746616.59 130.7 288855.5 6746603.3 131.3 288859.4 6746592.7 131.5 288884.0 6746524.41 132.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704518</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0418090025538443</fraPosisjon>
+					<tilPosisjon>0.808276394412674</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168266_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168266</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168266_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288851.89999 6746804.40997 133.10001 288853.72623 6746798.11987 132.94347 288858.89999 6746780.29999 132.5 288861.7 6746768.5 132.39999 288865.7 6746751.40997 132.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704518</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.808276394412674</fraPosisjon>
+					<tilPosisjon>0.981335927117438</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168267_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168267</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168267_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288863.9 6746810.8 133.4 288862.48 6746808.82 133.32 288862.1 6746808.3 133.3 288860.3 6746805.09 133.2 288859.98 6746804.01001 133.17999 288858.82608 6746799.82166 133.10001 288862.8 6746780.40997 132.8 288864.8 6746768.29999 132.39999 288865.7 6746751.40997 132.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706370</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168268_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168268</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168268_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288851.3 6746806.91 133.4 288851.6 6746805.59 133.3 288851.9 6746804.41 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705396</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.211811958764072</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168269_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168269</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168269_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288847.8 6746811.59 133.5 288848.9 6746810.91 133.4 288849.8 6746810.2 133.4 288850.6 6746808.5 133.4 288851.3 6746806.91 133.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705396</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.211811958764072</fraPosisjon>
+					<tilPosisjon>0.708300629279322</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168270_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168270</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168270_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288844.9 6746813.59 133.5 288846.7 6746812.7 133.5 288847.8 6746811.59 133.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705396</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.708300629279322</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168271_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168271</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168271_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288590.3 6746713.2 128.0 288590.8 6746711.2 127.9 288590.7 6746710.09 128.1 288590.7 6746707.2 128.1 288590.6 6746704.2 128.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705397</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.706890655910487</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168272_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168272</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168272_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288589.6 6746716.91 127.9 288590.0 6746715.0 128.0 288590.30005 6746713.19995 128.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705397</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.706890655910487</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168273_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168273</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168273_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288585.40002 6746731.69995 127.8 288588.09998 6746723.69995 127.8 288588.982 6746719.708 127.85879 288589.59998 6746716.91003 127.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704519</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0121863787939865</fraPosisjon>
+					<tilPosisjon>0.0443004850955921</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168274_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168274</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168274_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288579.5 6746743.41 127.4 288580.3 6746741.8 127.4 288583.8 6746735.41 127.5 288585.4 6746731.7 127.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704519</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0443004850955921</fraPosisjon>
+					<tilPosisjon>0.0647680769655307</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168275_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168275</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168275_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288685.5 6746838.91 126.4 288679.6 6746835.91 126.4 288663.7 6746827.3 126.5 288639.2 6746814.09 126.6 288623.5 6746805.59 126.8 288606.5 6746796.3 127.0 288597.1 6746790.59 127.0 288590.6 6746785.3 127.1 288586.5 6746780.5 127.2 288582.2 6746774.09 127.2 288579.5 6746767.5 127.3 288578.1 6746758.91 127.4 288578.4 6746751.41 127.4 288579.5 6746743.41 127.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704519</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0647680769655307</fraPosisjon>
+					<tilPosisjon>0.349643763544301</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168276_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168276</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168276_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288760.9 6746795.09 126.6 288755.3 6746806.91 126.5 288749.5 6746818.59 126.3 288747.8 6746822.3 126.3 288744.5 6746827.09 126.1 288735.9 6746839.7 126.0 288727.0 6746846.0 125.8 288717.8 6746847.5 125.7 288710.2 6746847.09 125.7 288701.6 6746844.8 125.8 288692.4 6746842.0 126.1 288685.5 6746838.91 126.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704519</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.349643763544301</fraPosisjon>
+					<tilPosisjon>0.543524171563116</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168277_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168277</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168277_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288853.5 6746581.0 131.2 288840.6 6746612.41 130.9 288834.2 6746627.41 130.5 288815.1 6746673.09 128.9 288804.8 6746697.59 128.2 288793.9 6746722.91 127.6 288779.9 6746754.0 127.0 288760.9 6746795.09 126.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704519</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.543524171563116</fraPosisjon>
+					<tilPosisjon>0.973538839530445</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168278_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168278</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168278_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288862.2 6746569.59 131.8 288856.4 6746576.91 131.5 288853.5 6746581.0 131.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704519</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.973538839530445</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168279_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168279</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168279_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288843.4 6746804.3 133.4 288843.2 6746806.0 133.5 288843.0 6746807.7 133.5 288843.1 6746810.8 133.5 288844.9 6746813.59 133.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705398</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.781681842931277</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168280_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168280</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168280_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288844.5 6746801.8 133.1 288843.9 6746803.0 133.3 288843.4 6746804.3 133.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705398</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.781681842931277</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168281_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168281</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168281_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288849.89999 6746782.29999 132.60001 288847.5 6746791.29999 132.89999 288846.26598 6746795.61908 132.98227 288844.5 6746801.79999 133.10001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704520</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0131252518588755</fraPosisjon>
+					<tilPosisjon>0.0561337442581685</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168282_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168282</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168282_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288856.6 6746760.8 132.3 288855.59998 6746764.08997 132.2 288851.09998 6746777.19995 132.3 288849.9 6746782.3 132.60001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704520</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0561337442581685</fraPosisjon>
+					<tilPosisjon>0.104045983408449</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168283_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168283</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168283_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288860.8 6746687.41 129.8 288864.3 6746692.91 130.1 288866.7 6746699.7 130.2 288867.6 6746706.41 130.4 288867.2 6746715.5 130.8 288864.9 6746727.91 131.0 288863.0 6746736.59 131.5 288856.6 6746760.8 132.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704520</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.104045983408449</fraPosisjon>
+					<tilPosisjon>0.265945157417672</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168284_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168284</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168284_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288801.7 6746724.7 127.6 288804.3 6746718.8 127.8 288806.5 6746715.09 128.0 288810.5 6746707.91 128.0 288814.2 6746701.3 128.3 288819.8 6746692.0 128.7 288825.4 6746685.2 128.8 288830.7 6746679.41 129.0 288835.3 6746677.2 129.1 288838.8 6746675.7 129.4 288842.9 6746675.0 129.4 288847.1 6746675.91 129.5 288852.4 6746678.59 129.6 288858.1 6746683.8 129.7 288860.8 6746687.41 129.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704520</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.265945157417672</fraPosisjon>
+					<tilPosisjon>0.456416862556624</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168285_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168285</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168285_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288693.2 6746944.3 126.3 288730.3 6746876.09 126.2 288748.8 6746838.8 126.4 288749.2 6746838.0 126.4 288768.2 6746798.41 126.6 288787.1 6746757.3 127.0 288801.7 6746724.7 127.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704520</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.456416862556624</fraPosisjon>
+					<tilPosisjon>0.977107475204773</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168286_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168286</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168286_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288686.1 6746952.41 126.1 288689.7 6746948.41 126.2 288693.2 6746944.3 126.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704520</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.977107475204773</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168287_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168287</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168287_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288631.2 6747044.41 126.0 288629.7 6747049.09 126.0 288626.5 6747059.0 126.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704521</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0345089698091154</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168288_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168288</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168288_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288700.1 6746918.7 126.2 288689.1 6746939.91 126.1 288672.0 6746971.2 126.0 288663.4 6746986.5 126.0 288631.2 6747044.41 126.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704521</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0345089698091154</fraPosisjon>
+					<tilPosisjon>0.357042503032871</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168289_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168289</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168289_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288564.4 6746702.8 127.7 288567.29999 6746705.72156 127.7 288569.10655 6746713.49351 127.62294 288570.47626 6746719.50934 127.56451 288574.5 6746736.0 127.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706371</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168290_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168290</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168290_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288574.5 6746736.0 127.4 288573.4 6746750.59 127.4 288572.8 6746758.7 127.4 288574.2 6746767.59 127.3 288577.3 6746774.91 127.2 288582.4 6746782.09 127.2 288586.8 6746787.41 127.1 288594.0 6746792.91 127.0 288604.5 6746799.7 127.0 288620.7 6746808.09 126.8 288637.3 6746818.0 126.6 288661.2 6746829.91 126.5 288676.2 6746838.91 126.4 288680.5 6746841.3 126.4 288686.3 6746844.8 126.3 288694.7 6746851.41 126.0 288700.5 6746856.2 125.8 288704.0 6746860.59 125.8 288707.8 6746866.41 125.8 288710.3 6746872.91 125.8 288710.7 6746881.3 125.8 288709.9 6746889.0 125.8 288707.8 6746897.91 125.9 288705.2 6746905.5 125.9 288704.2 6746908.7 125.9 288700.1 6746918.7 126.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704521</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.357042503032871</fraPosisjon>
+					<tilPosisjon>0.932322520058367</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168291_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168291</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168291_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288580.9 6746713.7 127.7 288579.82 6746716.968 127.67231 288577.0 6746725.5 127.6 288575.4 6746731.3 127.6 288574.5 6746736.0 127.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704521</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.932322520058367</fraPosisjon>
+					<tilPosisjon>0.9845980164967</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168292_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168292</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168292_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288583.1 6746710.3 127.9 288581.9 6746712.2 127.8 288580.9 6746713.7 127.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705399</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.294215624200823</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168293_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168293</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168293_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288586.5 6746706.91 127.9 288584.8 6746708.59 127.9 288583.1 6746710.3 127.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705399</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.294215624200823</fraPosisjon>
+					<tilPosisjon>0.643090513087145</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168294_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168294</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168294_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288590.6 6746704.2 128.0 288588.1 6746706.0 128.0 288586.5 6746706.91 127.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705399</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.643090513087145</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168316_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168316</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168316_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286928.09998 6747438.79999 161.0 286927.19824 6747444.91418 161.0 286926.29999 6747450.5 161.3 286925.59998 6747455.0 161.5 286923.0 6747472.41 161.60001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706066</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.301714371956465</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168317_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168317</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168317_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286923.0 6747472.41 161.60001 286929.40002 6747458.0 161.60001 286930.20001 6747456.59 161.5 286932.79999 6747452.09 161.2 286934.3324 6747449.2478 161.12703 286936.82704 6747444.09244 161.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705563</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.304735498326178</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168318_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168318</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168318_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286930.9 6747425.31 161.23 286930.06481 6747428.74725 161.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706066</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0803142470777674</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168319_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168319</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168319_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286930.06481 6747428.74725 161.0 286928.9 6747434.09 160.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706066</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0803142470777674</fraPosisjon>
+					<tilPosisjon>0.203752297261618</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168320_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168320</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168320_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286938.51192 6747437.20245 161.0 286939.7 6747431.0 161.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705563</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.142147123501081</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168321_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168321</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168321_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286938.01185 6747439.81674 161.35 286938.51192 6747437.20245 161.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705563</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.142147123501081</fraPosisjon>
+					<tilPosisjon>0.210834749070705</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168322_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168322</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168322_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286928.9 6747434.09 160.9 286928.5 6747436.41 161.0 286928.3 6747437.59 161.0 286928.1 6747438.8 161.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706066</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.203752297261618</fraPosisjon>
+					<tilPosisjon>0.301714371956465</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168323_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168323</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168323_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286936.82704 6747444.09244 161.0 286938.01185 6747439.81674 161.35</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705563</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.210834749070705</fraPosisjon>
+					<tilPosisjon>0.304735498326178</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168404_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168404</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168404_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287158.6 6746517.41 133.1 287159.2 6746519.3 133.1 287159.7 6746521.2 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706084</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.13345067803521</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168405_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168405</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168405_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287169.5 6746520.0 133.0 287170.0 6746518.09 133.0 287170.4 6746516.09 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705581</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.13121408492464</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168406_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168406</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168406_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287159.69995 6746521.20001 133.10001 287161.3999 6746526.59003 133.0 287161.69385 6746528.33191 132.97549 287162.6001 6746533.70001 132.89999 287165.5 6746546.2 132.89999</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706084</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.13345067803521</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168407_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168407</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168407_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287165.5 6746546.2 132.9 287167.5 6746533.0 132.9 287168.2 6746525.8 133.0 287169.5 6746520.0 133.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705581</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.13121408492464</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168444_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168444</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168444_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286934.9 6747394.59 160.2 286936.3 6747402.91 160.3 286936.3 6747407.0 160.4 286935.2 6747411.2 160.5 286931.97992 6747422.0397 160.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706092</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.906412112841319</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168445_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168445</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168445_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286940.12326 6747426.96735 160.8 286941.5 6747416.09 160.7 286941.5 6747408.7 160.5 286941.0 6747404.59 160.5 286938.5 6747398.0 160.4 286934.9 6747394.59 160.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705589</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.909801955816361</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168446_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168446</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168446_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286931.97992 6747422.0397 160.9 286930.9 6747425.31 161.23</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706092</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.906412112841319</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168447_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168447</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168447_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286939.7 6747431.0 161.0 286940.12326 6747426.96735 160.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705589</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.909801955816361</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168552_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168552</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168552_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287165.5 6746489.29999 133.10001 287162.5 6746481.20001 133.0 287161.88623 6746478.07526 132.9442 287160.30005 6746470.0 132.8 287154.8 6746452.2 132.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706239</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168553_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168553</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168553_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287154.8 6746452.2 132.7 287155.6001 6746471.41 132.8 287156.03076 6746478.65421 132.8718 287156.19995 6746481.5 132.89999 287155.0 6746491.59 133.10001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705738</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168574_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168574</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168574_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288327.4 6746624.09 125.5 288329.2 6746622.3 125.5 288330.8 6746620.41 125.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706245</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.131864972184344</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168575_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168575</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168575_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288330.8 6746620.41 125.5 288332.1 6746619.09 125.7 288335.1 6746616.09 125.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706245</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.131864972184344</fraPosisjon>
+					<tilPosisjon>0.291708455032986</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168576_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168576</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168576_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288323.0 6746614.2 125.9 288325.0 6746619.3 125.5 288327.4 6746624.09 125.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705745</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.269239247637848</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168577_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168577</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168577_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288335.09998 6746616.09003 125.9 288334.90002 6746610.5 126.0 288334.82715 6746608.38739 125.96358 288334.69995 6746604.70001 125.9 288335.19995 6746598.0 125.7 288335.69995 6746595.40997 125.5 288335.1 6746589.2 125.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706245</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.291708455032986</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168578_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168578</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168578_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288335.1 6746589.2 125.4 288333.0 6746589.59003 125.5 288329.5 6746592.70001 125.6 288327.5 6746595.79999 125.7 288325.09998 6746604.09003 125.9 288324.36938 6746607.01904 125.96642 288324.0 6746608.5 126.0 288323.0 6746614.20001 125.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705745</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.269239247637848</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168589_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168589</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>2</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168589_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286137.8 6746359.5 130.3 286136.5 6746351.91003 129.7 286134.90002 6746337.19995 128.7 286133.0 6746322.19995 127.7 286131.5 6746310.08997 126.9 286130.5 6746302.5 126.7 286129.83997 6746297.04004 127.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650281</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.151720751926883</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168590_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168590</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>2</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168590_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286140.0 6746375.09 130.5 286138.9 6746367.3 130.4 286137.8 6746359.5 130.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650281</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.151720751926883</fraPosisjon>
+					<tilPosisjon>0.189648037422609</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168591_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168591</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>2</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168591_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286141.7 6746383.8 131.2 286140.9 6746379.41 130.9 286140.0 6746375.09 130.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650281</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.189648037422609</fraPosisjon>
+					<tilPosisjon>0.21105673983156</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168592_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168592</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>2</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168592_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286149.9 6746448.91 135.1 286149.5 6746444.0 134.9 286148.4 6746437.0 134.5 286147.6 6746427.91 133.7 286145.3 6746411.0 132.5 286141.7 6746383.8 131.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650281</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.21105673983156</fraPosisjon>
+					<tilPosisjon>0.36934001833299</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168593_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168593</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168593_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286261.6 6746668.91 143.6 286262.9 6746668.7 143.6 286263.9 6746668.59 143.6 286265.1 6746667.91 143.6 286264.7 6746664.7 143.6 286264.2 6746660.3 143.5 286262.8 6746656.5 143.4 286261.1 6746653.3 143.3 286258.6 6746651.5 143.2 286253.4 6746648.8 142.9 286248.7 6746646.3 142.6 286244.6 6746644.0 142.4 286239.8 6746640.91 142.1 286237.1 6746638.91 141.9 286234.3 6746636.0 141.6 286231.6 6746632.8 141.4 286228.4 6746628.5 141.1 286222.5 6746620.59 140.7 286213.9 6746609.7 139.9 286207.7 6746600.91 139.3 286200.7 6746591.5 138.8 286196.9 6746586.41 138.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650281</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.727077893665088</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168596_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168596</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168596_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286179.8 6746684.3 145.7 286183.10001 6746683.29999 145.60001 286187.10223 6746681.57352 145.3 286191.39999 6746680.09 145.10001 286196.8 6746678.91 144.89999 286204.7 6746677.79999 144.60001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650331</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.689997641038277</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168606_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168606</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168606_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287199.9 6746724.8 139.4 287197.8 6746721.3 139.2 287195.8 6746718.8 139.2 287193.7 6746716.7 139.1 287190.3 6746714.59 139.0 287187.0 6746712.3 139.0 287184.0 6746710.7 138.9 287179.6 6746708.2 138.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705755</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168607_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168607</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>2</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168607_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286204.8 6746295.41 126.6 286207.5 6746312.41 127.6 286209.3 6746326.5 128.4 286213.1 6746349.7 131.4 286214.2 6746356.5 131.8 286215.2 6746363.0 132.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650409</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0905922872371837</fraPosisjon>
+					<tilPosisjon>0.519465784719466</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168611_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168611</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168611_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287260.2 6746452.7 132.4 287259.8999 6746463.20001 132.5 287259.61743 6746469.64487 132.60001 287258.80005 6746472.08997 132.60001 287256.70361 6746475.05664 132.67912 287247.31599 6746481.62628 132.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705756</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168612_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168612</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168612_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287281.89566 6746475.07541 132.6 287271.69995 6746472.08997 132.7 287268.6001 6746469.08997 132.60001 287267.9751 6746467.90231 132.57983 287265.5 6746463.20001 132.5 287260.2 6746452.7 132.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706253</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168629_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168629</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168629_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287420.5 6745642.19995 126.8 287429.30005 6745647.19995 126.5 287433.69678 6745649.59314 126.38869 287437.19995 6745651.5 126.3 287456.30005 6745664.69995 125.7 287466.5 6745673.0 125.4 287475.80005 6745680.58997 125.2 287483.69995 6745687.80005 125.1 287492.69995 6745697.5 124.9 287502.09998 6745708.30005 124.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706256</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.553273927186344</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168630_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168630</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168630_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287509.59998 6745703.30005 124.8 287508.30005 6745701.58997 124.9 287499.40002 6745691.5 125.0 287490.59998 6745682.69995 125.3 287477.0 6745670.69995 125.4 287467.19995 6745662.80005 125.7 287454.0 6745652.80005 125.9 287439.55542 6745641.37488 126.4 287433.40002 6745633.91003 126.5 287429.90002 6745630.69995 126.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705763</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.558593333904657</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168631_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168631</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168631_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287502.1001 6745708.29999 124.7 287504.8999 6745711.59003 124.7 287508.79663 6745716.90454 124.66289 287515.3999 6745725.90997 124.6 287524.3999 6745738.40997 124.6 287531.80005 6745749.09003 124.6 287543.30005 6745765.59003 124.6 287548.19995 6745771.20001 124.7 287553.4 6745776.41 124.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706256</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.553273927186344</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168632_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168632</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168632_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287553.4 6745776.41 124.7 287551.5 6745770.09003 124.7 287547.0 6745761.20001 124.7 287541.30005 6745751.90997 124.5 287532.80005 6745738.0 124.5 287525.3999 6745726.0 124.7 287518.30005 6745714.79999 124.7 287515.92798 6745711.66437 124.72726 287509.6001 6745703.29999 124.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705763</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.558593333904657</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168633_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168633</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168633_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287617.7 6745868.2 125.6 287619.2 6745873.2 125.6 287622.1 6745879.41 125.6 287626.4 6745887.09 125.6 287632.5 6745898.7 125.6 287641.6 6745916.59 125.7 287642.6 6745919.3 125.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706257</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.152452662978433</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168634_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168634</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168634_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287642.6001 6745919.29999 125.7 287647.19995 6745929.70001 125.7 287654.80005 6745949.09003 125.6 287659.80005 6745962.70001 125.5 287663.69995 6745975.90997 125.4 287668.80005 6745991.90997 125.3 287672.69995 6746005.20001 125.2 287676.19995 6746017.5 125.1 287679.69995 6746029.69995 125.2 287680.3728 6746031.87671 125.2 287684.80005 6746046.19995 125.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706257</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.152452662978433</fraPosisjon>
+					<tilPosisjon>0.510810076423539</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168635_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168635</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168635_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287649.83548 6745915.70829 125.9 287643.8 6745904.7 125.8 287637.6 6745893.8 125.8 287630.5 6745882.8 125.8 287624.9 6745874.59 125.7 287621.7 6745870.3 125.7 287617.7 6745868.2 125.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705764</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.156123829510737</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168636_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168636</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168636_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287693.1001 6746043.58997 125.1 287688.5166 6746028.9834 125.1 287687.80005 6746026.69995 125.1 287679.1001 6745998.20001 125.2 287673.69995 6745980.29999 125.4 287669.69995 6745967.0 125.6 287664.6001 6745952.20001 125.7 287659.30005 6745936.79999 125.7 287654.1001 6745924.29999 125.8 287649.83548 6745915.70829 125.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705764</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.156123829510737</fraPosisjon>
+					<tilPosisjon>0.521005606123402</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168637_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168637</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168637_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287684.80005 6746046.19995 125.2 287685.5 6746048.41003 125.2 287689.21606 6746059.97888 125.12988 287690.80005 6746064.91003 125.1 287695.6001 6746080.30005 125.0 287700.69995 6746096.69995 125.0 287705.30005 6746111.91003 124.9 287709.0 6746123.5 124.9 287711.30005 6746130.08997 124.9 287713.80005 6746136.5 125.0 287717.6001 6746144.80005 124.9 287722.0 6746153.08997 124.9 287726.5 6746160.91003 124.9 287731.12158 6746167.91162 124.9 287732.5 6746170.0 124.9 287737.30005 6746176.41003 124.9 287744.5 6746184.58997 125.0 287750.6001 6746191.69995 125.0 287758.8999 6746199.69995 125.0 287761.69995 6746201.0 125.0 287768.2 6746201.91 125.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706257</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.510810076423539</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168638_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168638</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168638_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287768.2 6746201.91 125.0 287764.6001 6746198.41003 125.0 287761.19995 6746193.41003 125.0 287751.0 6746182.5 125.0 287738.19995 6746165.41003 124.7 287737.05054 6746163.43738 124.7 287732.6001 6746155.80005 124.7 287727.69995 6746146.19995 124.8 287723.3999 6746136.58997 124.8 287718.69995 6746123.5 124.8 287713.69995 6746107.5 124.9 287708.0 6746090.0 124.8 287703.5 6746075.91003 125.0 287697.46191 6746057.0697 125.07188 287695.1001 6746049.69995 125.1 287693.1001 6746043.58997 125.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705764</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.521005606123402</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168639_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168639</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168639_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287967.1 6746531.3 127.6 287963.3 6746537.3 127.4 287962.2 6746542.5 127.3 287960.0 6746552.5 127.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706258</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.459155916892001</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168640_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168640</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168640_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287960.0 6746552.5 127.0 287959.07678 6746556.99292 127.0 287958.5 6746559.79999 127.0 287956.59998 6746567.90997 127.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706258</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.459155916892001</fraPosisjon>
+					<tilPosisjon>0.778698002349334</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168641_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168641</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168641_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287956.6 6746567.91 127.1 287958.4 6746571.8 127.0 287961.6 6746577.59 127.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706258</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.778698002349334</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168642_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168642</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168642_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287969.5 6746570.90997 126.9 287970.5 6746563.5 126.8 287970.67957 6746560.0896 126.85983 287970.80005 6746557.79999 126.9 287971.19995 6746550.79999 127.0 287971.30005 6746543.5 127.3 287971.09998 6746537.70001 127.4 287967.90002 6746533.5 127.6 287967.09998 6746531.29999 127.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705765</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.79705939571895</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168643_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168643</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168643_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287965.7 6746574.7 127.1 287968.0 6746572.7 127.0 287969.5 6746570.91 126.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705765</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.79705939571895</fraPosisjon>
+					<tilPosisjon>0.902129376775322</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168644_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168644</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168644_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287961.6 6746577.59 127.2 287963.9 6746575.91 127.1 287965.7 6746574.7 127.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705765</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.902129376775322</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168654_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168654</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168654_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288843.4 6746804.3 133.4 288845.1 6746808.41 133.5 288847.8 6746811.59 133.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706446</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168655_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168655</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168655_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288590.3 6746713.2 128.0 288588.6 6746709.0 127.9 288586.5 6746706.91 127.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706443</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168660_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168660</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168660_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287956.6 6746567.91 127.1 287961.4 6746571.3 127.1 287965.7 6746574.7 127.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706438</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168669_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168669</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168669_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286501.6 6746248.59 132.0 286504.3 6746248.09 131.8 286506.8 6746247.41 131.7 286512.7 6746248.09 131.7 286517.4 6746250.0 131.7 286521.2 6746252.91 131.7 286544.48 6746270.33 131.97</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706426</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.794784203720186</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168700_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168700</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168700_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287177.2 6746507.09009 133.10001 287182.3 6746502.80005 133.0 287187.60001 6746500.5 132.89999 287237.0 6746491.09009 132.89999 287299.5 6746479.59009 132.5 287321.0 6746475.58984 132.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0521745994816538</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168701_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168701</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168701_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287247.31599 6746481.62628 132.8 287234.37376 6746484.08865 132.89999 287185.8 6746492.0 132.89999 287174.9 6746495.2 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0281975460293657</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168702_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168702</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168702_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287265.77539 6746477.9194 132.7 287259.69995 6746479.16431 132.8 287247.31599 6746481.62628 132.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0281975460293657</fraPosisjon>
+					<tilPosisjon>0.0325770597198066</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168703_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168703</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168703_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287281.89566 6746475.07541 132.6 287270.59998 6746477.14566 132.7 287265.77539 6746477.9194 132.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0325770597198066</fraPosisjon>
+					<tilPosisjon>0.0360674386611106</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168704_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168704</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168704_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287319.23319 6746469.09647 132.01399 287310.27917 6746470.40329 132.02 287289.62 6746473.81122 132.26 287281.89566 6746475.07541 132.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0360674386611106</fraPosisjon>
+					<tilPosisjon>0.0515508888903139</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168718_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168718</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168718_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287724.40002 6746464.19995 129.5 287746.30005 6746474.80005 129.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.198247782805847</fraPosisjon>
+					<tilPosisjon>0.206816219550452</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168719_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168719</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168719_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287746.29999 6746474.80005 129.7 287774.5 6746489.19995 129.8 287789.5 6746496.69995 129.7 287816.6001 6746510.08984 129.39999 287835.38525 6746519.44751 129.31181 287837.8999 6746520.69995 129.3 287857.19995 6746530.58997 128.89999 287859.02002 6746531.52002 128.88 287877.1 6746540.8 128.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.206816219550452</fraPosisjon>
+					<tilPosisjon>0.258413629432306</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168720_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168720</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168720_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287748.5 6746470.59009 129.60001 287745.75 6746469.36011 129.57001 287738.19995 6746466.0 129.5 287730.09998 6746462.0 129.5 287725.69995 6746459.80005 129.39999</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.199331292649371</fraPosisjon>
+					<tilPosisjon>0.208202658292032</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168721_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168721</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168721_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287860.8999 6746527.58984 128.89999 287838.5 6746516.08984 129.3 287837.19702 6746515.4353 129.30624 287833.14209 6746513.39819 129.32564 287817.6001 6746505.58984 129.39999 287790.19995 6746492.19995 129.7 287774.8999 6746484.69995 129.8 287748.5 6746470.59009 129.60001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.208202658292032</fraPosisjon>
+					<tilPosisjon>0.252523012215593</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168722_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168722</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168722_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287877.1 6746540.8 128.7 287884.0 6746544.59 128.6 287891.0 6746548.2 128.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.258413629432306</fraPosisjon>
+					<tilPosisjon>0.263960094397386</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168723_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168723</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168723_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287880.80005 6746534.5 128.60001 287873.69995 6746532.30005 128.7 287860.9 6746527.59 128.89999</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706437</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.192917801793152</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168724_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168724</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168724_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287879.6 6746536.5 128.8 287877.3 6746535.7 128.8 287877.10999 6746535.61011 128.8 287860.8999 6746527.58984 128.89999</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.252523012215593</fraPosisjon>
+					<tilPosisjon>0.259811019109671</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168725_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168725</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168725_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287891.0 6746548.2 128.5 287893.9 6746549.59 128.5 287896.7 6746551.09 128.5 287905.4 6746555.41 128.2 287912.9 6746558.91 128.1 287916.6 6746560.3 128.0 287921.4 6746562.8 127.8 287927.3 6746565.59 127.7 287937.7 6746570.3 127.5 287961.6 6746577.59 127.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.263960094397386</fraPosisjon>
+					<tilPosisjon>0.290968449475264</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168726_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168726</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168726_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287893.8 6746543.3 128.5 287891.08 6746542.1 128.54 287887.0 6746540.3 128.6 287879.6 6746536.5 128.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.259811019109671</fraPosisjon>
+					<tilPosisjon>0.265350540686283</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168727_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168727</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168727_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287956.6 6746567.91 127.1 287954.6 6746567.3 127.2 287944.8 6746564.5 127.2 287936.1 6746561.7 127.4 287926.6 6746558.09 127.5 287922.7 6746556.3 127.7 287918.8 6746555.0 127.9 287913.8 6746552.5 128.1 287906.9 6746549.2 128.2 287893.8 6746543.3 128.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.265350540686283</fraPosisjon>
+					<tilPosisjon>0.289124986241684</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168728_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168728</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168728_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287960.0 6746552.5 127.0 287957.02795 6746556.33875 127.12383 287955.19995 6746558.70007 127.2 287949.92773 6746560.4425 127.2 287947.0 6746561.41003 127.2 287936.8999 6746559.0 127.4 287929.19995 6746556.0 127.6 287925.19995 6746554.59009 127.7 287920.69995 6746553.20007 127.8 287895.53 6746541.4 128.3 287880.8 6746534.5 128.60001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706437</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.192917801793152</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168729_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168729</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168729_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287961.6 6746577.59 127.2 287967.9 6746579.41 127.1 287974.4 6746581.2 127.0 287987.6 6746583.8 126.8 287989.97012 6746584.17746 126.8 287995.7 6746585.09 126.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.290968449475264</fraPosisjon>
+					<tilPosisjon>0.303278846945975</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168730_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168730</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168730_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287965.7 6746574.7 127.1 287974.30005 6746578.58997 127.0 287987.5 6746580.91003 126.8 287990.26783 6746581.22456 126.8 287996.30005 6746581.91003 126.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706439</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.302171656497397</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168731_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168731</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168731_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287969.5 6746570.91 126.9 287965.7 6746570.09 127.0 287962.55 6746569.34 127.03 287956.6 6746567.91 127.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.289124986241684</fraPosisjon>
+					<tilPosisjon>0.293783050692091</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168732_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168732</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168732_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287995.7 6746585.09 126.8 288014.9 6746586.5 126.8 288033.3 6746588.41 126.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.303278846945975</fraPosisjon>
+					<tilPosisjon>0.31657249962445</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168733_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168733</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168733_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287997.1 6746576.09 126.7 287991.3142 6746575.36474 126.78149 287990.0 6746575.2 126.8 287980.6 6746573.3 126.7 287971.5 6746571.2 126.9 287969.5 6746570.91 126.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.293783050692091</fraPosisjon>
+					<tilPosisjon>0.303667847942028</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168734_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168734</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168734_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287996.3 6746581.91 126.8 288015.1 6746583.5 126.8 288033.6 6746585.3 126.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706439</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.302171656497397</fraPosisjon>
+					<tilPosisjon>0.659198457756276</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168735_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168735</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168735_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288033.3 6746588.41 126.7 288050.4 6746590.2 126.5 288068.8 6746591.5 126.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.31657249962445</fraPosisjon>
+					<tilPosisjon>0.329123951814008</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168736_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168736</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168736_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288034.2 6746579.59 126.7 288015.7 6746577.91 126.7 287997.1 6746576.09 126.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.303667847942028</fraPosisjon>
+					<tilPosisjon>0.316771070430718</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168737_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168737</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168737_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288033.6 6746585.3 126.8 288036.5 6746585.58997 126.7 288051.5 6746588.41003 126.5 288068.8 6746591.5 126.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706439</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.659198457756276</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168738_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168738</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168738_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288068.8 6746591.5 126.5 288084.4 6746593.3 126.4 288095.1 6746594.2 126.5 288102.7 6746594.91 126.5 288106.8 6746595.41 126.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.329123951814008</fraPosisjon>
+					<tilPosisjon>0.342578450326652</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168739_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168739</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168739_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288106.8 6746595.41 126.4 288113.6 6746596.0 126.4 288125.9 6746597.0 126.4 288145.2 6746599.0 126.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.342578450326652</fraPosisjon>
+					<tilPosisjon>0.356161320384081</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168740_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168740</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168740_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288145.2 6746599.0 126.4 288159.8 6746600.09 126.3 288178.8 6746601.8 126.1 288192.4 6746603.3 126.0 288207.3 6746604.7 125.9 288218.8 6746606.2 125.9 288234.8 6746608.2 125.9 288244.0 6746609.3 125.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.356161320384081</fraPosisjon>
+					<tilPosisjon>0.39114998203697</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168741_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168741</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168741_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288145.8 6746594.09 126.3 288144.6 6746594.0 126.3 288126.0 6746592.2 126.4 288113.5 6746590.8 126.4 288107.0 6746590.0 126.4 288103.4 6746589.7 126.5 288096.5 6746588.59 126.5 288089.0 6746587.5 126.5 288076.8 6746585.7 126.5 288065.2 6746583.91 126.6 288053.6 6746582.2 126.6 288044.8 6746580.91 126.7 288034.2 6746579.59 126.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.316771070430718</fraPosisjon>
+					<tilPosisjon>0.356353582666636</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168742_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168742</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168742_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288244.3 6746603.59 125.9 288235.3 6746602.8 125.9 288219.0 6746601.09 125.9 288207.6 6746600.2 125.9 288192.4 6746598.59 126.0 288179.3 6746597.09 126.1 288159.9 6746595.41 126.3 288145.8 6746594.09 126.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.356353582666636</fraPosisjon>
+					<tilPosisjon>0.391152018842024</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168743_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168743</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168743_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288244.0 6746609.3 125.9 288247.1 6746609.7 125.9 288269.3 6746613.5 125.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.39114998203697</fraPosisjon>
+					<tilPosisjon>0.400182419640169</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168744_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168744</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168744_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288269.3 6746613.5 125.8 288288.1 6746616.8 125.6 288312.0 6746621.09 125.5 288327.4 6746624.09 125.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.400182419640169</fraPosisjon>
+					<tilPosisjon>0.4209815618194</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168745_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168745</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168745_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288323.0 6746614.2 125.9 288316.5 6746613.5 125.9 288305.0 6746612.09 125.9 288293.1 6746610.41 125.9 288283.3 6746609.0 126.0 288274.1 6746607.91 125.9 288272.0 6746607.5 125.9 288268.1 6746607.09 125.8 288264.5 6746606.5 125.8 288258.3 6746605.59 125.8 288247.0 6746604.09 125.9 288244.3 6746603.59 125.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.391152018842024</fraPosisjon>
+					<tilPosisjon>0.419081173850229</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168746_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168746</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168746_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288327.4 6746624.09 125.5 288334.6 6746625.3 125.5 288348.1 6746628.09 125.4 288362.4 6746631.09 125.4 288385.0 6746636.3 125.5 288399.5 6746640.0 125.5 288419.1 6746645.59 125.5 288434.0 6746650.41 125.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.4209815618194</fraPosisjon>
+					<tilPosisjon>0.459680950622756</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168747_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168747</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168747_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288335.1 6746616.09 125.9 288328.07 6746614.81 125.9 288328.0 6746614.8 125.9 288323.0 6746614.2 125.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.419081173850229</fraPosisjon>
+					<tilPosisjon>0.423389944375385</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168748_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168748</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168748_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288434.0 6746650.41 125.5 288448.3 6746655.59 125.5 288468.4 6746662.59 125.7 288483.0 6746668.3 125.8 288508.9 6746678.91 126.1 288533.2 6746689.09 126.6 288555.5 6746698.59 127.2 288564.4 6746702.8 127.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.459680950622756</fraPosisjon>
+					<tilPosisjon>0.509201687395727</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168749_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168749</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168749_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288330.8 6746620.41 125.5 288332.69995 6746621.08997 125.5 288340.5 6746623.08997 125.4 288362.69995 6746628.5 125.4 288385.30005 6746633.69995 125.5 288400.1001 6746637.19995 125.5 288413.19995 6746641.0 125.5 288421.1532 6746644.5 125.5 288434.0 6746650.41 125.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706440</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706441</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168749_1">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168749</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168749_1-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288323.0 6746614.2 125.9 288327.69995 6746617.91003 125.6 288330.8 6746620.41 125.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706440</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706441</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168750_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168750</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168750_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288464.5 6746651.5 126.1 288451.8 6746647.09 126.0 288439.1 6746642.59 126.0 288428.6 6746639.59 126.0 288409.8 6746634.0 125.8 288393.9 6746629.8 125.8 288382.8 6746627.0 125.8 288369.8 6746624.0 125.7 288357.4 6746621.41 125.8 288343.7 6746617.8 125.9 288335.1 6746616.09 125.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.423389944375385</fraPosisjon>
+					<tilPosisjon>0.470609283995065</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168751_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168751</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168751_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288564.4 6746702.8 127.7 288575.4 6746707.2 127.8 288583.1 6746710.3 127.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.509201687395727</fraPosisjon>
+					<tilPosisjon>0.516297321296188</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168752_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168752</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168752_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288583.1 6746710.3 127.9 288586.7 6746711.8 128.0 288590.3 6746713.2 128.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.516297321296188</fraPosisjon>
+					<tilPosisjon>0.51903145139716</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168753_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168753</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168753_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288586.5 6746706.91 127.9 288583.19995 6746704.41003 127.9 288577.078 6746701.91406 127.69817 288574.09998 6746700.69995 127.6 288561.80005 6746695.91003 127.3 288546.80005 6746688.91003 127.0 288535.0 6746684.19995 126.7 288519.59998 6746677.80005 126.5 288507.30005 6746672.69995 126.2 288490.5 6746665.0 126.1 288477.80005 6746659.08997 126.1 288470.90002 6746656.19995 126.1 288464.5 6746651.5 126.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706442</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168754_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168754</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168754_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288590.6 6746704.2 128.0 288586.99 6746702.7 127.95 288583.4 6746701.2 127.9 288574.2 6746697.5 127.6 288562.0 6746692.59 127.3 288546.7 6746686.2 127.0 288535.0 6746681.2 126.7 288520.0 6746674.8 126.4 288507.5 6746669.59 126.2 288490.2 6746661.8 126.0 288478.2 6746656.8 126.1 288464.5 6746651.5 126.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.470609283995065</fraPosisjon>
+					<tilPosisjon>0.518678236870846</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168755_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168755</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168755_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288590.3 6746713.2 128.0 288612.3 6746722.5 128.7 288623.6 6746727.41 129.0 288629.4 6746730.0 129.2 288629.9 6746730.3 129.2 288630.4 6746730.5 129.2 288632.08 6746731.17 129.26 288650.2 6746738.41 129.9 288672.3 6746747.7 130.6 288697.4 6746757.7 131.3 288708.7 6746761.91 131.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.51903145139716</fraPosisjon>
+					<tilPosisjon>0.56414284168085</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168756_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168756</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168756_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288585.4 6746731.7 127.8 288593.09998 6746728.0 127.8 288595.53625 6746727.44604 127.91602 288601.5 6746726.08997 128.2 288608.90002 6746727.08997 128.5 288627.59998 6746732.5 129.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706444</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.337877102124991</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168757_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168757</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168757_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288627.6 6746732.5 129.2 288632.29 6746734.35 129.36 288648.59998 6746740.80005 129.89999 288685.5 6746755.91003 131.0 288692.90002 6746757.80005 131.3 288708.7 6746761.91 131.60001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706444</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.337877102124991</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168758_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168758</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168758_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288708.7 6746761.91 131.6 288721.2 6746766.8 131.9 288746.5 6746776.41 132.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.56414284168085</fraPosisjon>
+					<tilPosisjon>0.578404765554095</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168759_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168759</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168759_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288746.5 6746776.41 132.6 288754.5 6746779.59 132.8 288772.5 6746786.7 133.1 288793.5 6746794.41 133.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.578404765554095</fraPosisjon>
+					<tilPosisjon>0.596131701085603</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168760_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168760</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168760_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288748.9 6746770.91 132.6 288739.5 6746767.09 132.4 288727.7 6746762.2 132.1 288703.6 6746751.8 131.5 288687.1 6746744.91 131.0 288672.9 6746738.91 130.6 288658.0 6746732.59 130.1 288644.2 6746726.91 129.7 288637.0 6746723.7 129.4 288635.5 6746723.04 129.4 288635.4 6746723.0 129.4 288633.7 6746722.3 129.3 288627.6 6746719.7 129.1 288612.7 6746713.2 128.7 288596.6 6746706.91 128.2 288594.11 6746705.79 128.12 288590.6 6746704.2 128.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.518678236870846</fraPosisjon>
+					<tilPosisjon>0.579106956673186</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168761_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168761</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168761_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288793.5 6746794.41 133.2 288808.5 6746800.09 133.3 288828.6 6746807.5 133.3 288842.2 6746812.58 133.47 288844.9 6746813.59 133.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.596131701085603</fraPosisjon>
+					<tilPosisjon>0.615454942396715</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168762_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168762</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168762_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288795.9 6746788.91 133.2 288769.2 6746779.09 133.0 288756.8 6746774.09 132.8 288748.9 6746770.91 132.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.579106956673186</fraPosisjon>
+					<tilPosisjon>0.596807672163892</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168763_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168763</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168763_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288798.4 6746789.91 133.3 288797.1 6746789.41 133.3 288795.9 6746788.91 133.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.596807672163892</fraPosisjon>
+					<tilPosisjon>0.597755890139068</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168764_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168764</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168764_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288843.4 6746804.3 133.4 288837.1 6746802.2 133.5 288816.6 6746795.59 133.4 288798.4 6746789.91 133.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.597755890139068</fraPosisjon>
+					<tilPosisjon>0.614370133268334</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168765_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168765</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168765_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288849.9 6746782.3 132.60001 288846.93909 6746784.58325 132.74271 288841.59998 6746788.70007 133.0 288838.33942 6746789.99426 133.09981 288831.8 6746792.59003 133.3 288824.09998 6746793.0 133.39999 288822.09998 6746793.09009 133.39999 288805.34631 6746790.84204 133.32932 288798.39999 6746789.90997 133.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706445</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168766_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168766</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168766_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288844.9 6746813.59 133.5 288848.53 6746814.88 133.5 288870.30005 6746823.09009 133.60001 288895.8999 6746831.5 133.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.615454942396715</fraPosisjon>
+					<tilPosisjon>0.634493755614484</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168767_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168767</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168767_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288847.8 6746811.59 133.5 288857.59998 6746815.19995 133.60001 288896.90002 6746828.0 133.8 288908.19995 6746831.08997 133.89999 288915.80005 6746833.0 133.89999 288928.90002 6746836.41003 133.89999 288940.4 6746840.41 133.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706447</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168768_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168768</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168768_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288851.3 6746806.91 133.4 288847.0 6746805.41 133.4 288843.4 6746804.3 133.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.614370133268334</fraPosisjon>
+					<tilPosisjon>0.617295093659787</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168769_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168769</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168769_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288863.9 6746810.8 133.4 288860.3 6746809.59 133.4 288851.3 6746806.91 133.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.617295093659787</fraPosisjon>
+					<tilPosisjon>0.621933372987864</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168770_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168770</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168770_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288897.7 6746821.7 133.5 288886.0 6746818.2 133.4 288874.9 6746814.8 133.4 288863.9 6746810.8 133.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.621933372987864</fraPosisjon>
+					<tilPosisjon>0.634425334852132</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168771_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168771</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168771_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288895.9 6746831.5 133.8 288905.5 6746834.09 133.9 288915.1 6746836.7 133.9 288928.2 6746838.7 133.9 288940.4 6746840.41 133.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.634493755614484</fraPosisjon>
+					<tilPosisjon>0.650503675347135</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168772_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168772</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168772_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288940.4 6746840.41 133.8 288949.8 6746841.3 133.9 288963.9 6746842.91 133.9 288975.5 6746843.8 133.9 288988.3 6746844.8 133.9 289001.5 6746845.5 133.9 289012.8 6746845.8 133.9 289030.3 6746846.7 134.0 289037.0 6746846.7 134.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705967</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.650503675347135</fraPosisjon>
+					<tilPosisjon>0.68461181247832</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168773_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168773</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168773_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288953.3 6746832.8 133.7 288939.2 6746830.7 133.7 288926.0 6746828.3 133.7 288912.4 6746825.41 133.6 288899.4 6746822.2 133.5 288897.7 6746821.7 133.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.634425334852132</fraPosisjon>
+					<tilPosisjon>0.654375962912434</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168775_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168775</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168775_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>289039.7 6746841.59 134.2 289033.80005 6746840.41003 134.2 289032.24072 6746840.34985 134.19012 289018.0 6746839.80005 134.10001 288998.59998 6746838.58997 133.89999 288974.90002 6746837.58997 133.7 288966.56854 6746835.7738 133.7 288964.90002 6746835.41003 133.7 288953.3 6746832.8 133.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706448</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168776_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168776</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168776_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>289042.6 6746838.09 134.2 289018.2 6746837.5 134.1 288998.6 6746836.59 133.9 288974.9 6746835.2 133.7 288965.0 6746834.2 133.7 288953.3 6746832.8 133.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705463</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.654375962912434</fraPosisjon>
+					<tilPosisjon>0.68584818345</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168836_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168836</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168836_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287155.0 6746491.59 133.1 287153.6 6746492.7 133.1 287152.3 6746494.0 133.1 287151.2 6746495.5 133.1 287150.2 6746497.09 133.1 287149.5 6746498.7 133.1 287149.0 6746500.0 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.115290720587086</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168837_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168837</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168837_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287160.9 6746489.3 133.1 287160.1 6746489.5 133.1 287158.3 6746489.91 133.1 287156.5 6746490.59 133.1 287155.0 6746491.59 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.115290720587086</fraPosisjon>
+					<tilPosisjon>0.185557905316641</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168838_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168838</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168838_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287165.5 6746489.3 133.1 287163.7 6746489.2 133.1 287161.9 6746489.2 133.1 287160.9 6746489.3 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.185557905316641</fraPosisjon>
+					<tilPosisjon>0.23612692581042</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168839_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168839</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168839_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287174.9 6746495.2 133.1 287173.5 6746493.5 133.1 287172.1 6746492.3 133.1 287170.6 6746491.2 133.1 287169.1 6746490.41 133.1 287167.3 6746489.7 133.1 287165.5 6746489.3 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.23612692581042</fraPosisjon>
+					<tilPosisjon>0.361036165824829</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168840_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168840</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168840_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287177.2 6746500.41 133.1 287177.1 6746499.8 133.1 287176.5 6746498.0 133.1 287175.7 6746496.41 133.1 287174.9 6746495.2 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.361036165824829</fraPosisjon>
+					<tilPosisjon>0.423995173149441</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168841_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168841</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168841_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287177.2 6746507.09 133.1 287177.6 6746505.3 133.1 287177.6 6746503.5 133.1 287177.5 6746501.59 133.1 287177.2 6746500.41 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.423995173149441</fraPosisjon>
+					<tilPosisjon>0.498442022011368</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168842_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168842</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168842_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287170.4 6746516.09 133.1 287172.5 6746514.7 133.1 287173.8 6746513.5 133.1 287174.9 6746512.09 133.1 287175.9 6746510.5 133.1 287176.7 6746508.91 133.1 287177.2 6746507.09 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.498442022011368</fraPosisjon>
+					<tilPosisjon>0.625939139540181</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168843_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168843</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168843_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287163.9 6746518.09 133.1 287165.8 6746517.91 133.1 287167.6 6746517.41 133.1 287169.4 6746516.7 133.1 287170.4 6746516.09 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.625939139540181</fraPosisjon>
+					<tilPosisjon>0.701403262864916</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168844_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168844</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168844_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287158.6 6746517.41 133.1 287161.0 6746518.0 133.1 287162.8 6746518.09 133.1 287163.9 6746518.09 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.701403262864916</fraPosisjon>
+					<tilPosisjon>0.760410498407602</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168845_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168845</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168845_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287150.2 6746510.3 133.1 287151.7 6746512.59 133.1 287153.0 6746513.91 133.1 287154.3 6746515.09 133.1 287155.8 6746516.09 133.1 287157.5 6746517.0 133.1 287158.6 6746517.41 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.760410498407602</fraPosisjon>
+					<tilPosisjon>0.883880188509031</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168846_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168846</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168846_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287148.8 6746505.8 133.1 287149.1 6746507.7 133.1 287150.2 6746510.3 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.883880188509031</fraPosisjon>
+					<tilPosisjon>0.93597353560621</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168847_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168847</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168847_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287149.0 6746500.0 133.1 287148.7 6746502.3 133.1 287148.6 6746504.09 133.1 287148.8 6746505.8 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704644</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.93597353560621</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168854_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168854</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168854_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287130.5 6745868.7 129.3 287126.63987 6745867.5865 128.9 287119.3 6745865.2 129.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706496</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168856_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168856</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168856_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287455.2 6745591.2 126.5 287445.4 6745597.8 126.5 287436.3 6745603.91 126.5 287429.1 6745609.0 126.6 287417.9 6745615.5 126.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706036</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168857_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168857</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168857_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287430.2 6745626.59 126.6 287436.5 6745616.91 126.4 287441.1 6745610.2 126.4 287448.3 6745599.91 126.5 287455.2 6745591.2 126.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705532</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168858_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168858</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168858_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287403.09998 6745633.30005 127.0 287399.30005 6745638.08997 127.1 287394.61536 6745646.51624 126.95 287389.05847 6745656.30737 127.3 287386.31287 6745660.63379 127.39 287377.19995 6745675.4541 127.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706037</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168859_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168859</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168859_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287377.19995 6745675.4541 127.7 287388.80884 6745663.21289 127.61 287391.72083 6745660.46729 127.6 287396.2135 6745656.22424 127.3 287401.13391 6745651.7655 126.86 287405.5 6745648.30005 127.1 287413.19995 6745642.80005 127.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705533</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168860_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168860</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168860_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287182.2 6745856.09 130.2 287165.2 6745857.59 130.1 287160.1 6745857.91 130.0 287153.6 6745858.09 129.9 287142.9 6745858.91 129.6 287132.1 6745860.5 129.2 287122.8 6745861.3 129.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706038</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.346037515317386</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168861_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168861</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168861_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287172.6 6745859.3 130.1 287177.4 6745857.7 130.2 287182.2 6745856.09 130.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705534</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0588503691003407</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168862_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168862</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168862_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287129.9 6745875.7 129.0 287133.69995 6745871.19995 129.3 287138.33118 6745869.35181 129.5 287148.8999 6745867.41003 129.8 287159.80005 6745865.08997 130.0 287162.8999 6745863.69995 130.0 287165.49023 6745862.52502 130.0267 287172.6 6745859.3 130.10001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706495</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168863_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168863</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168863_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287130.5 6745868.7 129.3 287137.3 6745866.59 129.5 287147.9 6745864.5 129.8 287158.7 6745862.2 130.0 287161.8 6745861.5 130.0 287172.6 6745859.3 130.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705534</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0588503691003407</fraPosisjon>
+					<tilPosisjon>0.309912289878739</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168864_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168864</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168864_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287122.8 6745861.3 129.0 287115.4 6745862.5 128.8 287108.6 6745863.2 128.5 287090.2 6745866.7 127.8 287074.2 6745869.3 127.6 287068.0 6745870.3 127.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706038</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.346037515317386</fraPosisjon>
+					<tilPosisjon>0.66830269888668</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168865_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168865</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168865_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287119.3 6745865.2 129.0 287118.09998 6745865.0 128.7 287111.59729 6745865.4259 128.56238 287108.69995 6745866.0 128.5 287091.19995 6745869.5 127.8 287079.19995 6745871.69995 127.6 287074.13049 6745871.06628 127.6 287068.0 6745870.3 127.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706497</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168866_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168866</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168866_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287119.2 6745870.3 129.0 287123.3 6745869.64 129.09 287123.6 6745869.59 129.1 287130.5 6745868.7 129.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705534</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.309912289878739</fraPosisjon>
+					<tilPosisjon>0.376307750885843</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168867_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168867</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168867_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287068.0 6745870.3 127.6 287062.3 6745872.3 127.6 287055.7 6745874.41 127.6 287053.3 6745875.0 127.6 287049.0 6745876.5 127.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706038</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.66830269888668</fraPosisjon>
+					<tilPosisjon>0.784251041255523</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168868_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168868</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168868_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287050.6 6745882.5 127.6 287059.0 6745881.0 127.7 287063.3 6745880.09 127.7 287073.9 6745878.09 127.7 287092.2 6745874.5 128.0 287103.6 6745872.41 128.3 287115.0 6745871.09 128.8 287119.2 6745870.3 129.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705534</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.376307750885843</fraPosisjon>
+					<tilPosisjon>0.781779592056395</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168869_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168869</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168869_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287049.0 6745876.5 127.7 287046.2 6745877.2 127.7 287024.1 6745883.91 127.8 287013.4 6745887.3 127.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706038</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.784251041255523</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168870_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168870</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168870_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287013.4 6745887.3 127.8 287024.8 6745886.3 127.7 287043.2 6745883.41 127.7 287050.6 6745882.5 127.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705534</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.781779592056395</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168890_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168890</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168890_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286809.2 6747369.8 159.60001 286811.40002 6747371.19995 159.60001 286816.80005 6747374.58997 159.8 286823.19995 6747378.30005 160.0 286832.59998 6747383.08997 160.10001 286845.30005 6747389.30005 160.10001 286859.69995 6747396.58997 160.3 286869.0 6747400.91003 160.5 286903.80005 6747419.0 160.89999 286916.79431 6747426.77307 160.92001 286922.69995 6747430.30005 160.89999 286928.90002 6747434.08997 160.89999</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706040</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.235615136933828</fraPosisjon>
+					<tilPosisjon>0.349399970809932</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168891_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168891</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>2</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168891_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286853.99837 6747384.08704 160.46 286847.1 6747380.8 160.0 286833.6 6747374.5 159.8 286824.5 6747370.41 159.7 286818.8 6747367.8 159.6 286814.2 6747365.3 159.5 286811.99675 6747364.22524 159.55374</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705536</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.237036707444317</fraPosisjon>
+					<tilPosisjon>0.286000888422058</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168893_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168893</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168893_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286930.9 6747425.31 161.23 286927.40002 6747422.91003 161.0 286921.35791 6747419.29834 160.65131 286918.5 6747417.58997 161.0 286907.90002 6747411.58997 161.0 286896.59998 6747405.19995 160.89999 286882.30005 6747397.80005 160.60001 286853.99837 6747384.08704 160.46</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705536</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.286000888422058</fraPosisjon>
+					<tilPosisjon>0.344261987747729</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168894_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168894</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168894_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286928.9 6747434.09 160.9 286931.44 6747435.62 160.9 286933.6 6747436.91 160.9 286938.01185 6747439.81674 161.35</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706040</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.349399970809932</fraPosisjon>
+					<tilPosisjon>0.359339021403083</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168895_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168895</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168895_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286939.7 6747431.0 161.0 286938.2 6747430.09 161.0 286937.09 6747429.35 161.0 286930.9 6747425.31 161.23</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705536</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.344261987747729</fraPosisjon>
+					<tilPosisjon>0.354564404421291</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168897_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168897</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168897_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286938.01185 6747439.81674 161.35 286942.5 6747442.91 161.0 286958.5 6747453.91 160.9 286982.8 6747470.3 160.8 286997.79 6747480.89 161.01</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706040</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.359339021403083</fraPosisjon>
+					<tilPosisjon>0.424375260128984</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168898_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168898</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168898_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286997.79 6747480.89 161.01 287008.1 6747488.09 160.7 287013.1 6747491.41 160.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706040</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.424375260128984</fraPosisjon>
+					<tilPosisjon>0.434632564458579</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168899_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168899</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168899_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287018.0 6747484.91 160.7 287006.2 6747476.59 160.8 286995.3 6747468.59 160.9 286953.0 6747439.3 160.8 286939.7 6747431.0 161.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705536</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.354564404421291</fraPosisjon>
+					<tilPosisjon>0.433921343391658</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168900_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168900</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168900_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287013.1 6747491.41 160.7 287014.6 6747492.59 160.7 287022.85447 6747498.88577 160.78 287025.16 6747500.57 160.8 287033.89 6747506.86 160.77 287040.69958 6747511.89183 160.79319</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706040</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.434632564458579</fraPosisjon>
+					<tilPosisjon>0.463411286801196</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168901_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168901</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168901_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287040.69958 6747511.89183 160.79319 287042.7 6747513.37 160.8 287051.0 6747520.17 160.8 287060.07 6747528.56 160.7 287064.42 6747532.52 160.7 287068.74 6747536.77 160.65 287072.2 6747540.27 160.6 287074.03 6747542.25 160.54 287075.50098 6747543.75253 160.54 287077.76 6747546.06 160.54 287083.1 6747551.54 160.55 287088.38 6747557.1 160.56 287094.06 6747562.98 160.52 287098.74 6747567.88 160.47 287102.2 6747571.5 160.47 287106.33 6747576.06 160.46 287110.71 6747580.93 160.45 287115.91 6747586.81 160.45 287122.92 6747594.81 160.5 287125.0 6747597.2 160.1 287142.2 6747617.3 160.1 287150.6 6747627.59 160.1 287157.9 6747636.3 160.0 287166.6 6747647.3 160.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706040</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.463411286801196</fraPosisjon>
+					<tilPosisjon>0.618538808900372</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168902_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168902</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168902_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287049.8135 6747508.3787 160.8359 287047.87 6747506.82 160.87 287042.66 6747502.92 160.89 287036.86 6747498.54 160.91 287031.33 6747494.87 160.91 287025.33783 6747489.97647 160.91 287021.70836 6747487.19104 160.66411 287018.0 6747484.91 160.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705536</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.433921343391658</fraPosisjon>
+					<tilPosisjon>0.467025418330249</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168905_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168905</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168905_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287192.3 6747671.5 159.9 287186.4 6747664.41 160.0 287177.9 6747654.41 160.1 287173.9 6747649.7 160.0 287169.7 6747644.59 160.0 287161.8 6747635.0 160.0 287154.4 6747626.3 160.1 287145.7 6747615.8 160.1 287133.58 6747601.87 160.51 287124.42 6747590.4 160.32 287116.94 6747581.62 160.43 287111.72 6747575.27 160.46 287108.73 6747571.37 160.46 287106.01 6747567.54 160.49 287104.04 6747564.59 160.51 287102.13 6747561.76 160.58 287100.01 6747558.63 160.69 287098.43 6747556.41 160.7 287097.37 6747554.92 160.7 287095.56 6747552.53 160.64 287093.57 6747550.08 160.65 287092.0 6747548.2 160.69 287089.01 6747544.83 160.69 287085.86 6747541.36 160.68 287083.54 6747538.98 160.66 287082.13662 6747537.57662 160.66357 287079.61 6747535.05 160.67 287075.92 6747531.4 160.69 287070.98 6747526.8 160.72 287065.9 6747522.18 160.78 287061.2 6747517.93 160.79 287056.64 6747514.01 160.8 287053.17 6747511.12 160.91 287051.86 6747510.02 160.8 287049.8135 6747508.3787 160.8359</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705536</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.467025418330249</fraPosisjon>
+					<tilPosisjon>0.647465077632629</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168929_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168929</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168929_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287120.19995 6745873.80005 128.8 287121.69641 6745878.03369 128.86235 287122.6001 6745880.58997 128.89999 287125.30005 6745887.69995 129.0 287131.84399 6745909.13409 129.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706044</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.274315278472619</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168930_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168930</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168930_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287129.9 6745875.7 129.0 287130.1001 6745874.0 129.10001 287130.3 6745872.3 129.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705540</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.282252090289896</fraPosisjon>
+					<tilPosisjon>0.348933429998062</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168931_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168931</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168931_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287131.84399 6745909.13409 129.2 287129.69995 6745888.58997 129.10001 287129.80005 6745884.0 129.10001 287129.90002 6745875.69995 129.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705540</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.348933429998062</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168935_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168935</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168935_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287429.9 6745630.7 126.5 287430.0 6745628.59 126.6 287430.2 6745626.59 126.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0474876847644208</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168936_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168936</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168936_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287426.0 6745638.7 126.6 287428.2 6745635.09 126.6 287429.9 6745630.7 126.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0474876847644208</fraPosisjon>
+					<tilPosisjon>0.150629296581878</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168937_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168937</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168937_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287420.5 6745642.2 126.8 287422.8 6745641.3 126.8 287426.0 6745638.7 126.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.150629296581878</fraPosisjon>
+					<tilPosisjon>0.226773480623768</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168938_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168938</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168938_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287413.2 6745642.8 127.0 287415.4 6745643.09 126.9 287418.7 6745642.8 126.8 287420.5 6745642.2 126.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.226773480623768</fraPosisjon>
+					<tilPosisjon>0.312581124376929</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168939_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168939</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168939_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287407.0 6745639.5 127.0 287410.2 6745641.3 126.9 287413.2 6745642.8 127.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.312581124376929</fraPosisjon>
+					<tilPosisjon>0.393695909306992</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168940_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168940</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168940_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287403.1 6745633.3 127.0 287404.4 6745636.0 127.0 287407.0 6745639.5 127.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.393695909306992</fraPosisjon>
+					<tilPosisjon>0.478598932951215</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168941_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168941</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168941_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287417.9 6745615.5 126.8 287413.9 6745615.41 126.9 287410.3 6745616.3 126.9 287406.8 6745618.5 127.0 287404.7 6745621.3 127.0 287403.0 6745625.5 127.0 287402.5 6745629.41 127.0 287403.1 6745633.3 127.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.478598932951215</fraPosisjon>
+					<tilPosisjon>0.79894321587985</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168942_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168942</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168942_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287425.3 6745618.91 126.6 287421.4 6745616.5 126.7 287417.9 6745615.5 126.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.79894321587985</fraPosisjon>
+					<tilPosisjon>0.893830389936517</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168943_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168943</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168943_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287430.2 6745626.59 126.6 287428.4 6745622.7 126.6 287425.3 6745618.91 126.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704752</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.893830389936517</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168962_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168962</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168962_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287122.8 6745861.3 129.0 287120.5 6745863.41 129.0 287119.3 6745865.2 129.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706044</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.103021146660429</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168963_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168963</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168963_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287119.3 6745865.2 129.0 287119.0 6745866.91 129.0 287119.2 6745870.3 129.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706044</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.103021146660429</fraPosisjon>
+					<tilPosisjon>0.203198899896733</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168964_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168964</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168964_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287130.5 6745868.7 129.3 287128.2 6745865.0 128.9 287122.8 6745861.3 129.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705540</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.212198817708532</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168965_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168965</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168965_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287119.2 6745870.3 129.0 287119.7 6745872.09 128.9 287120.2 6745873.8 128.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706044</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.203198899896733</fraPosisjon>
+					<tilPosisjon>0.274315278472619</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114168966_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114168966</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114168966_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287130.3 6745872.3 129.2 287130.4 6745870.5 129.3 287130.5 6745868.7 129.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705540</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.212198817708532</fraPosisjon>
+					<tilPosisjon>0.282252090289896</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.114246711_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>114246711</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.114246711_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288443.1 6747384.7 126.1 288436.55599 6747388.25312 125.82349 288428.9 6747392.41 125.5 288424.3 6747396.59 125.5 288393.5 6747451.3 125.4 288391.4 6747463.59 125.5 288390.95598 6747468.77028 125.61101 288390.2 6747477.59 125.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704556</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793743_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793743</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793743_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287501.12 6746430.12 130.17 287501.96997 6746424.48999 130.13 287503.0 6746419.0 130.10001 287503.79504 6746413.5105 130.05 287504.32996 6746407.89001 130.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802404</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793744_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793744</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793744_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287504.32996 6746407.89001 130.0 287499.70251 6746412.19934 130.2 287494.29004 6746417.64001 130.35001 287490.31995 6746421.43005 130.5 287486.31006 6746425.98999 130.67</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802403</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793755_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793755</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793755_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287461.92004 6746483.89001 129.89999 287465.67004 6746480.34998 129.89999 287475.46997 6746466.54004 130.10001 287481.44995 6746460.89001 130.10001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802400</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793756_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793756</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793756_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287466.90002 6746457.70996 130.56 287463.89001 6746466.79004 130.2 287462.69995 6746478.90002 129.89999 287461.92004 6746483.89001 129.89999</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802402</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793766_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793766</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793766_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287587.80005 6746423.19995 129.3 287559.40002 6746427.43994 129.44 287555.18005 6746428.08997 129.49001 287552.94995 6746428.43994 129.52 287550.83997 6746428.67004 129.53999 287548.84998 6746428.89001 129.57001 287546.84998 6746429.03003 129.59 287544.85999 6746429.10999 129.62 287542.66003 6746429.20996 129.64 287538.47998 6746429.10999 129.69 287534.5 6746429.01001 129.73 287532.25 6746428.96997 129.75 287529.95996 6746428.76001 129.78999 287527.94995 6746428.53003 129.85001 287525.94995 6746428.28003 129.89 287509.38 6746428.59998 130.0 287501.12 6746430.12 130.17</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802395</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793767_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793767</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793767_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287505.68994 6746444.03003 130.05 287510.30005 6746441.05005 130.0 287513.68005 6746439.05005 129.89999 287517.68994 6746437.09998 129.85001 287520.28003 6746436.18005 129.8 287522.28003 6746435.59998 129.88 287524.42004 6746435.27002 129.92 287528.84998 6746434.68994 129.85001 287534.43005 6746434.55005 129.75 287542.77002 6746434.23999 129.67 287548.44995 6746434.02002 129.52 287551.15002 6746433.69995 129.49001 287553.70996 6746433.31006 129.46001 287563.96997 6746431.75 129.41 287566.29004 6746431.37 129.41 287567.55005 6746431.17004 129.41 287589.80005 6746427.08997 129.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802399</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793768_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793768</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793768_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287461.73999 6746441.14001 130.87 287461.34998 6746442.43994 130.87 287461.0 6746444.40002 130.87 287460.92004 6746445.93994 130.87 287461.0 6746447.46997 130.86 287461.23999 6746448.98999 130.85001 287461.53003 6746450.07996 130.85001 287462.18994 6746451.91003 130.82001 287462.89001 6746453.28003 130.8 287463.73999 6746454.56006 130.75 287464.70996 6746455.75 130.7 287465.81006 6746456.82996 130.64999 287466.90002 6746457.70996 130.56 287468.04004 6746458.46997 130.5 287469.22998 6746459.10999 130.42 287470.42004 6746459.64001 130.38 287471.65002 6746460.07996 130.32001 287473.32996 6746460.52002 130.3 287475.29004 6746460.84998 130.28 287476.51001 6746460.96997 130.25 287477.64001 6746461.03003 130.2 287479.91003 6746461.0 130.14999 287481.44995 6746460.89001 130.10001 287483.81006 6746460.58997 130.10001 287486.14001 6746460.12 130.10001 287488.43005 6746459.5 130.10001 287489.92004 6746459.0 130.10001 287492.12 6746458.12 130.10001 287494.25 6746457.08997 130.10001 287496.31006 6746455.91003 130.09 287497.30005 6746455.28003 130.09 287498.19995 6746454.66003 130.09 287499.17004 6746453.91003 130.08 287500.05005 6746453.18005 130.08 287500.96997 6746452.31006 130.07001 287501.80005 6746451.43994 130.07001 287502.64001 6746450.43994 130.06 287503.37 6746449.42004 130.06 287504.07996 6746448.26001 130.05 287504.67004 6746447.09998 130.05 287505.18994 6746445.80005 130.05 287505.68994 6746444.03003 130.05 287505.93994 6746442.51001 130.05 287506.02002 6746440.97998 130.10001 287505.93994 6746439.44995 130.12 287505.68994 6746437.93005 130.14999 287505.31995 6746436.55005 130.17 287504.73999 6746435.02002 130.17 287504.03003 6746433.66003 130.17 287503.18994 6746432.38 130.17 287502.20996 6746431.18994 130.17 287501.12 6746430.12 130.17 287500.03003 6746429.22998 130.2 287498.90002 6746428.47998 130.25 287497.69995 6746427.82996 130.3 287496.51001 6746427.30005 130.39999 287495.28003 6746426.85999 130.45 287493.94995 6746426.48999 130.5 287492.82996 6746426.27002 130.55 287491.40002 6746426.09998 130.60001 287489.28003 6746425.92004 130.62 287486.31006 6746425.98999 130.67 287483.93994 6746426.22998 130.67 287481.59998 6746426.64001 130.7 287479.30005 6746427.20996 130.7 287477.04004 6746427.93994 130.7 287474.82996 6746428.81995 130.7 287472.68994 6746429.84998 130.7 287470.62 6746431.02002 130.72 287469.63 6746431.66003 130.74001 287468.73999 6746432.28003 130.75999 287467.77002 6746433.02002 130.78 287466.89001 6746433.77002 130.8 287465.95996 6746434.63 130.82001 287465.14001 6746435.5 130.83 287464.29004 6746436.5 130.84 287463.56006 6746437.52002 130.85001 287462.85999 6746438.67004 130.86 287462.27002 6746439.83997 130.87 287461.73999 6746441.14001 130.87</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802398</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793769_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793769</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793769_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287461.73999 6746441.14001 130.87 287448.66003 6746448.56995 130.81255 287445.66003 6746449.91003 130.8 287440.09 6746451.44 130.82 287436.3 6746451.83 130.87 287432.42999 6746451.97589 130.84 287425.39999 6746452.35413 130.98 287418.54 6746452.83 131.1 287408.11081 6746454.09708 131.34 287401.23999 6746455.35788 131.37 287387.67001 6746457.82498 131.4 287363.89999 6746462.21289 131.57 287352.20001 6746464.42416 131.71 287342.57 6746465.93 131.91 287334.23 6746467.27 131.93 287325.17 6746468.23 132.01 287319.23319 6746469.09647 132.01399</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802392</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.230793770_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>230793770</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.230793770_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287321.0 6746475.58997 132.3 287385.5 6746463.93005 131.50999 287390.17004 6746463.07996 131.5 287394.83997 6746462.22998 131.3 287404.90002 6746460.47998 131.14 287409.93994 6746459.59998 131.12 287414.91003 6746458.87 131.10001 287422.45996 6746458.22998 131.0 287426.21997 6746458.10999 131.0 287431.15002 6746458.10999 130.89999 287441.14001 6746458.35999 130.8 287446.15002 6746458.62 130.7 287458.44995 6746459.21997 130.56 287466.90002 6746457.70996 130.56</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1802394</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078560_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078560</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078560_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286421.5 6746358.0 137.4 286417.6 6746354.91 137.2 286375.8 6746326.0 137.0 286365.5 6746318.59 137.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650497</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.369025860911873</fraPosisjon>
+					<tilPosisjon>0.533991986250725</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078561_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078561</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078561_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286365.5 6746318.59 137.1 286358.0 6746312.7 136.6 286352.5 6746308.7 136.2 286334.9 6746296.59 135.0 286310.3 6746278.41 132.4 286304.8 6746274.7 132.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650497</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.188132538840174</fraPosisjon>
+					<tilPosisjon>0.369025860911873</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078562_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078562</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078562_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286304.8 6746274.7 132.39999 286301.80005 6746272.58997 132.39999 286288.19995 6746263.30005 130.5 286259.90002 6746244.08997 127.8 286248.75464 6746235.04077 126.8 286241.60999 6746229.63 126.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650497</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.188132538840174</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078563_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078563</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078563_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286409.8 6746258.0 134.6 286433.3 6746274.8 134.6 286461.3 6746294.91 134.1 286465.9 6746297.3 134.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650378</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.295726947845641</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078564_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078564</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078564_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286437.0 6746090.91 126.6 286443.1 6746095.09 126.5 286463.7 6746109.5 126.9 286478.8 6746120.0 127.1 286491.6 6746128.8 127.4 286498.7 6746134.41 127.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650319</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.127313821982573</fraPosisjon>
+					<tilPosisjon>0.25011382880805</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078565_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078565</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078565_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286498.7 6746134.41 127.4 286503.6001 6746138.09003 127.3 286512.6001 6746144.20001 127.7 286518.5 6746149.20001 128.10001 286551.30005 6746172.29999 129.7 286554.81104 6746174.789 129.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650319</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.25011382880805</fraPosisjon>
+					<tilPosisjon>0.362670976726768</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078566_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078566</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078566_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286196.06006 6746283.91003 126.79 286197.64233 6746286.06213 126.7 286200.46179 6746289.97278 126.6 286202.80005 6746293.0 126.6 286204.8 6746295.41 126.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650409</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0905922872371837</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078567_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078567</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078567_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286215.2 6746363.0 132.0 286216.3 6746368.5 132.2 286217.4 6746373.91 132.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650409</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.519465784719466</fraPosisjon>
+					<tilPosisjon>0.58897054796302</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.234078568_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>234078568</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.234078568_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286217.4 6746373.91 132.4 286219.3 6746392.2 133.9 286221.0 6746407.5 135.3 286222.2 6746417.8 136.5 286223.4 6746430.3 137.9 286224.0 6746435.0 138.4 286224.6 6746439.0 138.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650409</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.58897054796302</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.255392177_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>255392177</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.255392177_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287177.1 6746670.5 136.6 287175.2 6746672.3 136.6 287174.30005 6746673.19995 136.7 287167.99048 6746675.79504 136.7 287161.8999 6746678.30005 136.7 287156.8999 6746680.58997 136.8 287151.30005 6746683.30005 136.89999</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705587</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.255392178_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>255392178</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.255392178_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287151.30005 6746683.30005 136.89999 287154.3999 6746684.69995 137.0 287157.1001 6746685.69995 137.0 287162.80005 6746686.41003 136.89999 287167.69995 6746686.58997 137.2 287169.60962 6746686.91357 137.2 287173.6001 6746687.58997 137.2 287175.9 6746688.8 137.5 287179.0 6746690.09 137.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706090</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.255392179_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>255392179</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.255392179_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286892.2 6747093.5 152.3 286893.0 6747095.41 152.3 286893.8 6747097.09 152.3 286897.1 6747104.09 152.1 286899.0 6747108.7 152.0 286900.1 6747114.2 152.0 286901.7 6747122.0 152.1 286901.9 6747134.2 152.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706091</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.255392180_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>255392180</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.255392180_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286901.9 6747134.2 152.2 286905.3 6747117.41 152.1 286906.0 6747114.2 152.1 286906.8 6747108.0 152.0 286907.6 6747101.7 152.0 286907.6 6747093.2 152.1 286907.6 6747091.09 152.1 286907.6 6747088.91 152.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>705588</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.255392191_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>255392191</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.255392191_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287177.9 6746719.0 139.1 287184.7 6746721.59 139.3 287190.2 6746723.7 139.3 287194.0 6746724.5 139.3 287197.3 6746724.2 139.3 287199.9 6746724.8 139.4</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706252</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.268795579_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>268795579</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.268795579_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287725.69995 6746459.80005 129.39999 287717.84973 6746457.34497 129.47 287715.09644 6746456.14026 129.47 287711.36487 6746454.52502 129.47 287709.65613 6746453.77612 129.47 287705.91968 6746452.14941 129.46001 287701.33643 6746450.1582 129.44 287696.74451 6746448.16858 129.42 287692.16211 6746446.16809 129.39999 287687.57764 6746444.17664 129.38 287682.98621 6746442.18726 129.36 287678.40234 6746440.18628 129.35001 287673.81006 6746438.19641 129.33 287669.22693 6746436.19604 129.31 287666.28711 6746434.91406 129.3 287665.53613 6746434.59583 129.28999 287664.6106 6746434.20557 129.28999 287663.07385 6746433.56677 129.28 287661.80249 6746433.0509 129.28 287660.72717 6746432.63599 129.27 287659.91211 6746432.31763 129.27 287657.32361 6746431.35571 129.25999 287654.89246 6746430.49902 129.25 287651.57556 6746429.40308 129.25 287650.32983 6746429.01465 129.25 287649.35864 6746428.72388 129.25999 287645.47168 6746427.60901 129.27 287640.56226 6746426.36267 129.28999 287637.44043 6746425.65955 129.3 287635.5957 6746425.27466 129.3 287633.6571 6746424.89966 129.31 287632.62146 6746424.70837 129.31 287630.61975 6746424.36108 129.32001 287625.625 6746423.61035 129.33 287620.59705 6746423.03564 129.35001 287617.78271 6746422.77429 129.36 287616.56055 6746422.6825 129.36 287615.53027 6746422.61304 129.36 287614.1842 6746422.53369 129.36 287612.51086 6746422.44348 129.35001 287610.46423 6746422.36353 129.34 287605.44727 6746422.28931 129.32001 287603.41418 6746422.30005 129.32001 287600.35278 6746422.37744 129.3 287596.55176 6746422.55334 129.28999 287595.30396 6746422.63721 129.28999 287594.0553 6746422.72119 129.28999 287587.80005 6746423.19995 129.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1908834</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.268795580_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>268795580</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.268795580_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287589.80005 6746427.08984 129.3 287594.3512 6746426.50977 129.28999 287595.55884 6746426.42871 129.28999 287596.76709 6746426.34753 129.28999 287600.48877 6746426.17529 129.3 287603.48108 6746426.09961 129.32001 287605.40393 6746426.08911 129.32001 287610.38611 6746426.16284 129.34 287612.33191 6746426.23938 129.35001 287613.97009 6746426.32764 129.36 287615.43555 6746426.41406 129.36 287616.56958 6746426.49512 129.36 287617.46729 6746426.5614 129.36 287620.20544 6746426.81567 129.35001 287625.12671 6746427.37817 129.33 287630.01257 6746428.11255 129.32001 287632.4353 6746428.53027 129.31 287634.88696 6746429.00806 129.3 287637.37195 6746429.44678 129.3 287639.67834 6746430.05872 129.28999 287644.47998 6746431.27771 129.27 287648.28979 6746432.37061 129.25999 287649.21924 6746432.64893 129.25 287650.41394 6746433.02124 129.25 287653.66541 6746434.0957 129.25 287656.03015 6746434.92896 129.25999 287658.55896 6746435.86865 129.27 287659.49414 6746436.23389 129.27 287660.39722 6746436.58167 129.28 287661.63025 6746437.08191 129.28 287663.14307 6746437.71069 129.28999 287664.05615 6746438.09583 129.28999 287664.93982 6746438.47766 129.3 287667.71008 6746439.68018 129.31 287672.29419 6746441.68103 129.33 287676.88672 6746443.67102 129.35001 287681.47034 6746445.67188 129.36 287686.06421 6746447.66223 129.38 287690.64502 6746449.65222 129.39999 287695.22937 6746451.65344 129.42 287699.82275 6746453.6438 129.44 287704.40479 6746455.63428 129.46001 287708.13953 6746457.2605 129.47 287709.8429 6746458.00696 129.47 287713.58118 6746459.625 129.47 287716.33264 6746460.82898 129.47 287724.40002 6746464.19995 129.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>1908848</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.268795581_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>268795581</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.268795581_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288584.0 6746707.59 127.9 288582.5 6746710.59 127.8 288580.9 6746713.7 127.7</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704521</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.9845980164967</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.268795582_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>268795582</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.268795582_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288589.59998 6746716.91003 127.9 288590.90002 6746711.69995 127.9 288591.19995 6746710.5 128.10001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>704519</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0121863787939865</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.273916671_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>273916671</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.273916671_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286373.62 6746045.03003 125.8 286382.17395 6746050.87292 125.5 286394.09998 6746059.30005 125.6 286409.19995 6746070.41003 125.8 286427.40002 6746083.08997 126.4 286437.0 6746090.91 126.6</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650319</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.127313821982573</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.273916673_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>273916673</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.273916673_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286204.8 6746295.41 126.6 286210.4 6746300.09 127.0 286230.3 6746314.0 129.3 286247.3 6746326.41 131.7 286254.6 6746332.0 132.6 286260.6 6746336.5 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650465</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.338418841941483</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.273916674_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>273916674</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.273916674_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286260.6 6746336.5 133.1 286265.3 6746339.59 133.2 286275.6 6746348.09 134.5 286290.4 6746358.7 136.3 286315.8 6746376.2 139.6 286321.1 6746379.91 139.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650465</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.338418841941483</fraPosisjon>
+					<tilPosisjon>0.702036920696941</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.273916675_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>273916675</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.273916675_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286321.1 6746379.91 139.8 286332.6 6746388.41 139.8 286352.8 6746403.09 141.1 286357.0 6746406.0 141.2 286371.3 6746415.0 141.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650465</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.702036920696941</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.273916676_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>273916676</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.273916676_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286371.3 6746415.0 141.3 286372.6 6746415.8 141.3 286373.6 6746416.3 141.2 286375.7 6746416.59 141.2 286378.6 6746416.5 141.1 286381.4 6746414.59 140.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650517</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0114492439282485</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.273916678_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>273916678</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.273916678_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286347.89999 6746903.3 150.89999 286341.39999 6746905.09 151.2 286339.82642 6746905.58174 151.24918 286335.0 6746907.09 151.39999 286333.20001 6746908.59 151.5 286331.70001 6746910.59 151.7 286331.0 6746913.59 151.89999 286330.60001 6746919.7 152.2 286329.70001 6746940.91 153.0 286329.0 6746952.91 153.5 286328.29999 6746965.41 153.8 286327.20001 6746977.0 154.3 286326.29999 6746999.59 155.2 286325.70001 6747011.2 155.8 286326.0 6747017.91 156.2</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650479</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.241614570334772</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.273916679_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>273916679</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.273916679_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287276.5 6745824.5 132.60001 287281.05481 6745829.82666 132.32567 287285.09998 6745833.80005 132.2 287291.09998 6745839.30005 131.89999 287298.40002 6745845.41003 131.89999 287307.0 6745853.0 131.60001 287318.30005 6745863.58997 131.2 287327.09998 6745871.5 131.0 287329.30005 6745873.5 131.0</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650424</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.368092050814101</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.305199033_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>305199033</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.305199033_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286482.9 6746026.59 126.6 286484.2 6746024.7 126.6 286489.3 6746017.2 126.6 286497.9 6746005.5 126.5 286506.8 6745993.3 126.5 286510.5 6745987.2 126.5 286512.6 6745982.7 126.4 286512.89737 6745977.79058 126.3 286512.43051 6745973.39913 126.3 286511.00717 6745969.08937 126.30001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650503</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.0691178082772627</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.376508727_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>376508727</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.376508727_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287235.3 6746357.7 131.5 287241.8 6746349.3 131.1 287248.1 6746339.8 131.3 287254.8 6746329.59 131.8 287265.8 6746312.09 132.4 287275.3 6746297.59 133.2 287284.6 6746283.09 134.1 287296.6 6746265.41 135.1 287300.7 6746258.59 135.5 287302.5 6746255.5 135.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650430</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.262386257946438</fraPosisjon>
+					<tilPosisjon>0.521919033975572</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.376508731_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>376508731</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.376508731_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287314.48008 6746121.62327 137.38165 287309.8 6746127.59 137.4 287304.0 6746136.5 137.5 287297.7 6746146.41 137.5 287293.6 6746153.0 137.5 287280.4 6746173.0 137.0 287267.9 6746192.0 137.0 287258.9 6746206.0 137.1 287249.9 6746220.59 136.9</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650272</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.345211711805543</fraPosisjon>
+					<tilPosisjon>0.59636652930534</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.417398654_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>417398654</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.417398654_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286561.5 6746464.3 144.9 286560.8 6746467.8 145.1 286560.9 6746471.2 145.1 286561.8 6746473.7 145.2 286564.2 6746476.8 145.3 286568.9 6746481.5 145.7 286575.3 6746487.8 146.3 286580.0 6746492.91 146.7 286582.8 6746497.59 147.0 286583.9 6746501.7 147.2 286584.3 6746505.09 147.4 286583.7 6746507.59 147.7 286582.8 6746510.7 147.9 286580.8 6746514.59 148.2 286575.3 6746522.59 148.9 286569.0 6746531.59 149.7 286564.2 6746538.2 150.3 286561.9 6746541.3 150.5 286560.5 6746542.7 150.6 286558.9 6746543.5 150.7 286556.3 6746543.5 150.7 286549.3 6746542.3 150.7 286532.6 6746539.0 150.4 286518.5 6746536.7 149.6 286508.7 6746535.2 149.0 286503.1 6746534.5 148.8 286500.4 6746535.0 148.7 286498.9 6746535.7 148.6 286495.7 6746538.59 148.5 286494.4 6746540.0 148.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650507</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.441861275_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>441861275</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.441861275_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286371.68005 6746043.64001 125.54 286373.62 6746045.03003 125.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2389473</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.441861280_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>441861280</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.441861280_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286241.60999 6746229.63 126.9 286239.43994 6746228.06006 126.97</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2389476</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.574516618_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>574516618</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.574516618_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287113.41 6746513.12 133.1 287118.98703 6746514.06391 133.1 287133.65988 6746510.91547 133.1 287142.36301 6746510.06781 133.1 287150.2 6746510.3 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2488954</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.574516619_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>574516619</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.574516619_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287149.0 6746500.0 133.1 287140.39719 6746503.00141 133.1 287132.41715 6746505.14065 133.1 287124.77305 6746506.62658 133.1 287116.29758 6746509.06781 133.1 287113.41 6746513.12 133.1</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2488953</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.574516641_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>574516641</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.574516641_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286836.65 6746472.63 134.15 286837.35 6746471.51 134.03 286837.96 6746470.23 134.03 286838.39 6746468.89 134.03 286838.66 6746467.5 134.03 286838.76 6746465.85 134.03 286838.66 6746464.67 134.03 286838.39 6746463.29 134.03 286837.96 6746461.94 134.03 286837.36 6746460.66 134.03 286836.6 6746459.47 134.03 286835.7 6746458.38 134.03 286834.04367 6746456.84906 134.03 286832.28 6746455.9 134.03 286830.97 6746455.38 134.03 286829.6 6746455.03 134.03 286828.2 6746454.85 134.03 286826.78 6746454.85 134.03 286825.38 6746455.03 134.03 286824.01 6746455.38 134.03 286822.69 6746455.9 134.03 286821.45 6746456.58 134.03 286820.31 6746457.41 134.03 286819.28 6746458.38 134.03 286818.33 6746459.55 134.05 286817.62 6746460.66 134.03 286817.02 6746461.94 134.03 286816.58 6746463.29 134.03 286816.32 6746464.67 134.03 286816.23 6746466.09 134.03 286816.32 6746467.5 134.03 286816.58 6746468.89 134.03 286817.02 6746470.23 134.03 286817.62 6746471.51 134.03 286818.38 6746472.7 134.03 286819.28 6746473.79 134.03 286820.31 6746474.76 134.03 286820.96 6746475.23 134.03 286822.69 6746476.27 134.03 286824.01 6746476.8 134.03 286825.38 6746477.15 134.03 286826.78 6746477.32 134.03 286828.2 6746477.32 134.03 286829.6 6746477.15 134.03 286830.97 6746476.8 134.03 286832.28 6746476.27 134.03 286833.52 6746475.59 134.03 286834.67 6746474.76 134.03 286835.7 6746473.79 134.03 286836.26 6746473.14 134.03 286836.65 6746472.63 134.15</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2488944</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.591288875_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>591288875</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.591288875_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287022.85447 6747498.88577 160.78 287028.08699 6747497.54727 160.84858 287031.33 6747494.87 160.91 287032.82653 6747492.86197 160.74 287034.75963 6747490.35001 160.58 287036.31 6747487.74 160.45 287037.29 6747485.47 160.29 287037.77 6747483.08 160.21 287037.88 6747478.22 160.21</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2523612</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.591288876_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>591288876</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.591288876_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287037.88 6747478.22 160.21 287034.49 6747478.93 160.33 287032.24 6747480.01 160.37 287031.13 6747481.01 160.37 287029.37109 6747483.5965 160.59 287026.76677 6747487.76135 160.73 287025.33783 6747489.97647 160.91 287023.10101 6747494.09772 160.63 287022.85447 6747498.88577 160.78</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2523613</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.643709644_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>643709644</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.643709644_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286695.4 6746032.0 132.7 286697.30008 6746049.09 132.0 286699.95032 6746065.29995 133.0 286705.95029 6746094.2 133.0 286712.45013 6746123.14999 134.0 286714.25012 6746133.09998 134.0 286717.6 6746150.7 134.0 286721.3 6746169.5 135.0 286727.44965 6746177.82976 135.8</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>650300</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.362180806325269</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.643709645_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>643709645</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.643709645_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286727.44965 6746177.82976 135.8 286733.59524 6746184.64528 136.75235</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2571382</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.813191304_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>813191304</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.813191304_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287025.33783 6747489.97647 160.91 287026.52 6747493.8 160.91 287029.35 6747498.39 160.91 287031.81 6747501.29 160.91 287033.66 6747502.93 160.9 287035.13 6747504.05 160.88 287040.57 6747508.06 160.88 287046.3 6747512.47 160.89 287051.74 6747516.89 160.89 287055.81 6747520.38 160.8 287058.8 6747523.04 160.81 287060.35 6747524.58 160.81 287061.86 6747526.29 160.81 287063.52 6747528.32 160.81 287064.73 6747529.95 160.8 287065.66 6747531.32 160.78 287066.35 6747532.32 160.76 287067.79 6747534.52 160.71 287068.74 6747536.77 160.65</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2748938</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.813191305_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>813191305</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.813191305_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286930.9 6747425.31 161.23 286932.99741 6747429.11478 161.23 286937.54652 6747435.68622 161.21 286942.29 6747439.53 161.21 286943.21 6747440.37 161.21 286945.73 6747442.05 161.18 286947.37807 6747443.16133 161.18516 286955.31 6747448.51 161.21 286967.33 6747456.81 161.11 286983.49 6747467.68 161.08 286990.78 6747472.87 161.11 286994.11 6747476.43 161.06 286997.79 6747480.89 161.01</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2748939</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706506</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.126238726962668</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.813191306_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>813191306</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.813191306_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286938.01185 6747439.81674 161.35 286935.60503 6747435.14856 161.35 286931.85526 6747429.48184 161.35 286925.38 6747425.09 161.35 286923.07 6747423.48 161.27 286919.96831 6747421.63408 161.25628 286918.55 6747420.79 161.25 286917.6652 6747420.26799 161.24548 286908.77 6747415.02 161.2 286897.93 6747408.94 161.07 286888.02 6747403.71 161.05 286880.89 6747399.84 160.85 286876.26 6747397.26 160.77 286870.26 6747393.65 160.67 286867.93 6747392.26 160.67 286864.33513 6747390.28595 160.67 286860.65518 6747388.44925 160.59803 286856.01405 6747385.67325 160.52 286853.99837 6747384.08704 160.46</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2748940</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>706503</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>0.841798399688606</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.852649890_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>852649890</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.852649890_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288822.54 6746796.6 134.57 288820.94 6746791.17 134.57 288819.96 6746785.59 134.54 288819.62 6746779.94 134.49 288819.75 6746776.16 134.44 288820.16 6746772.41 134.38 288821.31 6746766.86 134.26 288823.59 6746758.34 134.03 288825.86 6746749.81 133.74 288830.42 6746732.76 133.05 288832.69 6746724.24 132.74 288834.97 6746715.71 132.47 288837.24 6746707.19 132.25 288839.52 6746698.66 132.09 288841.9 6746689.77 131.98 288844.29 6746680.88 131.92 288846.71 6746672.0 131.92 288849.16 6746663.12 131.97 288851.68 6746654.27 132.09 288854.26 6746645.43 132.25 288856.3 6746638.63 132.38 288858.4 6746631.84 132.52 288860.54 6746625.06 132.65 288862.73 6746618.31 132.79 288865.64 6746609.57 132.96 288868.61 6746600.86 133.13 288871.64 6746592.17 133.3 288874.71 6746583.49 133.46 288877.8 6746574.82 133.61 288880.91 6746566.15 133.75 288885.56 6746553.15 133.94</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2823429</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.852649891_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>852649891</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.852649891_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288875.47 6746525.76 133.71 288873.01 6746532.75 133.64 288871.08 6746538.24 133.58 288869.15 6746543.72 133.51 288867.2 6746549.21 133.44 288865.22 6746554.68 133.36 288863.22 6746560.14 133.28 288861.18 6746565.59 133.19 288859.1 6746571.03 133.09 288856.97 6746576.44 132.99 288854.78 6746581.83 132.89 288852.52 6746587.2 132.78 288850.2 6746592.53 132.67 288846.13 6746601.4 132.46 288841.85 6746610.16 132.24 288839.63 6746614.51 132.13 288836.91 6746619.65 131.99 288834.13 6746624.76 131.84 288831.28 6746629.84 131.7 288828.38 6746634.88 131.55 288825.44 6746639.9 131.42 288822.45 6746644.9 131.32 288819.43 6746649.87 131.25 288816.39 6746654.83 131.21 288813.32 6746659.77 131.21 288810.25 6746664.71 131.23 288807.16 6746669.65 131.28 288801.98 6746677.94 131.44 288796.79 6746686.24 131.69 288791.6 6746694.53 132.02 288786.42 6746702.83 132.43 288776.04 6746719.41 133.28 288770.86 6746727.71 133.66 288765.67 6746736.0 133.95 288762.34 6746740.71 134.07 288759.83 6746743.61 134.13 288755.66 6746747.59 134.19 288751.05 6746751.07 134.22 288746.08 6746753.99 134.25</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2823432</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.852649892_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>852649892</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.852649892_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288726.12 6746780.19 134.36 288727.29 6746786.01 134.29 288727.68 6746789.95 134.24 288727.68 6746795.88 134.17 288726.97 6746801.78 134.09 288726.11 6746805.64 134.02 288724.26 6746811.28 133.89 288721.13 6746818.47 133.67 288718.76 6746823.84 133.47 288714.02 6746834.56 133.01 288709.28 6746845.29 132.52 288706.91 6746850.65 132.23 288704.54 6746856.02 131.92 288685.58 6746898.92 129.38 288680.84 6746909.65 128.76 288678.47 6746915.01 128.48 288676.1 6746920.38 128.23 288673.73 6746925.74 128.0 288671.36 6746931.1 127.79 288668.99 6746936.46 127.6 288666.62 6746941.83 127.44 288664.25 6746947.19 127.3 288661.88 6746952.56 127.18 288659.51 6746957.92 127.09 288657.14 6746963.28 127.02 288654.77 6746968.65 126.97 288652.41 6746974.01 126.95 288650.03 6746979.37 126.95 288647.67 6746984.73 126.97 288643.88 6746993.06 127.03 288641.91 6746997.18 127.05 288639.34 6747002.4 127.08 288636.7 6747007.59 127.11 288634.0 6747012.74 127.13 288631.25 6747017.87 127.15 288628.45 6747022.97 127.16 288625.6 6747028.05 127.17 288622.73 6747033.11 127.17 288619.82 6747038.15 127.17 288616.9 6747043.18 127.17 288613.97 6747048.21 127.16 288611.02 6747053.23 127.15 288605.53 6747062.59 127.14 288600.73 6747070.78 127.12 288600.39 6747071.36 127.12</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2823431</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.852649893_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>852649893</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.852649893_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288620.54 6747072.67 127.14 288623.55 6747067.64 127.15 288629.55 6747057.57 127.17 288633.15 6747051.53 127.17 288636.77 6747045.48 127.17 288640.4 6747039.45 127.17 288644.05 6747033.43 127.16 288647.74 6747027.43 127.15 288651.47 6747021.45 127.13 288655.24 6747015.5 127.11 288659.06 6747009.59 127.08 288662.95 6747003.72 127.06 288667.09 6746997.61 127.02 288671.11 6746991.83 126.99 288675.18 6746986.08 126.96 288679.3 6746980.37 126.94 288683.45 6746974.68 126.96 288687.63 6746969.01 127.0 288691.83 6746963.36 127.08 288696.05 6746957.72 127.2 288700.28 6746952.09 127.35 288705.78 6746944.75 127.59 288711.29 6746937.41 127.89 288716.8 6746930.07 128.24 288722.31 6746922.73 128.65 288727.81 6746915.39 129.12 288733.32 6746908.05 129.64 288738.83 6746900.71 130.22 288744.33 6746893.38 130.85 288749.84 6746886.04 131.46 288755.35 6746878.7 132.0 288760.86 6746871.36 132.47 288766.36 6746864.02 132.86 288777.38 6746849.34 133.6 288782.88 6746842.0 133.96 288788.39 6746834.66 134.28 288792.07 6746830.3 134.43 288794.8 6746827.63 134.5 288799.24 6746824.04 134.58 288802.42 6746821.94 134.6 288807.46 6746819.26 134.62 288812.77 6746817.17 134.61</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2823430</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.852649894_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>852649894</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.852649894_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>288281.08 6746608.27 127.43 288281.14 6746610.1 127.43 288281.52 6746611.89 127.43 288282.2 6746613.58 127.43 288283.75 6746615.85 127.43 288285.09 6746617.1 127.43 288287.45 6746618.49 127.43 288290.09 6746619.22 127.43 288292.83 6746619.25 127.43 288294.62 6746618.87 127.43 288297.12 6746617.74 127.43 288298.58 6746616.64 127.43 288300.36 6746614.55 127.43 288301.55 6746612.08 127.43 288301.74 6746611.07 127.43 288302.05 6746609.39 127.43 288301.99 6746607.56 127.43 288301.3 6746604.9 127.43 288299.96 6746602.52 127.43 288298.04 6746600.56 127.43 288296.5 6746599.56 127.43 288293.94 6746598.6 127.43 288292.4 6746598.45 127.43 288291.21 6746598.33 127.43 288289.39 6746598.55 127.43 288287.64 6746599.08 127.43 288285.25 6746600.43 127.43 288283.29 6746602.35 127.43 288281.9 6746604.71 127.43 288281.08 6746608.27 127.43</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2823435</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.852649895_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>852649895</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.852649895_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>287966.74 6746565.2 127.79 287966.98 6746564.05 127.79 287966.96 6746562.22 127.79 287966.62 6746560.42 127.79 287965.53 6746557.91 127.79 287963.84 6746555.75 127.79 287961.64 6746554.11 127.79 287959.09 6746553.1 127.79 287957.29 6746552.8 127.79 287954.55 6746552.96 127.79 287952.79 6746553.45 127.79 287951.14 6746554.25 127.79 287948.99 6746555.94 127.79 287947.35 6746558.14 127.79 287946.33 6746560.69 127.79 287946.01 6746563.41 127.79 287946.4 6746566.12 127.79 287947.48 6746568.64 127.79 287949.18 6746570.8 127.79 287951.38 6746572.44 127.79 287953.92 6746573.45 127.79 287956.65 6746573.77 127.79 287958.47 6746573.59 127.79 287961.07 6746572.73 127.79 287962.64 6746571.8 127.79 287964.03 6746570.6 127.79 287965.67 6746568.41 127.79 287966.42 6746566.74 127.79 287966.74 6746565.2 127.79</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>2823433</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249218_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249218</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249218_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286811.99675 6747364.22524 159.55374 286798.95445 6747360.93597 159.3</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028376</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249219_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249219</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249219_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286798.95445 6747360.93597 159.3 286809.2 6747369.8 159.60001</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028377</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249220_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249220</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249220_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286639.73 6747182.85 154.64 286643.12 6747193.5 154.93 286645.63 6747200.26 154.91 286646.95 6747203.57 155.08 286649.67 6747210.35 155.16 286651.07963 6747213.85838 155.3344</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028378</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249221_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249221</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249221_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286661.12 6747209.86 155.18 286658.22 6747205.99 155.18 286653.43597 6747200.08551 155.07 286651.56 6747197.1 154.99 286647.53 6747191.15 154.96 286639.73 6747182.85 154.64</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028379</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249222_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249222</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249222_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286675.01883 6747222.23569 155.30698 286678.06 6747218.32 155.27 286683.1332 6747211.76398 154.96794 286685.45 6747208.77 154.83 286696.71 6747192.91 154.19</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028380</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249223_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249223</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249223_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286696.71 6747192.91 154.19 286680.56 6747203.9 154.68 286677.46634 6747205.7882 154.82224 286671.86 6747209.21 155.08 286667.85374 6747211.68908 155.16</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028381</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249224_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249224</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249224_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286687.42 6747260.65 156.27 286682.73 6747249.91 156.04 286678.36485 6747242.59761 155.81212 286674.11 6747235.47 155.59 286672.40849 6747232.35099 155.45338</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028382</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249225_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249225</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249225_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286664.93028 6747237.67554 155.5806 286667.42 6747240.51 155.66 286672.83684 6747246.66727 155.89382 286674.37 6747248.41 155.96 286678.7 6747253.39 156.22 286687.42 6747260.65 156.27</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028383</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249226_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249226</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249226_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286661.12 6747209.86 155.18 286658.06 6747210.14 155.21 286654.98 6747211.16 155.26 286652.6 6747212.51 155.3 286651.07963 6747213.85838 155.3344 286650.39 6747214.47 155.35 286648.92 6747216.36 155.38 286647.78 6747218.5 155.42 286647.01 6747220.79 155.46 286646.65 6747223.17 155.5 286646.69 6747225.59 155.53 286647.15 6747227.96 155.57 286648.12978 6747230.46144 155.61347 286649.2 6747232.31 155.64 286651.28 6747234.65 155.67 286653.6 6747236.39 155.68 286656.2178 6747237.56932 155.67614 286658.09 6747238.11 155.66 286660.49 6747238.38 155.64 286662.89 6747238.24 155.61 286664.93028 6747237.67554 155.5806 286666.36 6747237.28 155.56 286669.09 6747235.78 155.52 286671.28 6747233.9 155.48 286672.40849 6747232.35099 155.45338 286673.4 6747230.99 155.43 286674.38 6747228.79 155.4 286674.98 6747226.47 155.37 286675.18 6747224.07 155.33 286675.01883 6747222.23569 155.30698 286673.93 6747218.23 155.25 286672.74 6747216.11 155.22 286671.23 6747214.25 155.19 286667.85374 6747211.68908 155.16 286666.31 6747210.91 155.16 286664.01 6747210.19 155.16 286661.12 6747209.86 155.18</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028367</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249227_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249227</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249227_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286625.92 6747258.99 156.74 286636.67 6747252.56 156.2 286642.28 6747248.07 156.15 286645.7481 6747245.45596 156.03244 286652.31 6747240.51 155.81 286656.2178 6747237.56932 155.67614</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028384</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.896249228_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>896249228</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.896249228_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286648.12978 6747230.46144 155.61347 286645.08 6747234.04 155.75 286640.29827 6747239.7413 155.96562 286637.54 6747243.03 156.09 286632.89 6747248.6 156.27 286625.92 6747258.99 156.74</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3028385</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.905615246_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>905615246</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.905615246_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286624.29 6745962.74 126.95 286629.15 6745961.16 126.9433 286631.49 6745960.24 126.94 286633.42 6745959.8 126.91 286637.24 6745958.68 126.85 286638.5438 6745958.41827 126.83546 286642.62 6745957.6 126.79 286644.91 6745957.08 126.76 286650.18 6745955.61 126.72 286653.78 6745953.77 126.68</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3100943</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.905615247_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>905615247</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.905615247_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286606.79 6745984.46 127.5 286610.7 6745981.36 127.39 286614.08 6745976.46 127.26 286615.23 6745974.81 127.24 286616.69 6745972.73 127.21 286617.83 6745971.17 127.19 286619.03 6745969.53 127.18 286622.25 6745964.45 126.98</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3100944</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.905615248_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>905615248</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.905615248_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286609.54 6745964.02 127.0 286610.03 6745968.78 127.17 286609.5 6745971.32 127.22 286608.7 6745974.31 127.25 286606.96 6745979.68 127.38 286606.79 6745984.46 127.5</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3100945</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.905615249_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>905615249</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.905615249_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286576.0 6745956.19 126.56 286581.68 6745957.76 126.61 286586.8 6745958.3 126.65 286592.74 6745958.71 126.73 286598.81 6745959.12 126.95 286600.85 6745959.37 126.99 286602.4 6745959.82 126.98527 286603.95 6745960.38 126.98044 286607.25 6745961.73 126.97</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3100946</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.905615250_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>905615250</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.905615250_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286606.99 6745949.14 126.81 286601.78 6745950.64 126.78567 286596.22 6745951.98 126.76 286592.29 6745952.47 126.71 286587.04 6745953.06 126.63 286581.35 6745954.13 126.59 286576.0 6745956.19 126.56</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3100947</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.905615251_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>905615251</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.905615251_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286653.78 6745953.77 126.68 286650.46 6745952.79 126.69 286645.62 6745951.96 126.7 286643.8 6745952.08 126.72 286642.19 6745952.15 126.73 286637.96691 6745952.00331 126.73772 286636.72 6745951.96 126.74 286634.07 6745951.89 126.74 286632.2 6745951.8 126.75 286629.58 6745951.46 126.65 286626.06 6745950.18 126.79</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3100948</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+	<wfs:member>
+		<InnkjøringForbudt gml:id="vegvesen.no.nvdb.905615252_0">
+			<identifikasjon>
+				<Identifikasjon>
+					<lokalId>905615252</lokalId>
+					<navnerom>vegvesen.no.nvdb</navnerom>
+					<versjonId>1</versjonId>
+				</Identifikasjon>
+			</identifikasjon>
+			<senterlinje>
+				<gml:LineString gml:id="vegvesen.no.nvdb.905615252_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+					<gml:posList>286624.29 6745962.74 126.95 286625.97 6745960.39 126.92 286626.92 6745957.9 126.89 286627.12 6745956.42 126.87 286627.27 6745955.28 126.85 286626.97 6745952.66 126.82 286626.06 6745950.18 126.79 286624.58 6745947.99 126.76 286622.63 6745946.21 126.74 286620.3 6745944.95 126.73 286617.71 6745944.33 126.73 286614.36 6745944.32 126.74 286611.66 6745945.15 126.75 286608.87 6745946.96 126.78 286606.99 6745949.14 126.81 286605.55 6745952.38 126.86 286605.2 6745955.1 126.89 286605.49 6745957.73 126.92 286606.48 6745960.43 126.95 286607.25 6745961.73 126.97 286609.54 6745964.02 127.0 286612.15 6745965.46 127.01 286615.78 6745966.13 127.02 286619.67 6745965.71 127.0 286622.25 6745964.45 126.98 286624.29 6745962.74 126.95</gml:posList>
+				</gml:LineString>
+			</senterlinje>
+			<lineærPosisjon>
+				<LineærPosisjonStrekning>
+					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+					<lenkesekvens>
+						<Identifikasjon>
+							<lokalId>3100942</lokalId>
+							<navnerom>vegvesen.no.nvdb.rls</navnerom>
+						</Identifikasjon>
+					</lenkesekvens>
+					<retning>med</retning>
+					<fraPosisjon>0.0</fraPosisjon>
+					<tilPosisjon>1.0</tilPosisjon>
+				</LineærPosisjonStrekning>
+			</lineærPosisjon>
+		</InnkjøringForbudt>
+	</wfs:member>
+</wfs:FeatureCollection>

@@ -1,9 +1,9 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\DATA\GitHub\NVDBGML\FME\FKB_Vegnett.fmw
+#        "C:\Program Files\FME\fme.exe" C:\DATA\GitHubSOSI-Vegnett\FME\FKB_Vegnett.fmw
 #              --DEF_VAL "403<semicolon>502<semicolon>520"
-#              --gmlFolder "C:\DATA\GitHub\NVDBGML\GML"
+#              --gmlFolder "C:\DATA\GitHubSOSI-Vegnett\GML"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -69,7 +69,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI OPTIONAL DIRNAME gmlFolder Hovedmappe:"
-#!   DEFAULT_VALUE="C:\DATA\GitHub\NVDBGML\GML"
+#!   DEFAULT_VALUE="C:\DATA\GitHubSOSI-Vegnett\GML"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -474,7 +474,7 @@
 FME_PYTHON_VERSION 2or3
 DEFAULT_MACRO DEF_VAL 403<semicolon>502<semicolon>520
 GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE DEF_VAL " " Kommuner:
-DEFAULT_MACRO gmlFolder C:\DATA\GitHub\NVDBGML\GML
+DEFAULT_MACRO gmlFolder C:\DATA\GitHubSOSI-Vegnett\GML
 GUI OPTIONAL DIRNAME gmlFolder Hovedmappe:
 DEFAULT_MACRO xsdName fkbvn
 GUI IGNORE OPTIONAL TEXT xsdName skjemanavn:
