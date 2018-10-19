@@ -13,7 +13,7 @@
     numberMatched="unknown"
     numberReturned="0">
 	<wfs:member>
-		<gml:Envelope srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+		<gml:Envelope srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 			<gml:lowerCorner>286014.7 6746027.19995 122.7</gml:lowerCorner>
 			<gml:upperCorner>288778.17009 6746793.53344 126.88779</gml:upperCorner>
 		</gml:Envelope>
@@ -30,7 +30,7 @@
 			<skiltaHøyde>3.3</skiltaHøyde>
 			<typeHinderHøydebegrensning>undergangBru</typeHinderHøydebegrensning>
 			<senterlinje>
-				<gml:LineString gml:id="vegvesen.no.nvdb.88337339_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:LineString gml:id="vegvesen.no.nvdb.88337339_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:posList>286356.72998 6746033.05005 123.7 286353.09998 6746030.5 122.7 286348.30005 6746027.19995 122.7</gml:posList>
 				</gml:LineString>
 			</senterlinje>
@@ -62,7 +62,7 @@
 			<skiltaHøyde>2.9</skiltaHøyde>
 			<typeHinderHøydebegrensning>undergangBru</typeHinderHøydebegrensning>
 			<senterlinje>
-				<gml:LineString gml:id="vegvesen.no.nvdb.88337341_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:LineString gml:id="vegvesen.no.nvdb.88337341_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:posList>286044.6 6746258.0 124.9 286036.4 6746248.5 124.3 286024.9 6746235.41 123.7 286019.7 6746229.09 123.4 286016.0 6746224.7 123.3 286015.2 6746222.7 123.2 286014.7 6746220.0 123.1</gml:posList>
 				</gml:LineString>
 			</senterlinje>
@@ -94,7 +94,7 @@
 			<skiltaHøyde>4.8</skiltaHøyde>
 			<typeHinderHøydebegrensning>undergangBru</typeHinderHøydebegrensning>
 			<senterlinje>
-				<gml:LineString gml:id="vegvesen.no.nvdb.88338555_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:LineString gml:id="vegvesen.no.nvdb.88338555_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:posList>288778.17009 6746767.22943 126.88779 288766.01009 6746793.53344 126.63179</gml:posList>
 				</gml:LineString>
 			</senterlinje>

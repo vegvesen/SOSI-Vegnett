@@ -13,7 +13,7 @@
     numberMatched="unknown"
     numberReturned="0">
 	<wfs:member>
-		<gml:Envelope srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+		<gml:Envelope srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 			<gml:lowerCorner>286142.0 6745809.62881 122.699996948242</gml:lowerCorner>
 			<gml:upperCorner>288901.75835 6746464.34549 133.1</gml:upperCorner>
 		</gml:Envelope>
@@ -29,7 +29,7 @@
 			</identifikasjon>
 			<typeJernbanekryssing>vegUnder</typeJernbanekryssing>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.119570369_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.119570369_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>286142.0 6746196.1015625 124.099998474121</gml:pos>
 				</gml:Point>
 			</posisjon>
@@ -58,7 +58,7 @@
 			</identifikasjon>
 			<typeJernbanekryssing>vegUnder</typeJernbanekryssing>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.119570371_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.119570371_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>286348.30078125 6746027.19921875 122.699996948242</gml:pos>
 				</gml:Point>
 			</posisjon>
@@ -87,7 +87,7 @@
 			</identifikasjon>
 			<typeJernbanekryssing>vegOver</typeJernbanekryssing>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.570885996_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.570885996_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>287287.42198 6745809.62881 132.5</gml:pos>
 				</gml:Point>
 			</posisjon>
@@ -116,7 +116,7 @@
 			</identifikasjon>
 			<typeJernbanekryssing>vegOver</typeJernbanekryssing>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.570885997_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.570885997_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>288901.75835 6746464.34549 133.1</gml:pos>
 				</gml:Point>
 			</posisjon>

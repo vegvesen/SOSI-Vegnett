@@ -12,8 +12,8 @@
     timeStamp="2018-10-02T16:12:38Z"
     numberMatched="unknown"
     numberReturned="0">
-	</fs:member>
-		<gml:Envelope srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+	<wfs:member>
+		<gml:Envelope srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 			<gml:lowerCorner>286326.29654 6746398.59934 128.79467</gml:lowerCorner>
 			<gml:upperCorner>287626.85478 6746900.64682 149.98501</gml:upperCorner>
 		</gml:Envelope>
@@ -27,15 +27,15 @@
 					<versjonId>1</versjonId>
 				</Identifikasjon>
 			</identifikasjon>
-			<type>bilsperre</type>
+			<type>trafikkavviser</type>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.114168974_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.114168974_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>286585.65141 6746398.59934 137.60659</gml:pos>
 				</gml:Point>
 			</posisjon>
-			<lineærPosisjon>
-				<LineærPosisjonPunkt>
-					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+			<lineÃ¦rPosisjon>
+				<LineÃ¦rPosisjonPunkt>
+					<lineÃ¦rReferanseMetode>normalisert</lineÃ¦rReferanseMetode>
 					<lenkesekvens>
 						<Identifikasjon>
 							<lokalId>650497</lokalId>
@@ -43,8 +43,8 @@
 						</Identifikasjon>
 					</lenkesekvens>
 					<posisjon>0.963974277629285</posisjon>
-				</LineærPosisjonPunkt>
-			</lineærPosisjon>
+				</LineÃ¦rPosisjonPunkt>
+			</lineÃ¦rPosisjon>
 		</Vegsperring>
 	</wfs:member>
 	<wfs:member>
@@ -56,15 +56,15 @@
 					<versjonId>1</versjonId>
 				</Identifikasjon>
 			</identifikasjon>
-			<type>bilsperre</type>
+			<type>trafikkavviser</type>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.114168991_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.114168991_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>287127.30526 6746780.54673 142.64586</gml:pos>
 				</gml:Point>
 			</posisjon>
-			<lineærPosisjon>
-				<LineærPosisjonPunkt>
-					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+			<lineÃ¦rPosisjon>
+				<LineÃ¦rPosisjonPunkt>
+					<lineÃ¦rReferanseMetode>normalisert</lineÃ¦rReferanseMetode>
 					<lenkesekvens>
 						<Identifikasjon>
 							<lokalId>650342</lokalId>
@@ -72,8 +72,8 @@
 						</Identifikasjon>
 					</lenkesekvens>
 					<posisjon>0.449110338264977</posisjon>
-				</LineærPosisjonPunkt>
-			</lineærPosisjon>
+				</LineÃ¦rPosisjonPunkt>
+			</lineÃ¦rPosisjon>
 		</Vegsperring>
 	</wfs:member>
 	<wfs:member>
@@ -85,14 +85,15 @@
 					<versjonId>1</versjonId>
 				</Identifikasjon>
 			</identifikasjon>
+			<type>betalingssperring</type>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.114168996_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.114168996_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>286359.07799 6746900.64682 149.98501</gml:pos>
 				</gml:Point>
 			</posisjon>
-			<lineærPosisjon>
-				<LineærPosisjonPunkt>
-					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+			<lineÃ¦rPosisjon>
+				<LineÃ¦rPosisjonPunkt>
+					<lineÃ¦rReferanseMetode>normalisert</lineÃ¦rReferanseMetode>
 					<lenkesekvens>
 						<Identifikasjon>
 							<lokalId>650438</lokalId>
@@ -100,8 +101,8 @@
 						</Identifikasjon>
 					</lenkesekvens>
 					<posisjon>0.964556219110764</posisjon>
-				</LineærPosisjonPunkt>
-			</lineærPosisjon>
+				</LineÃ¦rPosisjonPunkt>
+			</lineÃ¦rPosisjon>
 		</Vegsperring>
 	</wfs:member>
 	<wfs:member>
@@ -113,15 +114,15 @@
 					<versjonId>1</versjonId>
 				</Identifikasjon>
 			</identifikasjon>
-			<type>bilsperre</type>
+			<type>trafikkavviser</type>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.417398652_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.417398652_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>287142.71329 6746791.26412 143.07652</gml:pos>
 				</gml:Point>
 			</posisjon>
-			<lineærPosisjon>
-				<LineærPosisjonPunkt>
-					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+			<lineÃ¦rPosisjon>
+				<LineÃ¦rPosisjonPunkt>
+					<lineÃ¦rReferanseMetode>normalisert</lineÃ¦rReferanseMetode>
 					<lenkesekvens>
 						<Identifikasjon>
 							<lokalId>650342</lokalId>
@@ -129,8 +130,8 @@
 						</Identifikasjon>
 					</lenkesekvens>
 					<posisjon>0.483682977998871</posisjon>
-				</LineærPosisjonPunkt>
-			</lineærPosisjon>
+				</LineÃ¦rPosisjonPunkt>
+			</lineÃ¦rPosisjon>
 		</Vegsperring>
 	</wfs:member>
 	<wfs:member>
@@ -142,15 +143,15 @@
 					<versjonId>1</versjonId>
 				</Identifikasjon>
 			</identifikasjon>
-			<type>bilsperre</type>
+			<type>trafikkavviser</type>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.417398653_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.417398653_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>287218.16065 6746555.98166 135.21236</gml:pos>
 				</gml:Point>
 			</posisjon>
-			<lineærPosisjon>
-				<LineærPosisjonPunkt>
-					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+			<lineÃ¦rPosisjon>
+				<LineÃ¦rPosisjonPunkt>
+					<lineÃ¦rReferanseMetode>normalisert</lineÃ¦rReferanseMetode>
 					<lenkesekvens>
 						<Identifikasjon>
 							<lokalId>650270</lokalId>
@@ -158,8 +159,8 @@
 						</Identifikasjon>
 					</lenkesekvens>
 					<posisjon>0.187182182434739</posisjon>
-				</LineærPosisjonPunkt>
-			</lineærPosisjon>
+				</LineÃ¦rPosisjonPunkt>
+			</lineÃ¦rPosisjon>
 		</Vegsperring>
 	</wfs:member>
 	<wfs:member>
@@ -171,15 +172,15 @@
 					<versjonId>1</versjonId>
 				</Identifikasjon>
 			</identifikasjon>
-			<type>rørgelender</type>
+			<type>trafikkavviser</type>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.646467629_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.646467629_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>286326.29654 6746659.88064 144.81879</gml:pos>
 				</gml:Point>
 			</posisjon>
-			<lineærPosisjon>
-				<LineærPosisjonPunkt>
-					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+			<lineÃ¦rPosisjon>
+				<LineÃ¦rPosisjonPunkt>
+					<lineÃ¦rReferanseMetode>normalisert</lineÃ¦rReferanseMetode>
 					<lenkesekvens>
 						<Identifikasjon>
 							<lokalId>650330</lokalId>
@@ -187,8 +188,8 @@
 						</Identifikasjon>
 					</lenkesekvens>
 					<posisjon>0.957631549415945</posisjon>
-				</LineærPosisjonPunkt>
-			</lineærPosisjon>
+				</LineÃ¦rPosisjonPunkt>
+			</lineÃ¦rPosisjon>
 		</Vegsperring>
 	</wfs:member>
 	<wfs:member>
@@ -200,15 +201,15 @@
 					<versjonId>1</versjonId>
 				</Identifikasjon>
 			</identifikasjon>
-			<type>låstBom</type>
+			<type>lÃ¥stSperring</type>
 			<posisjon>
-				<gml:Point gml:id="vegvesen.no.nvdb.824265035_0-0" srsName="http://www.opengis.net/def/crs/epsg/0/6173">
+				<gml:Point gml:id="vegvesen.no.nvdb.824265035_0-0" srsName="http://www\.opengis\.net/def/crs/epsg/0/6173" srsDimension="3">
 					<gml:pos>287626.85478 6746400.06918 128.79467</gml:pos>
 				</gml:Point>
 			</posisjon>
-			<lineærPosisjon>
-				<LineærPosisjonPunkt>
-					<lineærReferanseMetode>normalisert</lineærReferanseMetode>
+			<lineÃ¦rPosisjon>
+				<LineÃ¦rPosisjonPunkt>
+					<lineÃ¦rReferanseMetode>normalisert</lineÃ¦rReferanseMetode>
 					<lenkesekvens>
 						<Identifikasjon>
 							<lokalId>2746694</lokalId>
@@ -216,8 +217,8 @@
 						</Identifikasjon>
 					</lenkesekvens>
 					<posisjon>0.450497967932767</posisjon>
-				</LineærPosisjonPunkt>
-			</lineærPosisjon>
+				</LineÃ¦rPosisjonPunkt>
+			</lineÃ¦rPosisjon>
 		</Vegsperring>
 	</wfs:member>
 </wfs:FeatureCollection>
